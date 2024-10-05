@@ -1,6 +1,7 @@
-import React from "react";
+// import { useState } from "react";
 import Navbar from "../../Elements/Navbar/Navbar";
 import MainHome from "../../Elements/MainHome/MainHome";
+import SecondHome from "../../Elements/SecondHome/SecondHome";
 import "./Home.css";
 
 const Home = () => {
@@ -8,7 +9,10 @@ const Home = () => {
     <div>
       <Navbar />
       <div className="MainHomeComp">
-        <MainHome  />
+        <MainHome />
+      </div>
+      <div className="SecondHomeComp">
+        <SecondHome />
       </div>
     </div>
   );

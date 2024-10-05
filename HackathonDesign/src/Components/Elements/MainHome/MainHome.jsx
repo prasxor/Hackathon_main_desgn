@@ -1,6 +1,7 @@
 import "./MainHome.css";
 import RealText from "../../../assets/RealText.png";
 import FakeText from "../../../assets/FakeText.png";
+import SearchInput from "../../Elements/Atoms/SearchInput/SearchInput";
 
 const MainHome = () => {
   return (
@@ -14,11 +15,16 @@ const MainHome = () => {
         <div className="mainHomeTopSecondTitle">
           <h1>Uncover the Facts!</h1>
         </div>
-        <div className="mainHomeTopThirdTitle" >
-          <p>We help users determine the authenticity of news articles by providing fact-checking tools and resources.</p>
+        <div className="mainHomeTopThirdTitle">
+          <p>
+            We help users determine the authenticity of news articles by
+            providing fact-checking tools and resources.
+          </p>
         </div>
       </div>
-      <div className="mainHomeBottomInput"></div>
+      <div className="mainHomeBottomInput">
+        <SearchInput />
+      </div>
     </div>
   );
 };

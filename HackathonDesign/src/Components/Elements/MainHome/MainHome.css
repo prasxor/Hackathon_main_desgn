@@ -1,22 +1,26 @@
-.mainHomeContainer{
-  border: 1px solid blue;
+.mainHomeContainer {
+  /* border: 1px solid blue; */
   margin-bottom: 5%;
-  height: 215px;
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 670px;
   padding: 0 8px;
+  flex-direction: column;
+  scale: 1.2;
+  margin-top: 60px;
 }
 
-.mainHomeTopContent{
+.mainHomeTopContent {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 7px;
 }
 
-.mainHomeTopFirstTitle{
+.mainHomeTopFirstTitle {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,7 +30,7 @@
   gap: 10px;
 }
 
-.mainHomeTopFirstTitle img{
+.mainHomeTopFirstTitle img {
   /* border: 1px solid yellow; */
   display: flex;
   align-items: center;
@@ -34,21 +38,24 @@
   /* height: 100%;
   width: 80%; */
   scale: 0.8;
-
 }
 
-.mainHomeTopFirstTitle h2{
+.mainHomeTopFirstTitle h2 {
   font-family: "Roboto", sans-serif;
-  font-weight: bolder;
+  font-weight: normal;
   margin-bottom: 0px;
   font-style: italic;
+  scale: 0.7;
 }
 
-.mainHomeTopSecondTitle h1{
+.mainHomeTopSecondTitle h1 {
   font-size: 65px;
+  font-family: "Roboto", sans-serif;
 }
 
-.mainHomeTopThirdTitle p{
+.mainHomeTopThirdTitle p {
   text-align: center;
   font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
 }

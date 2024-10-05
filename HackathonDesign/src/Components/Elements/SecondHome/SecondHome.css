@@ -1,0 +1,26 @@
+.SecondHomePara{
+  font-size: 55px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.SecondHomeContainer{
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+}
+
+.HightlightCardsMain{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  /* gap: 20px; */
+  width: 100%;
+  /* border: 1px solid red; */
+}
