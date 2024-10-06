@@ -1,0 +1,36 @@
+.FakeNewsCardsContainer {
+  border: 1.5px solid #313131;
+  height: 362px;
+  width: 400px;
+  border-radius: 22px;
+  background-color: #202128;
+}
+
+.FakeNewsCardsContainerTop {
+  /* border: 1px solid red; */
+  overflow: hidden;
+  /* height: fit-content; */
+  height: 67%;
+}
+
+.FakeNewsCardsContainerTop img {
+  border-radius: 22px;
+  object-fit: fill;
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+.FakeNewsCardsContainerBottom {
+  height: 30%;
+  /* border: 1px solid blue; */
+  overflow: hidden;
+  padding: 10px 16px 0 20px;
+  
+}
+
+.FakeNewsCardsContainerBottom p {
+  margin-bottom: 0px !important;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}

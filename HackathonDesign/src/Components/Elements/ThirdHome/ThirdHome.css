@@ -1,0 +1,36 @@
+.ThirdHomeContainer{
+  /* border: 1px solid green; */
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+
+}
+
+.ThirdHomeContainerTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  width: max-content;
+  padding-left: 5%;
+  gap:7px;
+  margin-bottom: 5%;
+}
+
+.ThirdHomeContainerTitle p{
+  margin-bottom: 0px !important;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+#FakeNewsCardsMainContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 30px;
+  row-gap: 10px;
+  height: 850px;
+  width: 100%;
+  /* border: 1px solid rgb(54, 9, 255); */
+  place-items: center;
+}

@@ -3,6 +3,7 @@ import RealText from "../../../assets/RealText.png";
 import FakeText from "../../../assets/FakeText.png";
 import SearchInput from "../../Elements/Atoms/SearchInput/SearchInput";
 
+
 const MainHome = () => {
   return (
     <div className="mainHomeContainer">

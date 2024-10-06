@@ -1,0 +1,170 @@
+{
+    "News": {
+      "RealNews": [
+        {
+          "ID": 0,
+          "TITLE": "Forest Whitaker Has Night Out with Daughters Sonnet and True — See the Fun Family Moment!",
+          "DESCRIPTION": "Forest Whitaker attended the 2024 Faces of Hope Gala on Friday, September 27, accompanied by his two daughters, Sonnet, 27, and True, 26. The event marked a special family moment for Whitaker and his daughters, who shared the evening together in honor of the gala.",
+          "WEBSITE_URL": "https://people.com/forest-whitaker-family-night-out-daughters-sonnet-and-true-photo-8720101",
+          "IMG_URL": "https://people.com/thmb/i1bCqgs8kAbsxmwPdZNWZm71d2k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(891x650:893x652):format(webp)/Forest-Whitaker-family-092824-02-a1c750a178fe4c78a1c4155ffaaa6d7f.jpg",
+          "STATUS": "True"
+        },
+        {
+          "ID": 1,
+          "TITLE": "Hyderabad Godown Fire: Aftermath and Rescue",
+          "DESCRIPTION": "A fire broke out in a godown in Hyderabad, leading to significant damage. Rescue operations were carried out promptly, and investigations are ongoing to determine the cause.",
+          "WEBSITE_URL": "https://timesofindia.indiatimes.com/city/hyderabad",
+          "IMG_URL": "https://static.toiimg.com/thumb/imgsize-96864,msid-105184097,width-600,height-335,resizemode-75/105184097.jpg",
+          "STATUS": "True"
+        },
+        {
+          "ID": 2,
+          "TITLE": "Hyderabad’s First 3D Printed Temple",
+          "DESCRIPTION": "Hyderabad has unveiled the world’s first 3D printed temple, showcasing innovative technology in architecture. The temple has become a new attraction in the city.",
+          "WEBSITE_URL": "https://timesofindia.indiatimes.com/city/hyderabad",
+          "IMG_URL": "https://static.toiimg.com/thumb/imgsize-1608218,msid-105409723,width-600,height-335,resizemode-75/105409723.jpg",
+          "STATUS": "True"
+        },
+        {
+          "ID": 3,
+          "TITLE": "Reckless Demolitions in Hyderabad Must Stop",
+          "DESCRIPTION": "The Hyderabad Disaster Response and Assets Monitoring and Protection Agency (HYDRAA) has been demolishing illegal structures near lakes, causing distress among residents. The government is urged to halt demolitions and provide compensation and rehabilitation.",
+          "WEBSITE_URL": "https://www.newindianexpress.com/editorials/2024/Sep/29/reckless-demolitions-in-hyderabad-must-stop",
+          "IMG_URL": "https://media.assettype.com/newindianexpress%2F2024-09-22%2F4c4y3rdj%2FRanganath.jpg?w=640&auto=format%2Ccompress&fit=max",
+          "STATUS": "True"
+        },
+        {
+          "ID": 4,
+          "TITLE": "Surge in Organ Transplants at Osmania General Hospital",
+          "DESCRIPTION": "Osmania General Hospital has seen a significant increase in organ transplants, providing hope to many patients. The hospital’s efforts are being praised for their impact on healthcare in the region.",
+          "WEBSITE_URL": "https://www.timesnownews.com/hyderabad",
+          "IMG_URL": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/26_09_2024_16_33_50_2816858.jpg?width=920&format=webp",
+          "STATUS": "True"
+        },
+        {
+          "ID": 5,
+          "TITLE": "Hyderabad Metro’s Phase II To Add Six New Corridors, Rs 32,237 Crore Project To Connect New Fourth City",
+          "DESCRIPTION": "The Hyderabad Metro’s Phase II expansion will introduce six new corridors, significantly enhancing connectivity across the city. This ambitious project, estimated at Rs 32,237 crore, includes a 40 km stretch with 2 km underground near the airport, 20 km elevated, and 18 km at road level. This extension aims to improve access to the growing Skill University area.",
+          "WEBSITE_URL": "https://swarajyamag.com/infrastructure/hyderabad-metros-phase-ii-to-add-six-new-corridors-rs-32237-crore-project-to-connect-new-fourth-city",
+          "IMG_URL": "https://swarajya.gumlet.io/swarajya/2023-08/c0f02b74-40da-4a56-b974-f7f257ab96ed/Hyderabad_Metro_Rail_1.jpg?w=610&q=50&compress=true&format=auto",
+          "STATUS": "True"
+        },
+        {
+          "ID": 6,
+          "TITLE": "Tirupati laddu row: Nothing to show, as of now, lard was used in laddus, says Supreme Court",
+          "DESCRIPTION": "The Supreme Court on Monday (September 30, 2024) said there is currently nothing to show that animal fat was used in the preparation of Tirupathi laddus during the previous Yuvajana Sramika Rythu Congress Party (YSRCP) regime in Andhra Pradesh.",
+          "WEBSITE_URL": "https://www.thehindu.com/news/national/tirupati-laddu-row-gods-should-be-kept-away-from-politics-says-supreme-court/article68700769.ece",
+          "IMG_URL": "https://th-i.thgim.com/public/incoming/r8l4ju/article68700809.ece/alternates/LANDSCAPE_1200/21GNRAO-TIRUMALA%20LADDU-01%203.JPG",
+          "STATUS": "True"
+        },
+        {
+          "ID": 7,
+          "TITLE": "Terrorism Has No Place In Our World: PM Modi In Call With Netanyahu",
+          "DESCRIPTION": "Israel's retaliatory strikes in Gaza have now expanded in scope. It struck back at Iran-backed Hezbollah, which attacked Israel and Yemen's Houthi rebels, who have targeted Israel as well.",
+          "WEBSITE_URL": "https://www.ndtv.com/india-news/terrorism-has-no-place-in-our-world-pm-modi-speaks-to-israels-netanyahu-as-west-asia-conflict-escalates-6685811",
+          "IMG_URL": "https://x.com/narendramodi/status/1840760867518079464?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1840760867518079464%7Ctwgr%5E4f0e96e64601f10327afb372552163d126f05870%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.ndtv.com%2Findia-news%2Fterrorism-has-no-place-in-our-world-pm-modi-speaks-to-israels-netanyahu-as-west-asia-conflict-escalates-6685811",
+          "STATUS": "True"
+        },
+        {
+          "ID": 8,
+          "TITLE": "Hamas Confirms Death Of Its Leader In Lebanon In Israeli Airstrike",
+          "DESCRIPTION": "Lebanon's official Palestinian refugee camps were created for Palestinians who were driven out or fled during the 1948 war at the time of Israel's creation.",
+          "WEBSITE_URL": "https://www.ndtv.com/world-news/hamas-confirms-death-of-its-leader-in-lebanon-in-israeli-airstrike-6682312",
+          "IMG_URL": "https://c.ndtvimg.com/2024-09/s5vcg3b8_israeli-airstrike-afp-_625x300_30_September_24.jpeg?downsize=773:435",
+          "STATUS": "True"
+        },
+        {
+          "ID": 9,
+          "TITLE": "Virat Kohli Shatters Sachin Tendulkar's Record, Becomes First Cricketer Ever To...",
+          "DESCRIPTION": "Virat Kohli added another record to his already illustrious career as he became the fastest player to reach 27000 international runs during Day 4 of the second Test against Bangladesh in Kanpur.",
+          "WEBSITE_URL": "https://sports.ndtv.com/india-vs-bangladesh-2024/virat-kohli-shatters-sachin-tendulkars-record-becomes-first-cricketer-ever-to-6683724#News_Trending",
+          "IMG_URL": "https://c.ndtvimg.com/2024-09/vsp8m468_virat-kohli_625x300_30_September_24.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605",
+          "STATUS": "True"
+        }
+      ],
+      "FakeNews": [
+        {
+          "ID": 0,
+          "TITLE": "Mars Colonists Discover Secret Alien Civilization",
+          "DESCRIPTION": "After years of silence, astronauts on Mars claim to have stumbled upon an underground alien metropolis that predates human history.",
+          "WEBSITE_URL": "N/A",
+          
+          "IMG_URL": "../../assets/FakeNewsImg1.jpg",
+          "STATUS": "False"
+        },
+        {
+          "ID": 1,
+          "TITLE": "World Governments Admit: The Moon Is Hollow",
+          "DESCRIPTION": "In a shocking turn of events, world leaders gather to confess that the Moon is not a natural satellite but a hollow structure built by ancient beings.",
+          "WEBSITE_URL": "N/A",
+          "IMG_URL": "N/A",
+          "STATUS": "False"
+        },
+        {
+          "ID": 2,
+          "TITLE": "Time Traveler Arrested for Trying to Change History",
+          "DESCRIPTION": "A man claiming to be from the year 3025 was detained for attempting to stop a major historical event. Authorities are baffled by his futuristic technology.",
+          "WEBSITE_URL": "N/A",
+          "IMG_URL": "N/A",
+          "STATUS": "False"
+        },
+        {
+          "ID": 3,
+          "TITLE": "Dinosaurs Set to Return by 2026, Say Top Scientists",
+          "DESCRIPTION": "A groundbreaking genetic experiment has paved the way for the resurrection of dinosaurs, with plans to release them in special bio-reserves.",
+          "WEBSITE_URL": "N/A",
+          "IMG_URL": "N/A",
+          "STATUS": "False"
+        },
+        {
+          "ID": 4,
+          "TITLE": "Sharks Now Capable of Walking on Land",
+          "DESCRIPTION": "Marine biologists are alarmed by a new species of shark that can survive and move on land for up to 48 hours. Coastal communities are on high alert.",
+          "WEBSITE_URL": "N/A",
+          "IMG_URL": "N/A",
+          "STATUS": "False"
+        },
+        {
+          "ID": 5,
+          "TITLE": "Mysterious Pyramid Found Beneath Antarctica's Ice",
+          "DESCRIPTION": "Archaeologists have unearthed what appears to be a pyramid structure under the frozen surface of Antarctica, sparking debate about its origin.",
+          "WEBSITE_URL": "N/A",
+          "IMG_URL": "N/A",
+          "STATUS": "False"
+        },
+        {
+          "ID": 6,
+          "TITLE": "World's Oceans Discovered to Be Artificial",
+          "DESCRIPTION": "A leaked report suggests that Earth's oceans were engineered by an unknown advanced civilization to sustain life.",
+          "WEBSITE_URL": "N/A",
+          "IMG_URL": "N/A",
+          "STATUS": "False"
+        },
+        {
+          "ID": 7,
+          "TITLE": "Cows Begin Speaking, Demand Better Living Conditions",
+          "DESCRIPTION": "In a bizarre turn of events, cows across the globe have developed the ability to speak, calling for improved treatment and ethical farming practices.",
+          "WEBSITE_URL": "N/A",
+          "IMG_URL": "N/A",
+          "STATUS": "False"
+        },
+        {
+          "ID": 8,
+          "TITLE": "Humans Found to Be Descendants of Martians",
+          "DESCRIPTION": "A controversial new study suggests that life on Earth originated from a colony of Martians who fled their dying planet millions of years ago.",
+          "WEBSITE_URL": "N/A",
+          "IMG_URL": "N/A",
+          "STATUS": "False"
+        },
+        {
+          "ID": 9,
+          "TITLE": "Scientists Claim Earth's Gravity Is Slowly Weakening",
+          "DESCRIPTION": "New research reveals that Earth's gravity has been slowly diminishing, with the potential for drastic changes to life as we know it within the next century.",
+          "WEBSITE_URL": "N/A",
+          "IMG_URL": "N/A",
+          "STATUS": "False"
+        }
+      ]
+    }
+  }
+  
