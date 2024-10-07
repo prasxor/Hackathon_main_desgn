@@ -1,0 +1,18 @@
+#SearchInputContainerFormInput{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  border: none;
+  border-radius: 62px;
+  background-color: #101010;
+  border: 1px solid #313131;
+  /* align-items: center; */
+  position: relative;
+  padding: 0 30px;
+  padding-right: 18%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 5%;
+}

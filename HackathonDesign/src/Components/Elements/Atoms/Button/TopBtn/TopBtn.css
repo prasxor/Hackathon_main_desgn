@@ -1,0 +1,12 @@
+.SearchInputContainerFormBtn{
+  position: relative;
+  width: 120px;
+  height: 50px;
+  border-radius: 46px;
+  border: none;
+  right: 127px;
+  font-family: "Roboto", sans-serif;
+  background-color: #313131;
+  color: #E0E0E2;
+  /* border: 1px solid green; */
+}

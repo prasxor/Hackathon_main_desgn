@@ -3,12 +3,18 @@ import Navbar from "../../Elements/Navbar/Navbar";
 import MainHome from "../../Elements/MainHome/MainHome";
 import SecondHome from "../../Elements/SecondHome/SecondHome";
 import "./Home.css";
-import ThirdHome from "../../Elements/ThirdHome/ThirdHome"
+import ThirdHome from "../../Elements/ThirdHome/ThirdHome";
+import FourthHome from "../../Elements/FourthHome/FourthHome";
+import FifthSection from "../../Elements/FifthSection/FifthSection";
+import Popup from "../../Elements/Atoms/Popup/Popup";
 
 const Home = () => {
   return (
-    <div>
-      <Navbar />
+    <div id="HomeMainContainer">
+      <Popup/>
+      <div id="NavbarComponent">
+        <Navbar />
+      </div>
       <div className="MainHomeComp">
         <MainHome />
       </div>
@@ -16,7 +22,13 @@ const Home = () => {
         <SecondHome />
       </div>
       <div className="ThirdHomeComp">
-        <ThirdHome/>
+        <ThirdHome />
+      </div>
+      <div className="FourthHomeMain">
+        <FourthHome />
+      </div>
+      <div id="FifthHomeMain">
+        <FifthSection/>
       </div>
     </div>
   );

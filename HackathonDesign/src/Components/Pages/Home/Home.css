@@ -3,6 +3,12 @@ body{
   border: 1px solid red;
 }
 
+#NavbarComponent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .MainHomeComp{
   margin-top: 6%;
   display: flex;
@@ -15,4 +21,19 @@ body{
   align-items: center;
   justify-content: center;
 
+}
+
+#HomeMainContainer{
+  margin-top: 3%;
+}
+
+.NavbarComponent{
+  margin-top: 10px;
+}
+
+#FifthHomeMain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
 }

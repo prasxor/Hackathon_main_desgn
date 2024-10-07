@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../../assets/Logo.png";
+import Logo from "../../../assets/animatedLogo.gif";
 import ToggleBtn from "../Atoms/ToggleBtn/ToggleBtn";
 import "./Navbar.css";
 

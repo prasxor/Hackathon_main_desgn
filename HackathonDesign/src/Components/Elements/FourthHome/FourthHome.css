@@ -1,0 +1,49 @@
+#FourthHomeContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+#FourthHomeContainerTop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  width: 50%;
+}
+
+.FourthHomeSecondPara{
+  /* border: 1px solid blue; */
+  margin: 10px 0 !important;
+}
+
+#FourthHomeThirdPara{
+  font-size: 1.2rem;
+  /* border: 1px solid green; */
+  width: 90%;
+  height: auto;
+  text-align: center;
+}
+
+
+#FourthHomeContainerBottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  width: 80%;
+  height: auto;
+  margin-top: 2%;
+}
+
+#FourthHomeContainerBottom p{
+  width: 65%;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+}

@@ -1,0 +1,26 @@
+#FifthSectionMainContainer {
+  border: 1.5px solid #313131;
+  border-radius: 66px;
+  width: 60%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#FifthSectionMainContainerTop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#fifthSectionForm {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
