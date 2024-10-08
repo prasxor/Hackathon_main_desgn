@@ -1,0 +1,68 @@
+.SubscribedMsgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 17px;
+}
+
+.SearchInputContainerSubBtn {
+  position: relative;
+  width: max-content;
+  padding: 20px;
+  height: 60px;
+  border-radius: 46px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  background-color: #313131;
+  color: #e0e0e2;
+  transition: 0.2s ease-out;
+}
+
+.SearchInputContainerFormBtn:hover {
+  background-color: #e0e0e2;
+  color: #313131;
+}
+
+.SubscribedMsgContainer p {
+  font-size: 1.2rem;
+  /* border: 1px solid green; */
+  width: 90%;
+  height: auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.SubscribedMsgSvgAndP {
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 50px;
+  flex-direction: row;
+  position: relative;
+}
+
+.SubscribedMsgSvgAndP svg {
+  scale: 0.1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 20px;
+  /* border: 1px solid red; */
+}
+
+.SubscribedMsgSvgAndP p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  /* border: 1px solid red; */
+  margin-bottom: 0px !important;
+  position: relative;
+  right: 100px;
+}

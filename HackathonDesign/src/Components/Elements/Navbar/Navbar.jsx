@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Logo from "../../../assets/animatedLogo.gif";
 import ToggleBtn from "../Atoms/ToggleBtn/ToggleBtn";
 import "./Navbar.css";
+import DropDown from "../Atoms/DropDown/DropDown";
 
 const Navbar = () => {
   const ArrEle = ["Home", "News", "About", "Contact"];
@@ -19,7 +20,10 @@ const Navbar = () => {
           </li>
         ))}
 
-        <li className="nav-item dropdown">
+        <li>
+          <DropDown/>
+        </li>
+        {/* <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"
             href="#"
@@ -49,7 +53,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-        </li>
+        </li> */}
       </ul>
       {/* Toggle Button */}
       <div className="toggle-container">

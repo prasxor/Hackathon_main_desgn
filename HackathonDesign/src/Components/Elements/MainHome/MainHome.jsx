@@ -24,7 +24,7 @@ const MainHome = () => {
         </div>
       </div>
       <div className="mainHomeBottomInput">
-        <SearchInput />
+        <SearchInput btnTitle={'Search'} searchPlaceholder={"Paste News or article"} />
       </div>
     </div>
   );

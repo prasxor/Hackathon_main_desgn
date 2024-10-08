@@ -1,0 +1,118 @@
+.FooterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  /* border: 1px solid red; */
+  border-top: 1px solid #313131;
+  height: 400px;
+  margin: 5% 2%;
+}
+
+.FooterContainerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  /* border: 1px solid blue; */
+  height: 80%;
+}
+
+.FooterContainerTopFirst,
+.FooterContainerTopSecond,
+.FooterContainerTopThird,
+.FooterContainerTopFourth {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 100%;
+}
+
+.FooterContainerTopFirst ul,
+.FooterContainerTopSecond ul,
+.FooterContainerTopThird ul,
+.FooterContainerTopFourth ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+  width: 100%;
+}
+
+.FooterContainerTopFirst ul li,
+.FooterContainerTopSecond ul li,
+.FooterContainerTopThird ul li,
+.FooterContainerTopFourth ul li {
+  text-align: left;
+  /* border: 1px solid yellow; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+.FooterContainerTopFirst ul li:nth-child(1),
+.FooterContainerTopSecond ul li:nth-child(1),
+.FooterContainerTopThird ul li:nth-child(1),
+.FooterContainerTopFourth ul li:nth-child(1) {
+  font-weight: bolder;
+  color: #e0e0e2;
+  font-family: "Roboto", sans-serif;
+}
+
+.FooterContainerTopFirst ul li:nth-child(1):hover,
+.FooterContainerTopSecond ul li:nth-child(1):hover,
+.FooterContainerTopThird ul li:nth-child(1):hover,
+.FooterContainerTopFourth ul li:nth-child(1):hover {
+  cursor: context-menu;
+}
+
+.FooterContainerBottom {
+  height: 20%;
+  /* border: 1px solid white; */
+  border-top: 1px solid #313131;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FooterContainerBottomFirst {
+  width: 80%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 40px;
+}
+
+.FooterContainerBottomSecond {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.FooterContainerBottomSecond p,
+.FooterContainerBottomFirst p {
+  margin-bottom: 0px !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.FooterContainerBottomSecond p a{
+  color: #ffffff;
+  text-decoration: none;
+}
