@@ -11,7 +11,7 @@
 
 #SearchInputContainerFormInput {
   width: 90%; /* Taking the second width value */
-  height: 70%; /* Taking the second height value */
+  height: 75%; /* Taking the second height value */
   display: flex;
   align-items: center;
   justify-content: center;

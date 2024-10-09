@@ -7,6 +7,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 3%;
+  border-bottom: 1.5px solid #313131;
 }
 
 #FifthSectionMainContainerTop{

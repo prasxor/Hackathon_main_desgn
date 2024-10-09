@@ -13,7 +13,6 @@ import SixthSection from "../../Elements/SixthSection/SixthSection";
 const Home = () => {
   return (
     <div id="HomeMainContainer">
-      <Popup />
       <div id="NavbarComponent">
         <Navbar />
       </div>

@@ -1,21 +1,66 @@
-.FaqItemsContainer{
-  border: 1px solid red;
+.FaqItemsContainer {
+  /* border: 1px solid red; */
   width: 100%;
   display: flex;
-  align-content:center;
+  align-content: center;
   justify-content: flex-start;
   flex-direction: column;
   position: relative;
+  border-bottom: 1px solid #313131;
 }
 
-.FaqItemsContainerSub{
+.FaqItemsContainerSub {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
   gap: 12px;
-  border: 1px solid white;
+
   position: relative;
+  font-family: "Roboto", sans-serif;
   padding: 0 20px;
-  /* overflow: hidden; */
+}
+
+.AccordianQuestion {
+  font-weight: 400 !important;
+  font-size: 1.5rem;
+}
+
+.Accordiananswer {
+  padding: 0 20px;
+  font-weight: 400 !important;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.9;
+  color: #E0E0E2;
+}
+
+/* FaqItems.css */
+
+.FaqItemsContainerSub img {
+  transition: transform 0.8s ease-in-out, opacity 0.3s ease-in-out;
+  transform: rotate(-180deg);
+  opacity: 1;
+}
+
+.FaqItemsContainerSub img.close {
+  transform: rotate(90deg); /* Rotate the close icon when active */
+}
+
+.FaqItemsContainerSub img.open {
+  transform: rotate(270deg); /* Default state for open icon */
+}
+
+.Accordiananswer {
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+/* Adding a fade-in effect for the answer text */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
 }
