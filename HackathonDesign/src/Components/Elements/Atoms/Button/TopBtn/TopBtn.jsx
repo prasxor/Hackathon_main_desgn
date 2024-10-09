@@ -1,10 +1,12 @@
 import React from "react";
-import "./TopBtn.css";
+// import "../BottomBtn/BottomBtn.css";
+import "./TopBtn.css"
+
 
 const TopBtn = ({ title }) => {
   return (
     <div>
-      <button className="SearchInputContainerFormBtn" type="submit">
+      <button className="SearchTopBtnBtn" type="submit">
         {title}
       </button>
     </div>

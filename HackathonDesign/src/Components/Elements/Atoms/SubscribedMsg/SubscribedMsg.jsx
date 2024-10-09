@@ -4,6 +4,7 @@ import "./SubscribedMsg.css";
 const SubscribedMsg = ({ title }) => {
   return (
     <div className="SubscribedMsgContainer">
+      <p>Thank you for subscribing with</p>
       <button className="SearchInputContainerSubBtn" type="submit">
         {title}
       </button>

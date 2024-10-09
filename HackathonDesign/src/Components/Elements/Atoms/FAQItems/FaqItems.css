@@ -1,0 +1,21 @@
+.FaqItemsContainer{
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  align-content:center;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.FaqItemsContainerSub{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 12px;
+  border: 1px solid white;
+  position: relative;
+  padding: 0 20px;
+  /* overflow: hidden; */
+}

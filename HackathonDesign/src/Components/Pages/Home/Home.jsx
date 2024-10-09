@@ -8,6 +8,7 @@ import FourthHome from "../../Elements/FourthHome/FourthHome";
 import FifthSection from "../../Elements/FifthSection/FifthSection";
 import Popup from "../../Elements/Atoms/Popup/Popup";
 import Footer from "../../Elements/Footer/Footer";
+import SixthSection from "../../Elements/SixthSection/SixthSection";
 
 const Home = () => {
   return (
@@ -30,6 +31,9 @@ const Home = () => {
       </div>
       <div id="FifthHomeMain">
         <FifthSection />
+      </div>
+      <div id="sixthSectionMain">
+        <SixthSection/>
       </div>
       <div id="FooterSection">
         <Footer />
