@@ -6,45 +6,23 @@
   height: 88px;
   /* border: 1px solid pink; */
   margin-top: 40px;
-}
-
-.SearchInputContainerForm {
-  width: 100%;
-  /* border: 1px solid green; */
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left: 55px;
   position: relative;
 }
 
-.SearchInputContainerFormInput{
-  width: 90%;
+#SearchInputContainerFormInput {
+  width: 90%; /* Taking the second width value */
+  height: 70%; /* Taking the second height value */
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70%;
-  border: none;
+  position: relative;
+  left: 55px; /* Kept from the first block */
+  border: 1px solid #313131; /* Kept the more specific border */
   border-radius: 62px;
   background-color: #101010;
-  border: 1px solid #313131;
-  /* align-items: center; */
-  position: relative;
   padding: 0 30px;
   padding-right: 18%;
   color: white;
   font-family: "Roboto", sans-serif;
 }
 
-/* .SearchInputContainerFormBtn{
-  position: relative;
-  width: 120px;
-  height: 60%;
-  border-radius: 46px;
-  border: none;
-  right: 118.1px;
-  font-family: "Roboto", sans-serif;
-  background-color: #313131;
-  color: #E0E0E2;
-} */

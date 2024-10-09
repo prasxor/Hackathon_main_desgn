@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./FifthSection.css";
-import SearchInput from "../Atoms/SearchInput/SearchInput";
+// import SearchInput from "../Atoms/SearchInput/SearchInput";
 import SubscribedMsg from "../Atoms/SubscribedMsg/SubscribedMsg";
+import EmailInput from "../Atoms/EmailInput/EmailInput";
+import FaqSection from "../Atoms/FAQSection/FaqSection";
 
 const FifthSection = () => {
   const [subscribed, setSubscribed] = useState(false);
@@ -26,13 +28,13 @@ const FifthSection = () => {
       </div>
       <div className="SubBtnMain">
         {!subscribed ? (
-          <SearchInput
+          <EmailInput
             btnTitle={"Subscribe"}
             searchPlaceholder={"Email address"}
             onSubscribe={handleSubscribe} 
           />
         ) : (
-          <SubscribedMsg title={`Thank you for subscribing with ${email} !`} />
+          <SubscribedMsg title={email} />
         )}
       </div>
     </div>

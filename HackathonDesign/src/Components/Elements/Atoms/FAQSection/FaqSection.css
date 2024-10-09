@@ -1,0 +1,7 @@
+.FaqSectionMainComp{
+  border: 1px solid blue;
+  width: 80%;
+  overflow: hidden;
+  margin-top: 1%;
+  height: 90%;
+}

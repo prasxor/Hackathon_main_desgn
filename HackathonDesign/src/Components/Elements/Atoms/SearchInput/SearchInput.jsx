@@ -1,32 +1,19 @@
-import React, { useState } from "react"; // Import useState
+import React from "react";
 import "./SearchInput.css";
 import TopBtn from "../Button/TopBtn/TopBtn";
 
-const SearchInput = ({ btnTitle, searchPlaceholder, onSubscribe }) => {
-  const [email, setEmail] = useState(''); // State to hold email input
-
-  const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent the default form submission
-    if (email) {
-      onSubscribe(email); // Call the onSubscribe function with the email
-      setEmail(''); // Clear the input field after submission
-    }
-  };
-
+const SearchInput = ({ label, value, onChange, searchPlaceholder }) => {
   return (
-    <div className="SearchInputContainer">
-      <form action="#" className="SearchInputContainerForm" onSubmit={handleSubmit}>
+      <form className="SearchInputContainer" action="#">
         <input
-          type="email" // Change input type to email for better validation
-          className="SearchInputContainerFormInput"
+          type="Text"
+          id="SearchInputContainerFormInput"
+          value={value}
+          onChange={onChange}
           placeholder={searchPlaceholder}
-          value={email} // Bind input value to state
-          onChange={(e) => setEmail(e.target.value)} // Update state on input change
-          required // Ensure the input is not empty
         />
-        <TopBtn title={btnTitle} onClick={handleSubmit} /> {/* Optional: Handle onClick here */}
+        <TopBtn title={"Search"} />
       </form>
-    </div>
   );
 };
 
