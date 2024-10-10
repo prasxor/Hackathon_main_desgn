@@ -9,6 +9,7 @@ import FifthSection from "../../Elements/FifthSection/FifthSection";
 import Popup from "../../Elements/Atoms/Popup/Popup";
 import Footer from "../../Elements/Footer/Footer";
 import SixthSection from "../../Elements/SixthSection/SixthSection";
+import Tempo from "../../Elements/Tempo/Tempo";
 
 const Home = () => {
   return (
@@ -36,6 +37,9 @@ const Home = () => {
       </div>
       <div id="FooterSection">
         <Footer />
+      </div>
+      <div id="tempoSection">
+        <Tempo/>
       </div>
     </div>
   );

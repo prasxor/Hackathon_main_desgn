@@ -70,3 +70,12 @@ height: auto;
   max-height: 1000px;
   overflow: hidden;
 }
+
+#tempoSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  height: 680px;
+  width: 100%;
+}
