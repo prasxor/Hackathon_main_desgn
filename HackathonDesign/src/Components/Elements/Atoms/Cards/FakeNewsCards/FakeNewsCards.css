@@ -1,15 +1,17 @@
 .FakeNewsCardsContainer {
   border: 1.5px solid #313131;
-  height: 362px;
-  width: 400px;
+  height: 352px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   border-radius: 22px;
   background-color: #202128;
 }
 
 .FakeNewsCardsContainerTop {
-  /* border: 1px solid red; */
   overflow: hidden;
-  /* height: fit-content; */
   height: 67%;
 }
 
@@ -26,7 +28,6 @@
   /* border: 1px solid blue; */
   overflow: hidden;
   padding: 10px 16px 0 20px;
-  
 }
 
 .FakeNewsCardsContainerBottom p {
