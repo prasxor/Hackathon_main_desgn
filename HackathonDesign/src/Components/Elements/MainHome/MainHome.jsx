@@ -2,10 +2,9 @@ import "./MainHome.css";
 import RealText from "../../../assets/RealText.png";
 import FakeText from "../../../assets/FakeText.png";
 import SearchInput from "../../Elements/Atoms/SearchInput/SearchInput";
+import { useEffect } from "react";
 
-
-
-const MainHome = () => {
+const MainHome = ({ onDataReceived }) => {
   return (
     <div className="mainHomeContainer">
       <div className="mainHomeTopContent">
@@ -25,7 +24,7 @@ const MainHome = () => {
         </div>
       </div>
       <div className="mainHomeBottomInput">
-        <SearchInput btnTitle={'Search'} searchPlaceholder={"Paste News or article"} />
+        <SearchInput onDataReceived={onDataReceived} btnTitle={'Search'} searchPlaceholder={"Paste News or article"} />
       </div>
     </div>
   );

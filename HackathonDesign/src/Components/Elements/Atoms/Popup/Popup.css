@@ -1,5 +1,116 @@
-#PopupContainer{
-  height: 500px;
+#PopupContainer {
+  border: 1px solid #313131;
+  background-color: #101010;
+  border-radius: 47px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-image: url(../../../../assets/backgroundGreen.png); */
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+/* #PopupContainer {
+  height: 800px;
+  width: 70%;
+  border: 1px solid #313131;
+  background-color: #101010;
+  border-radius: 47px;
+  padding: 50px;
+  display: flex;
+  background-image: url(../../../../assets/backgroundred.png);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+#closebtn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
   width: 100%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
+  height: 10%;
+}
+
+#trueOrFalse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  height: 20%;
+  width: 100%;
+}
+
+#trueOrFalse p {
+  font-family: "Inter", Roboto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px !important;
+  font-size: 1.3rem;
+  width: 161px;
+  height: 65px;
+  border: 1px solid #313131;
+  border-radius: 31px;
+}
+
+#progressBarPopup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid blue; */
+  height: 40%;
+  width: 100%;
+  gap: 20%;
+}
+
+#ArticlePopup {
+  height: 20%;
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+#ProgressBarBottom {
+  width: 631px;
+  height: 32px;
+  border: 1px solid #313131;
+  background-color: #202128;
+  border-radius: 46px;
+}
+
+#ProgressBarTop p {
+  font-size: 20px;
+  font-family: "Inter", Roboto;
+}
+
+.MistakeContainer {
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+  /* border: 1px solid blue; */
+}
+
+.MistakeContainer p {
+  font-size: 18px;
+  font-family: "Inter", Roboto;
+}
+
+.progressBarBottomIndicator {
+  height: 100%;
+  background-color: #0acf83;
+  /* width: 70%; */
+  /* border: 1px solid green; */
+  border-radius: 46px;
 }
