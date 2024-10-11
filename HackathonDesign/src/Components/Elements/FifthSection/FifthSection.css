@@ -1,13 +1,13 @@
 #FifthSectionMainContainer {
   border: 1.5px solid #313131;
   border-radius: 66px;
-  width: 60%;
+  width: 80%;
   height: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 3%;
+  margin: 3% 0%;
   border-bottom: 1.5px solid #313131;
 }
 

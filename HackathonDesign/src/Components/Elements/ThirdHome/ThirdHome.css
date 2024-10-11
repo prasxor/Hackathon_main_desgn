@@ -1,6 +1,6 @@
 .ThirdHomeContainer{
   /* border: 1px solid green; */
-  width: 80%;
+  width: 100%;
   height: auto;
   margin-top: 5%;
   display: flex;
@@ -16,7 +16,7 @@
   justify-content: center;
   /* border: 1px solid red; */
   width: max-content;
-  padding-left: 5%;
+  /* padding-left: 5%; */
   gap:7px;
   margin-bottom: 5%;
 }

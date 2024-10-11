@@ -1,6 +1,7 @@
 body{
   padding: 10px;
   /* border: 1px solid red; */
+  border: 1px solid blue;
 }
 
 #NavbarComponent{
@@ -12,17 +13,21 @@ height: auto;
 }
 
 .MainHomeComp{
-  margin-top: 6%;
+  margin-top: 2%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border: 1px solid red;
+  width: 80%;
+  height: 800px;
 }
 
 .SecondHomeComp{
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 80%;
 
 }
 
@@ -30,15 +35,18 @@ height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 80%;
+  border: 1px solid red;
 }
 
 #HomeMainContainer{
-  margin-top: 3%;
+  margin-top: 1%;
   height: auto;
   gap: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .NavbarComponent{
@@ -50,6 +58,8 @@ height: auto;
   align-items: center;
   justify-content: center;
   margin-top: 2%;
+  width: 80%;
+  border: 1px solid green;
 }
 
 #FooterSection{
@@ -57,6 +67,7 @@ height: auto;
   align-items: center;
   justify-content: center;
   height: 500px;
+  width: 80%;
 }
 
 #sixthSectionMain{

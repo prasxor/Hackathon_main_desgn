@@ -22,13 +22,16 @@ const Home = () => {
     setLink(link);
   };
 
+  console.log("this is msg from home.jsx:" + link);
+
   return (
     <div id="HomeMainContainer">
       <div id="NavbarComponent">
         <Navbar />
       </div>
       <div className="MainHomeComp">
-        <MainHome onDataReceived={handleDataReceived} /> {/* Pass the callback to MainHome */}
+        <MainHome onDataReceived={handleDataReceived} />{" "}
+        {/* Pass the callback to MainHome */}
       </div>
       <div className="SecondHomeComp">
         <SecondHome />
@@ -49,7 +52,8 @@ const Home = () => {
         <Footer />
       </div>
       <div id="tempoSection">
-        <Tempo truthValue={truthValue} link={link} /> {/* Pass truthValue and link to Tempo */}
+        <Tempo truthValue={truthValue} link={link} />{" "}
+        {/* Pass truthValue and link to Tempo */}
       </div>
     </div>
   );

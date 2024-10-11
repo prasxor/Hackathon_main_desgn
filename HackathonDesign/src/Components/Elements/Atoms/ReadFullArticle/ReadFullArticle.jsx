@@ -5,10 +5,10 @@ import readFullArticleImg from '../../../../assets/readfullarticle.png'; // Adju
 const ReadFullArticle = ({ link, truthValue }) => {
   console.log("Value of truthValue is: ", truthValue); // Log the truthValue for debugging
 
-  // // Check if the truthValue is boolean `true`
-  // if (truthValue !== true) {
-  //   return null; // Do not render anything if truthValue is not `true`
-  // }
+  // Convert truthValue to lowercase for consistent comparison
+  if (truthValue.toLowerCase() !== "true") {
+    return null; // Do not render anything if truthValue is not "true"
+  }
 
   return (
     <div id='ReadFullArticleContainer'>
