@@ -10,23 +10,17 @@
   /* background-image: url(../../../../assets/backgroundGreen.png); */
   background-repeat: no-repeat;
   background-size: 70%;
+  scale: 1.1;
+  /* border: 1px solid red; */
+  /* position: fixed;
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0; 
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+  z-index: 1000; */
 }
-
-/* #PopupContainer {
-  height: 800px;
-  width: 70%;
-  border: 1px solid #313131;
-  background-color: #101010;
-  border-radius: 47px;
-  padding: 50px;
-  display: flex;
-  background-image: url(../../../../assets/backgroundred.png);
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 
 #closebtn {
   display: flex;
@@ -35,6 +29,12 @@
   width: 100%;
   /* border: 1px solid green; */
   height: 10%;
+  cursor: pointer;
+}
+
+
+#closebtn img{
+  width: 3%;
 }
 
 #trueOrFalse {
@@ -44,6 +44,7 @@
   /* border: 1px solid red; */
   height: 20%;
   width: 100%;
+  scale: 0.8;
 }
 
 #trueOrFalse p {
@@ -55,7 +56,7 @@
   font-size: 1.3rem;
   width: 161px;
   height: 65px;
-  border: 1px solid #313131;
+  border: 1px solid #4e4c4c;
   border-radius: 31px;
 }
 
@@ -68,6 +69,7 @@
   height: 40%;
   width: 100%;
   gap: 20%;
+  scale: 0.8;
 }
 
 #ArticlePopup {
@@ -78,6 +80,7 @@
   align-items: center;
   justify-content: space-evenly;
   opacity: 0.9;
+  scale: 0.7;
 }
 
 #ProgressBarBottom {
@@ -86,6 +89,7 @@
   border: 1px solid #313131;
   background-color: #202128;
   border-radius: 46px;
+  scale: 0.8;
 }
 
 #ProgressBarTop p {
@@ -100,6 +104,7 @@
   height: 10%;
   width: 100%;
   /* border: 1px solid blue; */
+  scale: 0.8;
 }
 
 .MistakeContainer p {
@@ -109,8 +114,124 @@
 
 .progressBarBottomIndicator {
   height: 100%;
-  background-color: #0acf83;
+  /* background-color: #0acf83; */
   /* width: 70%; */
   /* border: 1px solid green; */
   border-radius: 46px;
+  /* scale: 0.8;  */
+}
+
+#PopupContainer {
+  border: 1px solid #313131;
+  background-color: #101010;
+  border-radius: 47px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  scale: 1.1;
+  height: 700px;
+  width: 100%;
+  max-width: 900px; /* Adjust to control max size */
+  transition: background-image 0.3s ease; /* Smooth transition for background */
+}
+
+#closebtn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  height: 10%;
+  cursor: pointer;
+}
+
+#closebtn img {
+  width: 3%;
+}
+
+#trueOrFalse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+  scale: 0.8;
+}
+
+#trueOrFalse p {
+  font-family: "Inter", Roboto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px !important;
+  font-size: 1.3rem;
+  width: 161px;
+  height: 65px;
+  border: 1px solid #4e4c4c;
+  border-radius: 31px;
+  background-color: #202128;
+  background-color: rgba(32, 33, 40, 0.2);
+  color: #ffffff;
+
+}
+
+#progressBarPopup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 40%;
+  width: 100%;
+  gap: 20%;
+  scale: 0.8;
+}
+
+#ProgressBarBottom {
+  width: 100%;
+  max-width: 631px;
+  height: 32px;
+  border: 1px solid #313131;
+  background-color: #202128;
+  border-radius: 46px;
+  overflow: hidden; /* Ensure no overflow */
+}
+
+#ProgressBarTop p {
+  font-size: 20px;
+  font-family: "Inter", Roboto;
+  color: #ffffff;
+}
+
+.progressBarBottomIndicator {
+  height: 100%;
+  border-radius: 46px;
+  transition: width 1s ease-in-out; /* Smooth animation for progress */
+}
+
+#ArticlePopup {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 0.9;
+  scale: 0.7;
+}
+
+.MistakeContainer {
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+  scale: 0.8;
+}
+
+.MistakeContainer p {
+  font-size: 18px;
+  font-family: "Inter", Roboto;
+  color: #f1f1f1;
 }

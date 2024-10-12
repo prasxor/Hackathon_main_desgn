@@ -51,10 +51,10 @@ const Home = () => {
       <div id="FooterSection">
         <Footer />
       </div>
-      <div id="tempoSection">
-        <Tempo truthValue={truthValue} link={link} />{" "}
-        {/* Pass truthValue and link to Tempo */}
-      </div>
+      {/* <div id="tempoSection"> */}
+      {/* <Tempo truthValue={truthValue} link={link} />{" "} */}
+      {/* Pass truthValue and link to Tempo */}
+      {/* </div> */}
     </div>
   );
 };

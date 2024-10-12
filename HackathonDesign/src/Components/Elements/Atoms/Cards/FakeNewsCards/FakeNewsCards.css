@@ -1,7 +1,8 @@
 .FakeNewsCardsContainer {
-  border: 1.5px solid #313131;
-  height: 352px;
-  width: 380px;
+  /* border: 1.5px solid #313131; */
+  /* border: 1px solid red; */
+  height: 80%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +13,9 @@
 
 .FakeNewsCardsContainerTop {
   overflow: hidden;
-  height: 67%;
+  height: 70%;
+  /* border: 1px solid green; */
+  width: 100%;
 }
 
 .FakeNewsCardsContainerTop img {
@@ -34,4 +37,5 @@
   margin-bottom: 0px !important;
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }

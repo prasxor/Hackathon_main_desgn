@@ -6,7 +6,7 @@ import DropDown from "../Atoms/DropDown/DropDown";
 
 const Navbar = () => {
   const ArrEle = ["Home", "News", "About", "Contact"];
-  const ArrLink = ["#", "#", "#", "#"];
+  const ArrLink = ["/Home", "#", "#", "#"];
 
   return (
     <div className="NavbarMain">
@@ -20,9 +20,9 @@ const Navbar = () => {
           </li>
         ))}
 
-        <li>
+        {/* <li>
           <DropDown/>
-        </li>
+        </li> */}
 
       </ul>
       {/* <div className="toggle-container">
