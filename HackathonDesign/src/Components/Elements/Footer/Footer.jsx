@@ -6,7 +6,7 @@ const Footer = () => {
   const FooterEle1 = ["Home", "Team", "About", "Contact"];
   const FooterLink1 = ["#", "#", "#", "#", "#"];
   const FooterEle2 = ["Search", "Features", "News", "Subscribe"];
-  const FooterLink2 = ["#", "#", "#", "#", "#"];
+  const FooterLink2 = ["#", "#", "#", "#FifthHomeMain"];
   const FooterEle3 = ["Team", "Home", "Contact", "About"];
   const FooterLink3 = ["#", "#", "#", "#", "#"];
   const TradeMark = "© 2024 TruthLens All rights reserved.";
@@ -24,7 +24,7 @@ const Footer = () => {
             <ul>
               <li>{liTitle[0]}</li>
               {FooterEle1.map((item, index) => (
-                <li key={index} className="NavbarItems">
+                <li key={index} className="FooterItems">
                   <a href={FooterLink1[index]}>{item}</a>
                 </li>
               ))}
@@ -34,7 +34,7 @@ const Footer = () => {
             <ul>
               <li>{liTitle[1]}</li>
               {FooterEle2.map((item, index) => (
-                <li key={index} className="NavbarItems">
+                <li key={index} className="FooterItems">
                   <a href={FooterLink2[index]}>{item}</a>
                 </li>
               ))}
@@ -44,7 +44,7 @@ const Footer = () => {
             <ul>
               <li>{liTitle[2]}</li>
               {FooterEle3.map((item, index) => (
-                <li key={index} className="NavbarItems">
+                <li key={index} className="FooterItems">
                   <a href={FooterLink3[index]}>{item}</a>
                 </li>
               ))}
