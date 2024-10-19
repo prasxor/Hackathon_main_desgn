@@ -1,32 +1,51 @@
 body{
   padding: 10px;
   /* border: 1px solid red; */
+  /* border: 1px solid blue; */
 }
 
 #NavbarComponent{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: auto;
 }
 
 .MainHomeComp{
-  margin-top: 6%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 800px;
 }
 
 .SecondHomeComp{
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 80%;
 
 }
 
+.ThirdHomeComp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  /* border: 1px solid red; */
+}
+
 #HomeMainContainer{
-  margin-top: 3%;
+  margin-top: 1%;
   height: auto;
   gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .NavbarComponent{
@@ -38,6 +57,8 @@ body{
   align-items: center;
   justify-content: center;
   margin-top: 2%;
+  width: 80%;
+  /* border: 1px solid green; */
 }
 
 #FooterSection{
@@ -45,10 +66,11 @@ body{
   align-items: center;
   justify-content: center;
   height: 500px;
+  width: 85%;
 }
 
 #sixthSectionMain{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   height: 1000px;
   display: flex;
@@ -58,3 +80,12 @@ body{
   max-height: 1000px;
   overflow: hidden;
 }
+
+/* #tempoSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  height: 900px;
+  width: 100%;
+} */

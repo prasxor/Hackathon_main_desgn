@@ -1,4 +1,4 @@
-// import { useState } from "react";
+import { useState } from "react";
 import Navbar from "../../Elements/Navbar/Navbar";
 import MainHome from "../../Elements/MainHome/MainHome";
 import SecondHome from "../../Elements/SecondHome/SecondHome";
@@ -9,16 +9,29 @@ import FifthSection from "../../Elements/FifthSection/FifthSection";
 import Popup from "../../Elements/Atoms/Popup/Popup";
 import Footer from "../../Elements/Footer/Footer";
 import SixthSection from "../../Elements/SixthSection/SixthSection";
+import Tempo from "../../Elements/Tempo/Tempo";
 
 const Home = () => {
+  // State to hold truthValue and link
+  const [truthValue, setTruthValue] = useState("");
+  const [link, setLink] = useState("");
+
+  // Function to handle data received from MainHome
+  const handleDataReceived = (truthValue, link) => {
+    setTruthValue(truthValue);
+    setLink(link);
+  };
+
+  console.log("this is msg from home.jsx:" + link);
+
   return (
     <div id="HomeMainContainer">
-      <Popup />
       <div id="NavbarComponent">
         <Navbar />
       </div>
       <div className="MainHomeComp">
-        <MainHome />
+        <MainHome onDataReceived={handleDataReceived} />{" "}
+        {/* Pass the callback to MainHome */}
       </div>
       <div className="SecondHomeComp">
         <SecondHome />
@@ -33,11 +46,15 @@ const Home = () => {
         <FifthSection />
       </div>
       <div id="sixthSectionMain">
-        <SixthSection/>
+        <SixthSection />
       </div>
       <div id="FooterSection">
         <Footer />
       </div>
+      {/* <div id="tempoSection"> */}
+      {/* <Tempo truthValue={truthValue} link={link} />{" "} */}
+      {/* Pass truthValue and link to Tempo */}
+      {/* </div> */}
     </div>
   );
 };

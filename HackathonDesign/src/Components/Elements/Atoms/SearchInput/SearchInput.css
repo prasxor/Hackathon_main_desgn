@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40vw;
+  width:50vw;
   height: 88px;
   /* border: 1px solid pink; */
   margin-top: 40px;
@@ -11,7 +11,7 @@
 
 #SearchInputContainerFormInput {
   width: 90%; /* Taking the second width value */
-  height: 70%; /* Taking the second height value */
+  height: 75%; /* Taking the second height value */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,3 +26,16 @@
   font-family: "Roboto", sans-serif;
 }
 
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner-border {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+  animation: spin 1s linear infinite;
+}

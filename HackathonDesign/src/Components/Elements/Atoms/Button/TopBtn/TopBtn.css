@@ -3,7 +3,7 @@
 .SearchTopBtnBtn{
   position: relative;
   width: 120px;
-  height: 50px;
+  height: 57px;
   border-radius: 46px;
   border: none;
   right: 71px;
@@ -11,6 +11,7 @@
   background-color: #313131;
   color: #E0E0E2;
   transition: 0.2s ease-out;
+  bottom: 0.6px;
 }
 
 .SearchTopBtnBtn:hover{

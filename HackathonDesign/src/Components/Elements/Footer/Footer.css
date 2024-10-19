@@ -3,11 +3,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   /* border: 1px solid red; */
   border-top: 1px solid #313131;
   height: 400px;
-  margin: 5% 2%;
+  flex-direction: column;
+  /* margin: 5% 2%; */
 }
 
 .FooterContainerTop {
@@ -15,7 +16,7 @@
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  width: 100%;
+  width: 60%;
   /* border: 1px solid blue; */
   height: 80%;
 }
@@ -87,13 +88,14 @@
 }
 
 .FooterContainerBottomFirst {
-  width: 80%;
+  width: 100%;
   height: 100%;
-  /* border: 1px solid red; */
+  /* border: 1px solid green; */
   display: flex;
   align-items: center;
   justify-content: start;
   padding: 0 40px;
+
 }
 
 .FooterContainerBottomSecond {
@@ -106,13 +108,41 @@
   gap: 12px;
 }
 
-.FooterContainerBottomSecond p,
 .FooterContainerBottomFirst p {
   margin-bottom: 0px !important;
   font-family: "Roboto", sans-serif;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .FooterContainerBottomSecond p a{
   color: #ffffff;
   text-decoration: none;
+}
+
+.footerMainContent{
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid rgb(0, 241, 209); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#tradeMarkLogo{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FooterItems a{
+  text-decoration: none;
+  color: #e0e0e2;
 }
