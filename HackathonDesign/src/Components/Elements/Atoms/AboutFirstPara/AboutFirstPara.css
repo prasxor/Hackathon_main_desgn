@@ -1,0 +1,23 @@
+#AboutFirstParaContainer {
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 30%;
+  width: 70%;
+}
+
+#AboutFirstParaContainer h1 {
+  font-family: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+
+#AboutFirstParaContainer p{
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 2rem;
+}

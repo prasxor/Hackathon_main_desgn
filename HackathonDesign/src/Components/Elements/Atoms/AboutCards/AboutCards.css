@@ -1,0 +1,26 @@
+#AboutCardsContainer {
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 391px;
+  width: 70%;
+}
+
+.AboutCardsContainerLeft {
+  width: 70%;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+.AboutCardsContainerRight {
+  width: 30%;
+  height: 100%;
+  border: 1px solid green;
+}
