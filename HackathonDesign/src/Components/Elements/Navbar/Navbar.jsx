@@ -7,7 +7,7 @@ import DropDown from "../Atoms/DropDown/DropDown";
 const Navbar = () => {
   const ArrEle = ["Home", "News", "About", "Contact"];
   const ArrLink = ["/Home", "#", "#", "#"];
-
+  const ClassName = []
   return (
     <div className="NavbarMain">
       <div className="itemImg">
@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       <ul className="NavbarList">
         {ArrEle.map((item, index) => (
-          <li key={index} className="NavbarItems">
+          <li key={index} className='NavbarItems'>
             <a href={ArrLink[index]}>{item}</a>
           </li>
         ))}
