@@ -1,26 +1,46 @@
 #AboutCardsContainer {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  height: 391px;
+  height: 300px;
   width: 70%;
+  margin-bottom: 20px;
 }
 
 .AboutCardsContainerLeft {
   width: 70%;
   height: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  padding: 0 10%;
+  padding: 0 10% 0 5%;
+  text-align: left;
+}
+
+.AboutCardsContainerLeft h1{
+  text-align: left;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
 }
 
 .AboutCardsContainerRight {
   width: 30%;
   height: 100%;
-  border: 1px solid green;
+  /* border: 5px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutCardsContainerRight img{
+  object-fit: cover;
+  width: 90%;
 }

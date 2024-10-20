@@ -1,8 +1,46 @@
 #AboutMain{
-    border: 1px solid red;
-    height: 100vh;
+    /* border: 1px solid red; */
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.NavbarAboutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.KeyHighlightsAboutContainer{
+    margin: 5% 0;
+}
+
+.AboutFirstParaAboutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 300px;
+}
+
+.AboutCardsAboutContainer{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 7%;
+}
+
+.footerAboutContainer{
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+
 }
