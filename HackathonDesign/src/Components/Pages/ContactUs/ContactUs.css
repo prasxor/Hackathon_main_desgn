@@ -1,5 +1,8 @@
+/* imports  */
 
-#ContactUsMainContainer{
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+#ContactUsMainContainer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,26 +12,97 @@
   height: auto;
 }
 
-.NavbarContactUsContainer{
+.NavbarContactUsContainer {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2%;
-  
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
 }
 
 .KeyHighlightsContactUsContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
   margin: 5% 0;
 }
 
-.ContactUsInputContainer{
+.ContactUsInputContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid blue;
+  scale: 1.1;
+  /* border: 1px solid blue; */
+}
+
+.ContactUsInputContainerBottom {
+  border: 1.5px solid #313131;
+  margin-top: 5%;
+  width: 824px;
+  height: 476px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 43px;
+
+}
+
+.ContactUsInputContainerBottom form {
+  width: 100%;
+  /* border: 1px solid blue; */
+  height: 100%;
+}
+
+.ContactUsInputContainerBottomMainInput {
+  row-gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 7% 0;
+}
+
+.ContactUsTextarea {
+  width: 703px;
+  height: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactUsTextarea textarea {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  padding: 18px;
+  color: #e0e0e2;
+  background-color: #17181f;
+  border: 1.5px solid #2a2a2d; 
+  /* border: 1.5px solid red;  */
+  resize: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.contactBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  /* border: 1px solid green; */
+
+}
+
+.Contactfooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid yellow; */
+  width: 97%;
+  height: auto;
+  margin-top: 5%;
 }
