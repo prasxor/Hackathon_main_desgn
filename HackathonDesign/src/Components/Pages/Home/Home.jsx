@@ -26,9 +26,9 @@ const Home = () => {
 
   return (
     <div id="HomeMainContainer">
-      <div id="NavbarComponent">
+      {/* <div id="NavbarComponent">
         <Navbar />
-      </div>
+      </div> */}
       <div className="MainHomeComp">
         <MainHome onDataReceived={handleDataReceived} />{" "}
         {/* Pass the callback to MainHome */}
@@ -48,9 +48,9 @@ const Home = () => {
       <div id="sixthSectionMain">
         <SixthSection />
       </div>
-      <div id="FooterSection">
+      {/* <div id="FooterSection">
         <Footer />
-      </div>
+      </div> */}
       {/* <div id="tempoSection"> */}
       {/* <Tempo truthValue={truthValue} link={link} />{" "} */}
       {/* Pass truthValue and link to Tempo */}

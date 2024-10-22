@@ -10,9 +10,9 @@ import InputNumber from "../../Elements/Atoms/InputNumber/InputNumber";
 const ContactUs = () => {
   return (
     <div id="ContactUsMainContainer">
-      <div className="NavbarContactUsContainer">
+      {/* <div className="NavbarContactUsContainer">
         <Navbar />
-      </div>
+      </div> */}
       <div className="KeyHighlightsContactUsContainer">
         <KeyHighlights text={"Contact Us"} />
       </div>
@@ -26,9 +26,7 @@ const ContactUs = () => {
               <ContactInput type={"text"} label={"Name"} />
               <ContactInput type={"email"} label={"Email address"} />
               {/* <ContactInput type={"number"} label={"Phone number"} /> */}
-              <div>
-                <InputNumber/>
-              </div>
+              <ContactInput type={"number"} label={"Phone number"} minLength={10} maxLength={11} />
               <ContactInput type={"text"} label={"Interested in"} />
               <div className="ContactUsTextarea">
                 <textarea
@@ -44,9 +42,9 @@ const ContactUs = () => {
           </form>
         </div>
       </div>
-      <div className="Contactfooter">
+      {/* <div className="Contactfooter">
         <Footer/>
-      </div>
+      </div> */}
     </div>
   );
 };

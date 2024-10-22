@@ -10,9 +10,9 @@ import Footer from "../../Elements/Footer/Footer"
 const About = () => {
   return (
     <div id="AboutMain">
-      <div className="NavbarAboutContainer">
+      {/* <div className="NavbarAboutContainer">
         <Navbar />
-      </div>
+      </div> */}
       <div className="KeyHighlightsAboutContainer">
         <KeyHighlights text={"About Us"} />
       </div>
@@ -23,9 +23,9 @@ const About = () => {
         <AboutCards title={"What We Stand For"} />
         <AboutCardsLeft title={"Behind the Scenes"}/>
       </div>
-      <div className="footerAboutContainer">
+      {/* <div className="footerAboutContainer">
         <Footer/>
-      </div>
+      </div> */}
     </div>
   );
 };
