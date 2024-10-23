@@ -1,0 +1,26 @@
+.NavbarListMain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  width: 100%;
+  height: 100%;
+}
+
+.NavbarItemss{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #E0E0E2;
+  text-decoration: none;
+}
+
+.MiniNavbarList li{
+  color: #E0E0E2;
+}
+
+.MiniNavbarList{
+  height: 84px;
+  width: 100%;
+}

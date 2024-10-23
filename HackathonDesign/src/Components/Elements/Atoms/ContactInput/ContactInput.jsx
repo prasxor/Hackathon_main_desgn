@@ -1,35 +1,35 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-const Form = ({ type = "tel", label }) => {
+const ContactInput = ({ typepurpose, label }) => {
   const [value, setValue] = useState("");
 
   const handleInputChange = (e) => {
     const newValue = e.target.value;
 
-    // Allow only numbers
-    if (/^\d*$/.test(newValue)) {
+    // Allow only numbers for "number" type
+    if (typepurpose === "number" && /^\d*$/.test(newValue)) {
+      setValue(newValue);
+    } else if (typepurpose === "text" || typepurpose === "email") {
+      // Allow text input for "text" and "email" types
       setValue(newValue);
     }
   };
 
   return (
     <StyledWrapper>
-      <div className="container">
-        <form className="form" action="">
-          <div className="input-field">
-            <input
-              required
-              autoComplete="off"
-              type={type}
-              name="text"
-              id="username"
-              value={value}
-              onChange={handleInputChange} // Handle input changes
-            />
-            <label htmlFor="username">{label}</label>
-          </div>
-        </form>
+      <div className="input-field">
+        <input
+          required
+          autoComplete="off"
+          type={typepurpose}
+          id={label} // Use label directly as the id
+          className="contact-input" // Assuming you have a specific class for styling
+          value={value}
+          onChange={handleInputChange}
+          maxLength={typepurpose === "number" ? 11 : undefined} // Set maxLength for number input
+        />
+        <label htmlFor={label}>{label}</label> {/* Using label directly */}
       </div>
     </StyledWrapper>
   );
@@ -110,4 +110,4 @@ const StyledWrapper = styled.div`
   }
 `;
 
-export default Form;
+export default ContactInput;

@@ -23,11 +23,11 @@ const ContactUs = () => {
         <div className="ContactUsInputContainerBottom">
           <form action="#">
             <div className="ContactUsInputContainerBottomMainInput">
-              <ContactInput type={"text"} label={"Name"} />
-              <ContactInput type={"email"} label={"Email address"} />
-              {/* <ContactInput type={"number"} label={"Phone number"} /> */}
-              <ContactInput type={"number"} label={"Phone number"} minLength={10} maxLength={11} />
-              <ContactInput type={"text"} label={"Interested in"} />
+              <ContactInput typepurpose={"text"} label={"Name"} />
+              <ContactInput typepurpose={"email"} label={"Email address"} />
+              {/* <ContactInput typepurpose={"number"} label={"Phone number"} /> */}
+              <ContactInput typepurpose={"number"} label={"Phone number"} minLength={10} maxLength={11} />
+              <ContactInput typepurpose={"text"} label={"Interested in"} />
               <div className="ContactUsTextarea">
                 <textarea
                   name="textarea"

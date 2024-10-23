@@ -7,7 +7,7 @@ import DropDown from "../Atoms/DropDown/DropDown";
 
 const Navbar = () => {
   const ArrEle = ["Home", "News", "About", "Contact"];
-  const ArrLink = ["/", "/news", "/about", "/contact"]; // Update links to match your routes
+  const ArrLink = ["/", "/News", "/about", "/contact"]; // Update links to match your routes
   const ClassName = [];
 
   return (
