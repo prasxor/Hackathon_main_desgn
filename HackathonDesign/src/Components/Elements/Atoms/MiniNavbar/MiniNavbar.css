@@ -2,9 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
-  width: 100%;
+  /* border: 1px solid red; */
+  width: 85%;
   height: 100%;
+  margin-top: 2%;
+  border-top: 1px solid #E0E0E2;
+  border-bottom: 1px solid #E0E0E2;
 }
 
 .NavbarItemss{
@@ -14,10 +17,14 @@
   flex-direction: row;
   color: #E0E0E2;
   text-decoration: none;
+  
 }
 
-.MiniNavbarList li{
+.NavbarItemss a{
   color: #E0E0E2;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .MiniNavbarList{
