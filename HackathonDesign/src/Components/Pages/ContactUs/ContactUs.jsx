@@ -3,8 +3,8 @@ import Navbar from "../../Elements/Navbar/Navbar";
 import KeyHighlights from "../../Elements/Atoms/KeyHighlights/KeyHighlights";
 import "./ContactUs.css";
 import ContactInput from "../../Elements/Atoms/ContactInput/ContactInput";
-import ContactBtn from "../../Elements/Atoms/Button/ContactBtn/ContactBtn"
-import Footer from "../../Elements/Footer/Footer"
+import ContactBtn from "../../Elements/Atoms/Button/ContactBtn/ContactBtn";
+import Footer from "../../Elements/Footer/Footer";
 import InputNumber from "../../Elements/Atoms/InputNumber/InputNumber";
 
 const ContactUs = () => {
@@ -23,11 +23,26 @@ const ContactUs = () => {
         <div className="ContactUsInputContainerBottom">
           <form action="#">
             <div className="ContactUsInputContainerBottomMainInput">
-              <ContactInput typepurpose={"text"} label={"Name"} />
-              <ContactInput typepurpose={"email"} label={"Email address"} />
+              <div className="ContactUsInputContainerBottomMainInputSubContainer">
+                <div className="ContactUsInputContainerBottomMainInputSeperateContaier">
+                  <ContactInput typepurpose={"text"} label={"Name"} />
+                </div>
+                <div className="ContactUsInputContainerBottomMainInputSeperateContaier">
+                  <ContactInput typepurpose={"email"} label={"Email address"} />
+                </div>
+                <div className="ContactUsInputContainerBottomMainInputSeperateContaier">
+                  <ContactInput
+                    typepurpose={"number"}
+                    label={"Phone number"}
+                    minLength={10}
+                    maxLength={11}
+                  />
+                </div>
+                <div className="ContactUsInputContainerBottomMainInputSeperateContaier">
+                  <ContactInput typepurpose={"text"} label={"Interested in"} />
+                </div>
+              </div>
               {/* <ContactInput typepurpose={"number"} label={"Phone number"} /> */}
-              <ContactInput typepurpose={"number"} label={"Phone number"} minLength={10} maxLength={11} />
-              <ContactInput typepurpose={"text"} label={"Interested in"} />
               <div className="ContactUsTextarea">
                 <textarea
                   name="textarea"
@@ -36,7 +51,7 @@ const ContactUs = () => {
                 ></textarea>
               </div>
               <div className="contactBtn">
-                <ContactBtn title={"Submit"}/>
+                <ContactBtn title={"Submit"} />
               </div>
             </div>
           </form>
