@@ -1,0 +1,60 @@
+.NewErrorBtnContainer {
+  border: 1.5px solid #313131;
+  width: 203px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 46px;
+  flex-direction: row;
+  padding: 6px;
+  background-color: #202128;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.NewErrorBtnContainer:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.NewErrorBtnSubContainerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 100%;
+}
+
+.NewErrorBtnContainer img {
+  height: 70%;
+  width: auto;
+  transition: filter 0.3s;
+}
+
+.NewErrorBtnContainer:hover img {
+  filter: invert(1);
+}
+
+.NewErrorBtnSubContainerRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  height: 100%;
+}
+
+.NewErrorBtnSubContainerRight button {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: #FFFFFF;
+  font-weight: medium;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.NewErrorBtnContainer:hover .NewErrorBtnSubContainerRight button {
+  color: black;
+}

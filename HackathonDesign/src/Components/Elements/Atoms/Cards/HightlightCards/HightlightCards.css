@@ -10,6 +10,7 @@
   justify-content: center;
   flex-direction: column;
   border: 2px solid #313131;
+  overflow: hidden;
 }
 
 .HightlightCardsTop{

@@ -1,5 +1,4 @@
-
-.NavbarMain {
+/* .NavbarMain {
   border: 1px solid  rgba(255, 255, 255, 0.5);
   width: 70vw;
   display: flex;
@@ -10,7 +9,21 @@
   height: 90px;
   margin: 0 30px;
   font-family: "Roboto", sans-serif;
-  /* border-opacity: 0.7; */
+} */
+.NavbarMain {
+  border: 1px solid rgba(255, 255, 255, 0.5); 
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 77px;
+  padding: 0 20px;
+  height: 90px;
+  margin: 0 30px;
+  font-family: "Roboto", sans-serif;
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(23, 24, 31, 0.5);
 }
 
 .NavbarList {
@@ -42,8 +55,6 @@
   border-radius: 30px;
 }
 
-
-
 .NavbarItems a {
   color: white;
   text-decoration: none;
@@ -58,12 +69,11 @@
   transition: 0.2s ease-out;
 }
 
-.NavbarItems a:hover{
+.NavbarItems a:hover {
   height: 100%;
   color: black;
   /* border: 1px solid red; */
 }
-
 
 .itemImg {
   width: 15% !important;
@@ -76,7 +86,7 @@
 
 .itemImg img {
   scale: 0.9;
-  mix-blend-mode: screen;
+  mix-blend-mode: lighten;
 }
 
 .toggle-container {
@@ -87,4 +97,3 @@
   align-items: center;
   justify-content: center;
 }
-

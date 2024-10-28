@@ -1,0 +1,59 @@
+.newsError{
+  /* border: 1px solid green; */
+  height: 620px;
+  width: 900px;
+  position: relative;
+}
+
+.NewsErrormsg{
+  /* border: 1px solid blue; */
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.NewsErrormsg p,.NewsErrormsg pre{
+  /* border: 1px solid red; */
+  font-family: "Outfit", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.NewsErrormsgmiddle{
+  position: relative;
+  right: 15%;
+}
+
+.NewsErrormsgbottom{
+  position: relative;
+  left: 15%;
+}
+
+p{
+  margin-bottom: 0  ;
+}
+
+.NewsErrorMsgBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid green; */
+  height: 20%;
+}
+
+.CartoonBlinkingEyes{
+  position: absolute;
+  bottom: 41%;
+  right: 24%;
+  z-index: 1;
+  opacity: 95%;
+  /* mix-blend-mode:multiply; */
+}
+
+.CartoonBlinkingEyes img{
+  width: 96px;
+}

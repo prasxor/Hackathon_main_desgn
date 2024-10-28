@@ -138,6 +138,7 @@ const SearchInput = ({ searchPlaceholder, onDataReceived }) => {
       const responseData = response.data.candidates[0].content.parts[0].text;
 
       setAnswer(responseData);
+      console.log(responseData)
 
       // Process the response to extract truthValue and link
       const { truthValue, link } = processResponseData(responseData);

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
-import Logo from "../../../assets/animatedLogo.gif";
+import Logo from "../../../assets/output-onlinegiftools.gif";
 import ToggleBtn from "../Atoms/ToggleBtn/ToggleBtn";
 import "./Navbar.css";
 import DropDown from "../Atoms/DropDown/DropDown";
