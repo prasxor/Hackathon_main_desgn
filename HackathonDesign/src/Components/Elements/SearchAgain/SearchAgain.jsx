@@ -8,12 +8,7 @@ const SearchAgain = ({ onClose }) => {
       <img src={SearchImg} alt="Read Full Article" />
       <button>Search Again</button>
     </div>
-    // <div id='SearchAgainContainer' onClick={onClose}>
-    //   <a href="" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-    //     <img src={SearchImg} alt="Read Full Article" />
-    //     <button>Search Again</button>
-    //   </a>
-    // </div>
+
   );
 };
 

@@ -2,6 +2,8 @@ import React from "react";
 import CloseImg from '../../../../assets/Faqclose.png';
 import OpenImg from '../../../../assets/Faqopen.png';
 import "./FaqItems.css";
+import plus from '../../../../assets/plus-solid.png';
+
 
 // FAQItem Component
 const FaqItems = ({ question, answer, isOpen, onClick }) => {
@@ -15,7 +17,8 @@ const FaqItems = ({ question, answer, isOpen, onClick }) => {
         <i>
           {/* Add conditional class for open and close animations */}
           <img 
-            src={isOpen ? CloseImg : OpenImg} 
+            // src={isOpen ? CloseImg : OpenImg} 
+            src={plus}
             alt={isOpen ? 'Close' : 'Open'} 
             className={isOpen ? 'close' : 'open'}
           />

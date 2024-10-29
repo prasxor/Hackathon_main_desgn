@@ -9,7 +9,14 @@
   flex-direction: column;
   border-radius: 22px;
   background-color: #202128;
+  transition: filter 0.4s ease-in-out;
+  cursor: pointer;
 }
+
+.FakeNewsCardsContainer:hover{
+  box-shadow: 1px 1px 40px 1px #3b3d49;
+}
+
 
 .FakeNewsCardsContainerTop {
   overflow: hidden;

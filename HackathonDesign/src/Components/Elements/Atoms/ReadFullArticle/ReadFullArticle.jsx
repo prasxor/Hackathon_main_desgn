@@ -3,11 +3,10 @@ import './ReadFullArticle.css';
 import readFullArticleImg from '../../../../assets/readfullarticle.png'; // Adjust the path as necessary
 
 const ReadFullArticle = ({ link, truthValue }) => {
-  console.log("Value of truthValue is: ", truthValue); // Log the truthValue for debugging
+  console.log("Value of truthValue is: ", truthValue);
 
-  // Convert truthValue to lowercase for consistent comparison
   if (truthValue.toLowerCase() !== "true") {
-    return null; // Do not render anything if truthValue is not "true"
+    return null;
   }
 
   return (
