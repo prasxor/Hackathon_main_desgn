@@ -38,11 +38,11 @@ const FaqSection = () => {
   ];
 
   return (
-    <div className="bg-gray-900 text-white p-8 min-h-screen FaqSectionMainComp">
+    <div className="text-white p-8 FaqSectionMainComp">
       <h1 className="text-4xl font-bold text-center mb-8">
         Frequently Asked Questions
       </h1>
-      <div className="max-w-2xl mx-auto FaqSectionMainCompContainer">
+      <div className="mx-auto FaqSectionMainCompContainer">
         {faqData.map((item, index) => (
           <FAQItem
             key={index}

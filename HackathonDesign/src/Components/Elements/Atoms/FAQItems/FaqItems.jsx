@@ -10,7 +10,7 @@ const FaqItems = ({ question, answer, isOpen, onClick }) => {
   return (
     <div className="mb-4 FaqItemsContainer">
       <div
-        className="flex justify-between items-center border-b border-gray-700 py-4 cursor-pointer FaqItemsContainerSub"
+        className="flex justify-between items-center border-gray-700 py-4 cursor-pointer FaqItemsContainerSub"
         onClick={onClick}
       >
         <h2 className="text-xl AccordianQuestion">{question}</h2>
@@ -24,7 +24,7 @@ const FaqItems = ({ question, answer, isOpen, onClick }) => {
           />
         </i>
       </div>
-      {isOpen && <p className="text-gray-400 mt-2 Accordiananswer">{answer}</p>}
+      {isOpen && <p className="text-gray-300 mt-2 Accordiananswer">{answer}</p>}
     </div>
   );
 };

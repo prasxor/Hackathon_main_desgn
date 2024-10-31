@@ -11,6 +11,7 @@
   flex-direction: column;
   scale: 1.2;
   margin-top: 60px;
+  background-image: url(../../../assets/background_particles.mp4);
 }
 
 .mainHomeTopContent {
