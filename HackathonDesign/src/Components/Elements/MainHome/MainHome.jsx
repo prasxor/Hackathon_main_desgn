@@ -1,49 +1,11 @@
-// import "./MainHome.css";
-// import RealText from "../../../assets/RealText.png";
-// import FakeText from "../../../assets/FakeText.png";
-// import SearchInput from "../../Elements/Atoms/SearchInput/SearchInput";
-// import { useEffect } from "react";
-// import Popup from "../Atoms/Popup/Popup";
 
-// const MainHome = ({ onDataReceived }) => {
-//   return (
-//     <>
-//     <div className="mainHomeContainer">
-//       <div className="mainHomeTopContent">
-//         <div className="mainHomeTopFirstTitle">
-//           <img src={RealText} alt="" />
-//           <h2>Or</h2>
-//           <img src={FakeText} alt="" />
-//         </div>
-//         <div className="mainHomeTopSecondTitle">
-//           <h1>Uncover the Facts!</h1>
-//         </div>
-//         <div className="mainHomeTopThirdTitle">
-//           <p>
-//             We help users determine the authenticity of news articles by
-//             providing fact-checking tools and resources.
-//           </p>
-//         </div>
-//       </div>
-//       <div className="mainHomeBottomInput">
-//         <SearchInput onDataReceived={onDataReceived} btnTitle={'Search'} searchPlaceholder={"Paste News or article"} />
-//       </div>
-//     </div>
-//     <Popup/>
-//     </>
-//   );
-// };
-
-// export default MainHome;
-
-
-// MainHome.js
-import "./MainHome.css"; // Import your CSS styles
-import RealText from "../../../assets/RealText.png"; // Importing images
+import "./MainHome.css";
+import RealText from "../../../assets/RealText.png"; 
 import FakeText from "../../../assets/FakeText.png";
+import Arrow from "../../../assets/arrow.png"
 import SearchInput from "../../Elements/Atoms/SearchInput/SearchInput";
-import { useState } from "react"; // Importing useState for state management
-import Popup from "../Atoms/Popup/Popup"; // Importing Popup component
+import { useState } from "react"; 
+import Popup from "../Atoms/Popup/Popup"; 
 
 const MainHome = ({ onDataReceived }) => {
   const [showPopup, setShowPopup] = useState(false); // State to manage Popup visibility
@@ -70,23 +32,25 @@ const MainHome = ({ onDataReceived }) => {
         ) : (
           <>
             <div className="mainHomeTopContent">
-              <div className="mainHomeTopFirstTitle">
+              {/* <div className="mainHomeTopFirstTitle">
                 <img src={RealText} alt="Real" />
                 <h2>Or</h2>
                 <img src={FakeText} alt="Fake" />
-              </div>
+              </div> */}
               <div className="mainHomeTopSecondTitle">
-                <h1>Uncover the Facts!</h1>
+                <h1>Verify News With One Click.</h1>
               </div>
               <div className="mainHomeTopThirdTitle">
                 <p>
-                  We help users determine the authenticity of news articles by
-                  providing fact-checking tools and resources.
+                Enter a headline to uncover the truth.
                 </p>
+              </div>
+              <div className="mainHomeTopFourthArrow">
+                <img src={Arrow} alt="" />
               </div>
             </div>
             <div className="mainHomeBottomInput">
-              <SearchInput onDataReceived={handleDataReceived} btnTitle={'Search'} searchPlaceholder={"Paste News or article"} />
+              <SearchInput onDataReceived={handleDataReceived} btnTitle={'Search'} searchPlaceholder={"Paste Url or Article"} />
             </div>
           </>
         )}

@@ -11,7 +11,6 @@ import Footer from "../../Elements/Footer/Footer";
 import SixthSection from "../../Elements/SixthSection/SixthSection";
 import Tempo from "../../Elements/Tempo/Tempo";
 
-
 const Home = () => {
   const [truthValue, setTruthValue] = useState("");
   const [link, setLink] = useState("");
@@ -25,11 +24,8 @@ const Home = () => {
 
   return (
     <div id="HomeMainContainer">
-      {/* <div id="NavbarComponent">
-        <Navbar />
-      </div> */}
       <div className="MainHomeComp">
-        <MainHome onDataReceived={handleDataReceived} />{" "}
+        <MainHome onDataReceived={handleDataReceived} />
       </div>
       <div className="SecondHomeComp">
         <SecondHome />

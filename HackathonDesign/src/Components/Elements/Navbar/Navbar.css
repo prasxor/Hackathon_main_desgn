@@ -1,41 +1,46 @@
-/* .NavbarMain {
-  border: 1px solid  rgba(255, 255, 255, 0.5);
-  width: 70vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 77px;
-  padding: 0 20px;
-  height: 90px;
-  margin: 0 30px;
-  font-family: "Roboto", sans-serif;
-} */
+
 .NavbarMain {
-  border: 1px solid rgba(255, 255, 255, 0.5); 
-  width: 70vw;
+  width: 80vw;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border-radius: 77px;
   padding: 0 20px;
   height: 90px;
   margin: 0 30px;
   font-family: "Roboto", sans-serif;
-  backdrop-filter: blur(10px); 
-  -webkit-backdrop-filter: blur(10px);
-  background-color: rgba(23, 24, 31, 0.5);
+  /* backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); */
+  /* border: 1px solid red; */
 }
 
 .NavbarList {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-direction: row;
   list-style-type: none;
-  width: 90%;
-  padding: 0 20px;
-  height: 100%;
+  width: 40%;
   margin-bottom: 0;
+  border: 1px solid #313131;
+  border-radius: 77px;
+  padding: 0 10px;
+  height: 80px;
+  margin: 0 50px;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  font-family: "Roboto", sans-serif;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-size: 18px;
+}
+
+
+.NavbarList2{
+  width: 134px;
+  font-size: 18px;
+  padding: 0 !important;
+  /* border: 1px solid red; */
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .NavbarItems {
@@ -47,11 +52,15 @@
   transition: 0.2s ease-out;
 }
 
+.NavbarItems2:hover{
+  width: 70% !important;
+}
+
 .NavbarItems:hover {
-  width: 8%;
+  width: 30%;
   color: black;
   background-color: white;
-  height: 45%;
+  height: 60%;
   border-radius: 30px;
 }
 
@@ -83,11 +92,12 @@
   /* border: 1px solid red; */
   height: 100% !important;
   margin-left: 20px;
+  mix-blend-mode: difference;
 }
 
 .itemImg img {
-  scale: 0.29;
-  mix-blend-mode: lighten;
+  scale: 0.23;
+  mix-blend-mode: screen;
 }
 
 .toggle-container {
