@@ -9,7 +9,7 @@ import DropDown from "../Atoms/DropDown/DropDown";
 
 const Navbar = () => {
   const ArrEle = ["Home", "About", "FAQ", "Contact"];
-  const ArrLink = ["/", "/about", "/News", "/contact"];
+  const ArrLink = ["/", "/about", "#", "/contact"];
   const ArrEle2 = ["News"];
   const ArrLink2 = ["/News"];
 

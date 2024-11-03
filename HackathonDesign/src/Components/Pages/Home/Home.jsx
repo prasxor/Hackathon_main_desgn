@@ -1,15 +1,11 @@
 import { useState } from "react";
-import Navbar from "../../Elements/Navbar/Navbar";
 import MainHome from "../../Elements/MainHome/MainHome";
 import SecondHome from "../../Elements/SecondHome/SecondHome";
 import "./Home.css";
 import ThirdHome from "../../Elements/ThirdHome/ThirdHome";
 import FourthHome from "../../Elements/FourthHome/FourthHome";
 import FifthSection from "../../Elements/FifthSection/FifthSection";
-import Popup from "../../Elements/Atoms/Popup/Popup";
-import Footer from "../../Elements/Footer/Footer";
 import SixthSection from "../../Elements/SixthSection/SixthSection";
-import Tempo from "../../Elements/Tempo/Tempo";
 
 const Home = () => {
   const [truthValue, setTruthValue] = useState("");
