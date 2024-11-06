@@ -1,11 +1,11 @@
-.SecondHomePara{
+.SecondHomePara {
   font-size: 55px;
   font-family: "Roboto", sans-serif;
   margin-top: 20px;
   margin-bottom: 60px;
 }
 
-.SecondHomeContainer{
+.SecondHomeContainer {
   width: 100%;
   /* border: 1px solid red; */
   display: flex;
@@ -15,30 +15,36 @@
   height: auto;
 }
 
-.HightlightCardsMain{
+.HightlightCardsMain {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
   width: 90%;
-  border: 1px solid red;
-  height: 650px;
+  /* border: 1px solid red; */
+  height: 600px;
   padding: 20px;
   gap: 20px;
 }
 
-.HightlightCardsMainSubContainer{
-  border: 1px solid green;
-  width: 33.3%;
+.HightlightCardsMainSubContainer {
+  border: 1px solid #313131;
+  width: 30%;
   height: 100%;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  /* background-color: #131313; */
 }
 
-.HightlightCardsMainSubContainermiddle{
+.HightlightCardsMainSubContainerleft {
+  padding: 25px;
+  background-color: #131313;
+}
+
+.HightlightCardsMainSubContainermiddle {
   width: 50%;
   /* border: 1px  solid blue; */
   border: none;
@@ -50,34 +56,163 @@
   gap: 20px;
 }
 
-
-.HightlightCardsMainSubContainerMiddleSubTop, .HightlightCardsMainSubContainerMiddleSubBottom{
-  border: 1px solid green;
+.HightlightCardsMainSubContainerMiddleSubTop,
+.HightlightCardsMainSubContainerMiddleSubBottom {
+  border: 1px solid #313131;
   width: 100%;
   height: 48%;
   border-radius: 20px;
+  background-color: #131313;
+  padding: 25px;
 }
 
-.HightlightCardsMainSubContainerRight{
+.HightlightCardsMainSubContainerRight {
   border: none;
-  width: 20%;
+  width: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
-.HightlightCardsMainSubContainerRigthRowTop{
-  height: 65%;
+.HightlightCardsMainSubContainerRigthRowTop {
+  height: 58%;
+  padding: 25px;
   width: 100%;
-  border: 2px solid green;
+  border: 2px solid #313131;
   border-radius: 20px;
+  background-color: #131313;
+}
+
+.HightlightCardsMainSubContainerRigthRowBottom {
+  height: 38%;
+  width: 100%;
+  border: 1px solid #313131;
+  border-radius: 20px;
+  background-color: #131313;
+}
+
+.HightlightCardsMainSubContainerrowtop {
+  height: 20%;
+  /* border: 1px solid red; */
+  width: 100%;
+  padding: 10px;
+}
+
+.HightlightCardsMainSubContainerrowtop img {
+  width: 60 px;
+}
+
+.HightlightCardsMainSubContainerrowMiddle {
+  height: 15%;
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.HightlightCardsMainSubContainerrowMiddle h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  text-align: left;
+}
+
+.HightlightCardsMainSubContainerrowBottom {
+  height: 65%;
+  /* border: 1px solid blue; */
+  display: flex;
+  /* align-items: center; */
+  padding: 10px 20px 0px 0px;
+  justify-content: center;
+}
+
+.HightlightCardsMainSubContainerrowBottom p {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  color: #929292;
+  text-align: left;
+  line-height: 1.3;
+}
+
+.HightlightCardsMainSubContainerrowtoplast {
+  height: 30%;
+  padding: 0px 25px 0px 0px;
+}
+
+.HightlightCardsMainSubContainerrowBottomlast {
+  height: 55%;
+}
+
+.HightlightCardsMainSubContainerMiddleSubTopInner {
+  /* border: 1px solid red; */
+  height: 50%;
+}
+
+.HightlightCardsMainSubContainerMiddleSubBottomInnerSubSecond {
+  /* border: 1px solid blue; */
+  height: 50%;
+  padding: 10px 25px 10px 25px;
+}
+
+.HightlightCardsMainSubContainerMiddleSubTopInner {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: row;
+  gap: 25px;
+}
+
+.HightlightCardsMainSubContainerMiddleSubBottomInnerSubSecond p {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  color: #929292;
+  text-align: left;
+  line-height: 1.3;
+}
+
+.HightlightCardsMainSubContainerMiddleSubTopInnerSubFirst h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  text-align: left;
+}
+
+.HightlightCardsMainSubContainerMiddleSubTopInnerSubFirst {
+  padding: 25px 0 25px 25px;
+}
+
+.HightlightCardsMainSubContainerMiddleSubTop,
+.HightlightCardsMainSubContainerMiddleSubBottom {
+  padding: 25px 0 25px 25px;
+}
+
+.HightlightCardsMainSubContainerMiddleSubTopInnerSubFirst1 h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  text-align: left;
 }
 
 .HightlightCardsMainSubContainerRigthRowBottom{
-  height: 45%;
-  width: 100%;
-  border: 1px solid green;
-  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.HightlightCardsMainSubContainerRigthRowBottom p{
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  color: #929292;
+  text-align: left;
+  line-height: 1.3;
 }
