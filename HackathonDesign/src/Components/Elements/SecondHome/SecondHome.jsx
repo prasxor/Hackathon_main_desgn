@@ -42,7 +42,7 @@ const SecondHome = () => {
       <KeyHighlights text={"Key Highlights"} />
       <p className="SecondHomePara">What Sets Us Apart</p>
       <div className="HightlightCardsMain">
-        <HightlightCards
+        {/* <HightlightCards
           logo={cardsData.card1.logo}
           title={cardsData.card1.title}
           desc={cardsData.card1.description}
@@ -56,7 +56,20 @@ const SecondHome = () => {
           logo={cardsData.card3.logo}
           title={cardsData.card3.title}
           desc={cardsData.card3.description}
-        />
+        /> */}
+        <div className="HightlightCardsMainSubContainer HightlightCardsMainSubContainerleft">
+          <div className="HightlightCardsMainSubContainerrowtop"></div>
+          <div className="HightlightCardsMainSubContainerrowMiddle"></div>
+          <div className="HightlightCardsMainSubContainerrowBottom"></div>
+        </div>
+        <div className="HightlightCardsMainSubContainer HightlightCardsMainSubContainermiddle">
+          <div className="HightlightCardsMainSubContainerMiddleSubTop"></div>
+          <div className="HightlightCardsMainSubContainerMiddleSubBottom"></div>
+        </div>
+        <div className="HightlightCardsMainSubContainer HightlightCardsMainSubContainerRight">
+          <div className="HightlightCardsMainSubContainerRigthRowTop"></div>
+          <div className="HightlightCardsMainSubContainerRigthRowBottom"></div>
+        </div>
       </div>
     </div>
   );
