@@ -135,6 +135,7 @@
   font-family: "Roboto", sans-serif;
   line-height: 20px;
   color: #929292;
+
   text-align: left;
   line-height: 1.3;
 }
@@ -201,14 +202,14 @@
   text-align: left;
 }
 
-.HightlightCardsMainSubContainerRigthRowBottom{
+.HightlightCardsMainSubContainerRigthRowBottom {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 30px;
 }
 
-.HightlightCardsMainSubContainerRigthRowBottom p{
+.HightlightCardsMainSubContainerRigthRowBottom p {
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
   line-height: 20px;

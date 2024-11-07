@@ -6,6 +6,7 @@ import Logo1 from "../../../../src/assets/firstCardsfirst.png";
 import Logo2 from "../../../../src/assets/firstCardsSecond.png";
 import Logo3 from "../../../../src/assets/firstCardsThird.png";
 import Logo4 from "../../../../src/assets/firstCardsFourth.png";
+import Cursor from "../Atoms/Cursor/Cursor"
 
 
 const SecondHome = () => {
@@ -45,6 +46,7 @@ const SecondHome = () => {
       <KeyHighlights text={"Key Highlights"} />
       <p className="SecondHomePara">What Sets Us Apart</p>
       <div className="HightlightCardsMain">
+      <Cursor />
         {/* <HightlightCards
           logo={cardsData.card1.logo}
           title={cardsData.card1.title}
