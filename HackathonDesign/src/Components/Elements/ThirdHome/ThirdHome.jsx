@@ -1,48 +1,77 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./ThirdHome.css";
-import Img from "../../../assets/ThirdSectionTitle.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 import FakeNewsCards from "../Atoms/Cards/FakeNewsCards/FakeNewsCards";
 import FakeData from "../../Data/TrendingNewsData.json";
-import NotAvailable from '../../../assets/noImageAvailable.png';
-import Img1 from '../../../assets/FakeNewsImg1.jpg';
-import Img2 from '../../../assets/FakeNewsImg2.avif';
-import Img3 from '../../../assets/FakeNewsImg3.jpg';
-import Img4 from '../../../assets/FakeNewsImg4.webp';
-import Img5 from '../../../assets/FakeNewsImg5.webp';
-import Img6 from '../../../assets/FakeNewsImg6.jpg';
+import KeyHighlights from "../Atoms/KeyHighlights/KeyHighlights";
+import KeyHighlightBtn from "../Atoms/Button/KeyHighlightsBtn/KeyHighlightBtn";
+import shuffleImg from "../../../assets/ShuffleBtn.png";
+import Img1 from "../../../assets/FakeNewsImg1.jpg";
+import Img2 from "../../../assets/FakeNewsImg2.avif";
+import Img3 from "../../../assets/FakeNewsImg3.jpg";
+import Img4 from "../../../assets/FakeNewsImg4.webp";
+import Img5 from "../../../assets/FakeNewsImg5.webp";
+import Img6 from "../../../assets/FakeNewsImg6.jpg";
+import leftArrow from "../../../assets/left_Arrow_card.png";
+import rightArrow from "../../../assets/Right_Arrow_card.png";
 
 const ThirdHome = () => {
+  const swiperRef = useRef(null);
+
+  // Array of images to pass dynamically
+  const images = [Img1, Img2, Img3, Img4, Img5, Img6];
+
+  const handlePrevClick = () => {
+    swiperRef.current.swiper.slidePrev();
+  };
+
+  const handleNextClick = () => {
+    swiperRef.current.swiper.slideNext();
+  };
+
   return (
     <div className="ThirdHomeContainer">
-      <div className="ThirdHomeContainerTitle">
-        <img src={Img} alt="" />
-        <p>Trending Fake News</p>
+      <div className="ThirdHomeContainerKeyHightlights">
+        <KeyHighlights text={"Trending"} />
       </div>
-      <div id="FakeNewsCardsMainContainer">
-        <FakeNewsCards
-          Title={FakeData.News.FakeNews[0].TITLE}
-          Image={Img1}
-        />
-        <FakeNewsCards
-          Title={FakeData.News.FakeNews[1].TITLE}
-          Image={Img2}
-        />
-        <FakeNewsCards
-          Title={FakeData.News.FakeNews[6].TITLE}
-          Image={Img3}
-        />
-        <FakeNewsCards
-          Title={FakeData.News.FakeNews[3].TITLE}
-          Image={Img4}
-        />
-        <FakeNewsCards
-          Title={FakeData.News.FakeNews[4].TITLE}
-          Image={Img5}
-        />
-        <FakeNewsCards
-          Title={FakeData.News.FakeNews[5].TITLE}
-          Image={Img6}
-        />
+      <div className="ThirdHomeContainerTitle">
+        <KeyHighlightBtn image={shuffleImg} text={"Shuffle"} />
+        <p>Fake News</p>
+        <KeyHighlightBtn text={"View All"} />
+      </div>
+      <div className="FakeNewsCardsMainContainer">
+        {/* Left Arrow */}
+        <div className="FakeNewsCardsMainContainerLeft" onClick={handlePrevClick}>
+          <img src={leftArrow} alt="Left Arrow" />
+        </div>
+        
+        {/* Swiper Container */}
+        <div id="FakeNewsCardsMainContainerSub">
+          <Swiper
+            spaceBetween={20} // Space between each card
+            slidesPerView={3} // Show 3 cards at a time
+            onSlideChange={() => console.log("slide change")}
+            onSwiper={(swiper) => console.log(swiper)}
+            ref={swiperRef}
+          >
+            {FakeData.News.FakeNews.map((news, index) => (
+              <SwiperSlide key={index}>
+                <FakeNewsCards
+                  Title={news.TITLE}
+                  Image={images[index % images.length]}
+                  Para={"We send you timely email notifications about trending fake news stories relevant to your interests, helping you stay informed and vigilant"}
+                />
+                {/* <FakeNewsCards Image={images[0]} Title={"Lorem ipsum dolor sit amet"} Para={"We send you timely email notifications about trending fake news stories relevant to your interests, helping you stay informed and vigilant."}/> */}
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+
+        {/* Right Arrow */}
+        <div className="FakeNewsCardsMainContainerRight" onClick={handleNextClick}>
+          <img src={rightArrow} alt="Right Arrow" />
+        </div>
       </div>
     </div>
   );

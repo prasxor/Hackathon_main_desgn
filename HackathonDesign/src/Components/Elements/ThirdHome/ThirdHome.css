@@ -1,4 +1,4 @@
-.ThirdHomeContainer{
+.ThirdHomeContainer {
   /* border: 1px solid green; */
   width: 100%;
   height: auto;
@@ -7,34 +7,121 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
-.ThirdHomeContainerTitle{
+.ThirdHomeContainerTitle {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 40px;
   /* border: 1px solid red; */
-  width: max-content;
-  /* padding-left: 5%; */
-  gap:7px;
-  margin-bottom: 5%;
+  width: 90%; /* Adjusts to Swiper width */
+  height: 100px;
+  gap: 7px;
+  margin-bottom: 2%;
 }
 
-.ThirdHomeContainerTitle p{
+.ThirdHomeContainerTitle p {
   margin-bottom: 0px !important;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
 
-#FakeNewsCardsMainContainer{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 0 30px;
-  row-gap: 10px;
-  height: 100vh;
+.FakeNewsCardsMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  height: 600px;
   /* border: 1px solid rgb(54, 9, 255); */
-  place-items: center;
+  overflow: hidden;
+  flex-direction: row;
+  position: relative; /* This is important for positioning arrows */
 }
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: 502px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #fff; */
+  width: 400px; /* Makes sure each slide takes full width available */
+}
+
+.ThirdHomeContainerKeyHightlights {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .ThirdHomeContainerTitle p {
+    font-size: 30px;
+  }
+
+  .FakeNewsCardsMainContainer {
+    width: 100%;
+  }
+
+  .swiper-slide {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
+#FakeNewsCardsMainContainerSub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Takes full available width */
+  height: 502px;
+}
+
+.FakeNewsCardsMainContainerLeft,
+.FakeNewsCardsMainContainerRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Adjust the width for your arrows */
+  height: 100%; /* Ensures they take full height of the swiper container */
+  z-index: 999;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.FakeNewsCardsMainContainerLeft {
+  left: -40px;
+  position: relative;
+}
+
+.FakeNewsCardsMainContainerRight {
+  right: -40px;
+  position: relative;
+}
+
+.FakeNewsCardsMainContainerLeft img,
+.FakeNewsCardsMainContainerRight img {
+  width: 40px; /* Adjust the image size */
+  height: 40px; /* Set a fixed height for arrow images */
+  cursor: pointer;
+  /* border: 1px solid green; */
+}
+
+/* Ensures the swiper container and slides are responsive */
+.mySwiper, #FakeNewsCardsMainContainerSub {
+  max-width: 1350px;
+  width: 100%;
+  /* border: 1px solid blue; */
+  /* padding: 0 40px; */
+}
+

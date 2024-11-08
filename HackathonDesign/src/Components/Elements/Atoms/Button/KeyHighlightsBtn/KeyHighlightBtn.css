@@ -1,0 +1,43 @@
+.KeyHighlightBtnMain {
+  border: 2px solid #313131;
+  background-color: transparent;
+  border-radius: 48px;
+  width: 155px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.KeyHighlightBtnMain button{
+  background-color: #131313;
+  border-radius: 48px;
+  text-decoration: none;
+  border: none;
+  color: #929292;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.KeyHighlightBtnMain button img{
+  /* border: 1px solid green; */
+  /* width: 28px; */
+  height: 28px;
+}
+
+.KeyHighlightBtnMain button a{
+  text-decoration: none;
+  color: #929292;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  height: 100%;
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

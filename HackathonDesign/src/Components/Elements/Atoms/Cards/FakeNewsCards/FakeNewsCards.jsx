@@ -2,7 +2,7 @@ import React from 'react'
 import './FakeNewsCards.css'
 // import Img from '../../../../../assets/ThirdSectioncards.png'
 
-const FakeNewsCards = ({Image, Title}) => {
+const FakeNewsCards = ({Image, Title, Para}) => {
   console.log({Image})
   return (
     <div className='FakeNewsCardsContainer'>
@@ -10,7 +10,8 @@ const FakeNewsCards = ({Image, Title}) => {
         <img src={Image} alt="" />
       </div>
       <div className="FakeNewsCardsContainerBottom">
-        <p>{Title}</p>
+        <h1>{Title}</h1>
+        <p>{Para}</p>
       </div>
     </div>
   )

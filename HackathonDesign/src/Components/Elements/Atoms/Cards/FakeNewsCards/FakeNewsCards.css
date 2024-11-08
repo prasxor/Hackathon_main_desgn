@@ -1,28 +1,31 @@
 .FakeNewsCardsContainer {
   /* border: 1.5px solid #313131; */
   /* border: 1px solid red; */
-  height: 70%;
-  width: 80%;
+  height: 502px;
+  width: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   border-radius: 22px;
-  background-color: #202128;
+  background-color: transparent;
   transition: filter 0.4s ease-in-out;
   cursor: pointer;
+  border: 2px solid #313131;
 }
 
-.FakeNewsCardsContainer:hover{
+/* .FakeNewsCardsContainer:hover{
   box-shadow: 1px 1px 40px 1px #3b3d49;
-}
+} */
 
 
 .FakeNewsCardsContainerTop {
   overflow: hidden;
-  height: 70%;
+  height: 238px;
   /* border: 1px solid green; */
   width: 100%;
+  
+
 }
 
 .FakeNewsCardsContainerTop img {
@@ -31,18 +34,26 @@
   width: 100%;
   display: block;
   height: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: flex-start;
 }
 
 .FakeNewsCardsContainerBottom {
-  height: 30%;
+  height: 265px;
   /* border: 1px solid blue; */
   overflow: hidden;
   padding: 10px 16px 0 20px;
 }
 
-.FakeNewsCardsContainerBottom p {
-  margin-bottom: 0px !important;
-  font-size: 1.2rem;
+.FakeNewsCardsContainerBottom h1 {
+  margin-bottom: 15px !important;
+  font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
-  text-align: center;
+  text-align: left;
+}
+
+.FakeNewsCardsContainerBottom p{
+  padding: 0 20px 0 0;
+  line-height: 1.3rem;
 }
