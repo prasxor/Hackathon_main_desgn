@@ -22,7 +22,7 @@ body {
   width: 100%;
   background-color: #0D0D0D !;
   overflow-x: hidden;
-  position: relative;
+  /* position: relative; */
   /* overflow-y: hidden; */
 }
 
@@ -56,8 +56,8 @@ body {
   width: 100%;
   /* border: 1px solid red; */
   padding: 0 50px;
-  position: relative;
-  top: -250px;
+  /* position: relative;
+  top: -250px; */
 }
 
 

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./ThirdHome.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -6,7 +6,7 @@ import FakeNewsCards from "../Atoms/Cards/FakeNewsCards/FakeNewsCards";
 import FakeData from "../../Data/TrendingNewsData.json";
 import KeyHighlights from "../Atoms/KeyHighlights/KeyHighlights";
 import KeyHighlightBtn from "../Atoms/Button/KeyHighlightsBtn/KeyHighlightBtn";
-import shuffleImg from "../../../assets/ShuffleBtn.png";
+import RefreshBtn from "../../../assets/RefreshBtn.svg";
 import Img1 from "../../../assets/FakeNewsImg1.jpg";
 import Img2 from "../../../assets/FakeNewsImg2.avif";
 import Img3 from "../../../assets/FakeNewsImg3.jpg";
@@ -30,22 +30,30 @@ const ThirdHome = () => {
     swiperRef.current.swiper.slideNext();
   };
 
+
+
   return (
     <div className="ThirdHomeContainer">
       <div className="ThirdHomeContainerKeyHightlights">
         <KeyHighlights text={"Trending"} />
       </div>
       <div className="ThirdHomeContainerTitle">
-        <KeyHighlightBtn image={shuffleImg} text={"Shuffle"} />
+        <KeyHighlightBtn
+        image={RefreshBtn}
+        text="Refresh"
+      />
         <p>Fake News</p>
         <KeyHighlightBtn text={"View All"} />
       </div>
       <div className="FakeNewsCardsMainContainer">
         {/* Left Arrow */}
-        <div className="FakeNewsCardsMainContainerLeft" onClick={handlePrevClick}>
+        <div
+          className="FakeNewsCardsMainContainerLeft"
+          onClick={handlePrevClick}
+        >
           <img src={leftArrow} alt="Left Arrow" />
         </div>
-        
+
         {/* Swiper Container */}
         <div id="FakeNewsCardsMainContainerSub">
           <Swiper
@@ -60,7 +68,9 @@ const ThirdHome = () => {
                 <FakeNewsCards
                   Title={news.TITLE}
                   Image={images[index % images.length]}
-                  Para={"We send you timely email notifications about trending fake news stories relevant to your interests, helping you stay informed and vigilant"}
+                  Para={
+                    "We send you timely email notifications about trending fake news stories relevant to your interests, helping you stay informed and vigilant"
+                  }
                 />
                 {/* <FakeNewsCards Image={images[0]} Title={"Lorem ipsum dolor sit amet"} Para={"We send you timely email notifications about trending fake news stories relevant to your interests, helping you stay informed and vigilant."}/> */}
               </SwiperSlide>
@@ -69,7 +79,10 @@ const ThirdHome = () => {
         </div>
 
         {/* Right Arrow */}
-        <div className="FakeNewsCardsMainContainerRight" onClick={handleNextClick}>
+        <div
+          className="FakeNewsCardsMainContainerRight"
+          onClick={handleNextClick}
+        >
           <img src={rightArrow} alt="Right Arrow" />
         </div>
       </div>

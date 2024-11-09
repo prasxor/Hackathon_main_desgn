@@ -130,6 +130,6 @@ height: auto;
   flex-direction: column;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
-  top: -250px;
+  /* position: relative;
+  top: -250px; */
 }
