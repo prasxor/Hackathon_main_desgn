@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 670px;
+  width: 90%;
   padding: 0 8px;
   flex-direction: column;
   scale: 1.2;
@@ -89,4 +89,18 @@
 .mainHomeTopFourthArrow img {
   transform: scale(0.5) rotate(46deg);
   mix-blend-mode: screen;
+}
+
+
+/* tempo  */
+
+.PopupcontainerMain{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 792px;
+  width: 100%;
+  position:relative;
+  border: 1px solid green;
+  top: -89px;
 }

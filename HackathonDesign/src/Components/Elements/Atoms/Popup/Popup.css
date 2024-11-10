@@ -1,4 +1,4 @@
-#PopupContainer {
+/* #PopupContainer {
   border: 1px solid #313131;
   background-color: #101010;
   border-radius: 47px;
@@ -7,20 +7,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* background-image: url(../../../../assets/backgroundGreen.png); */
   background-repeat: no-repeat;
   background-size: 70%;
-  scale: 1.1;
-  /* border: 1px solid red; */
-  /* position: fixed;
-  top: 0; 
-  right: 0; 
-  bottom: 0; 
-  left: 0; 
-  background-color: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(4px);
-  z-index: 1000; */
-}
+  scale: 1;
+  border: 1px solid red;
+
+} */
 
 #closebtn {
   display: flex;
@@ -83,14 +75,7 @@
   scale: 0.7;
 }
 
-#ProgressBarBottom {
-  width: 631px;
-  height: 32px;
-  border: 1px solid #313131;
-  background-color: #202128;
-  border-radius: 46px;
-  scale: 0.8;
-}
+
 
 #ProgressBarTop p {
   font-size: 20px;
@@ -133,9 +118,9 @@
   background-repeat: no-repeat;
   background-size: 70%;
   scale: 1.1;
-  height: 700px;
+  height: 850px;
   width: 100%;
-  max-width: 900px; /* Adjust to control max size */
+  max-width: 80%; /* Adjust to control max size */
   transition: background-image 0.3s ease; /* Smooth transition for background */
 }
 
@@ -183,20 +168,20 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 40%;
+  height: 100%;
   width: 100%;
   gap: 20%;
   scale: 0.8;
+  border: 1px solid green;
 }
 
 #ProgressBarBottom {
-  width: 100%;
-  max-width: 631px;
-  height: 32px;
-  border: 1px solid #313131;
-  background-color: #202128;
-  border-radius: 46px;
-  overflow: hidden; /* Ensure no overflow */
+  width: 350px;
+  height: 350px;
+  border: 50px solid #0ACF83;
+  /* background-color: #202128; */
+  border-radius: 50%;
+  scale: 0.8;
 }
 
 #ProgressBarTop p {
@@ -206,9 +191,103 @@
 }
 
 .progressBarBottomIndicator {
+  height: 350px;
+  border-radius: 50%;
+  transition: width 1s ease-in-out;
+  width: 350px;
+  border: 1px solid blue;
+}
+
+#ArticlePopup {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 0.9;
+  scale: 0.7;
+}
+
+.MistakeContainer {
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+  scale: 0.8;
+}
+
+.MistakeContainer p {
+  font-size: 18px;
+  font-family: "Inter", Roboto;
+  color: #f1f1f1;
+}
+
+
+
+
+
+
+
+
+/* chat gpt code  */
+
+#PopupContainer {
+  border: 1px solid #313131;
+  background-color: #101010;
+  border-radius: 47px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  scale: 1.1;
+  height: 850px;
+  width: 100%;
+  max-width: 80%;
+  transition: background-image 0.3s ease;
+}
+
+#closebtn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 10%;
+  cursor: pointer;
+}
+
+#closebtn img {
+  width: 3%;
+}
+
+#progressBarPopup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 100%;
-  border-radius: 46px;
-  transition: width 1s ease-in-out; /* Smooth animation for progress */
+  width: 100%;
+  gap: 20%;
+}
+
+#ProgressBarBottom {
+  width: 350px;
+  height: 350px;
+  border: 50px solid #0ACF83;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progressBarBottomIndicator {
+  height: 350px;
+  border-radius: 50%;
+  transition: width 1s ease-in-out;
+  width: 350px;
 }
 
 #ArticlePopup {

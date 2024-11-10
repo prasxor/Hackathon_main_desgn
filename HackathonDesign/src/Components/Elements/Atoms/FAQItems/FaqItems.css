@@ -43,18 +43,18 @@
 }
 
 .FaqItemsContainerSub img.close {
-  transform: rotate(270deg); /* Flipped vertically (rotated 270deg) when open */
+  transform: rotate(270deg); 
 }
 
 .FaqItemsContainerSub img.open {
-  transform: rotate(90deg); /* Default rotation (90deg) for closed state */
+  transform: rotate(90deg); 
 }
 
 .Accordiananswer {
   animation: fadeIn 0.7s ease-in-out;
 }
 
-/* Fade-in effect for the answer text */
+
 @keyframes fadeIn {
   from {
     opacity: 0;

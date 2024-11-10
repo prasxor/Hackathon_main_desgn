@@ -6,6 +6,7 @@ import ThirdHome from "../../Elements/ThirdHome/ThirdHome";
 import FourthHome from "../../Elements/FourthHome/FourthHome";
 import FifthSection from "../../Elements/FifthSection/FifthSection";
 import SixthSection from "../../Elements/SixthSection/SixthSection";
+import Popup from "../../Elements/Atoms/Popup/Popup";
 
 const Home = () => {
   const [truthValue, setTruthValue] = useState("");
@@ -21,7 +22,10 @@ const Home = () => {
   return (
     <div id="HomeMainContainer">
       <div className="MainHomeComp">
-        <MainHome onDataReceived={handleDataReceived} />
+        {/* <MainHome onDataReceived={handleDataReceived} /> */}
+        <div className="PopupcontainerMain">
+          <Popup truthValue={truthValue} link={link} />
+        </div>
       </div>
       <div className="SecondHomeComp">
         <SecondHome />
