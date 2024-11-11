@@ -1,4 +1,5 @@
 .FaqItemsContainer {
+  /* border: 1px solid red; */
   width: 100%;
   display: flex;
   align-content: center;
@@ -14,6 +15,7 @@
   justify-content: space-between;
   flex-direction: row;
   gap: 12px;
+
   position: relative;
   font-family: "Roboto", sans-serif;
   padding: 0 20px;
@@ -33,10 +35,11 @@
   color: #E0E0E2;
 }
 
-/* Image flipping styles */
+/* FaqItems.css */
+
 .FaqItemsContainerSub img {
   transition: transform 0.8s ease-in-out, opacity 0.3s ease-in-out;
-  transform: rotate(90deg); /* Start rotated by 90 degrees */
+  transform: rotate(360deg);
   opacity: 1;
   width: 29px;
   filter: brightness(100);
@@ -48,12 +51,20 @@
 
 .FaqItemsContainerSub img.open {
   transform: rotate(90deg); 
+  transform: rotate(45deg); 
+}
+
+.FaqItemsContainerSub img.open {
+  transform: rotate(-180deg); 
 }
 
 .Accordiananswer {
   animation: fadeIn 0.7s ease-in-out;
 }
 
+
+
+/* Adding a fade-in effect for the answer text */
 
 @keyframes fadeIn {
   from {

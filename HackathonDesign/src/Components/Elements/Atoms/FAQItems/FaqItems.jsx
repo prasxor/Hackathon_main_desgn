@@ -2,7 +2,7 @@ import React from "react";
 import CloseImg from '../../../../assets/Faqclose.png';
 import OpenImg from '../../../../assets/Faqopen.png';
 import "./FaqItems.css";
-import plus from '../../../../assets/Faqclose.png';
+import plus from '../../../../assets/plus-solid.png';
 
 
 // FAQItem Component

@@ -22,9 +22,9 @@ const Home = () => {
   return (
     <div id="HomeMainContainer">
       <div className="MainHomeComp">
-        {/* <MainHome onDataReceived={handleDataReceived} /> */}
         <div className="PopupcontainerMain">
-          <Popup truthValue={truthValue} link={link} />
+        <MainHome onDataReceived={handleDataReceived} />
+          {/* <Popup truthValue={truthValue} link={link} /> */}
         </div>
       </div>
       <div className="SecondHomeComp">

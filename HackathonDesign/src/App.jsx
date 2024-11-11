@@ -6,7 +6,6 @@ import ContactUs from "./Components/Pages/ContactUs/ContactUs";
 import Footer from "./Components/Elements/Footer/Footer";
 import News from "./Components/Pages/News/News";
 import "./App.css";
-import Popup from "./Components/Elements/Atoms/Popup/Popup";
 
 function App() {
   return (

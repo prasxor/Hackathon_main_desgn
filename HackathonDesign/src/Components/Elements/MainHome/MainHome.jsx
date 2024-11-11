@@ -27,16 +27,11 @@ const MainHome = ({ onDataReceived }) => {
     <>
       <div className="mainHomeContainer">
         
-        {/* {showPopup ? ( 
+        {showPopup ? ( 
           <Popup truthValue={truthValue} link={link} onClose={handleClosePopup} /> 
-        ) : ( */}
-        {/* <> */}
+        ) : (
+        <>
         <div className="mainHomeTopContent">
-          {/* <div className="mainHomeTopFirstTitle">
-                <img src={RealText} alt="Real" />
-                <h2>Or</h2>
-                <img src={FakeText} alt="Fake" />
-              </div> */}
           <div className="mainHomeTopSecondTitle">
             <h1>Verify News With One Click.</h1>
           </div>
@@ -54,8 +49,8 @@ const MainHome = ({ onDataReceived }) => {
             searchPlaceholder={"Paste Url or Article"}
           />
         </div>
-        {/* </> */}
-        {/* )} */}
+        </>
+         )}
       </div>
     </>
   );
