@@ -142,20 +142,15 @@
   text-decoration: underline;
 }
 
+
+
 .glowing-background {
-  background-color: #e0e0e2;
-  box-shadow: 
-    0 0 3px #e0e0e2, 
-    0 0 1px #e0e0e2, 
-    0 0 3px #e0e0e2, 
-    0 0 5px #e0e0e2, 
-    2px 2px 1px #e0e0e2, 
-    -2px -2px 1px #e0e0e2, 
-    0 0 15px rgba(224, 224, 226, 1);
   overflow: visible;
   border-radius: 22px;
   transition: width 1s ease-in-out;
 }
+
+
 
 .feedbackSection {
   height: 90px;

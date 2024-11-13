@@ -1,3 +1,134 @@
+// import React from "react";
+// import { useState } from "react";
+// import axios from "axios";
+// import "./SearchInput.css";
+// import TopBtn from "../Button/TopBtn/TopBtn";
+
+// const SearchInput = ({ searchPlaceholder, onDataReceived }) => {
+//   const [question, setQuestion] = useState("");
+//   const [answer, setAnswer] = useState("");
+//   const [generatingAnswer, setGeneratingAnswer] = useState(false);
+
+//   const finalInput = `Given the following news information, determine whether it is true or false. Use reputable sources to verify the information. If the information is true, provide the accuracy as a percentage between 1 and 100% along with the URL of the website where the data was gathered. If the information is false, simply return 'False' with accuracy : News: "${question}"`;
+
+//   async function generateAnswer(e) {
+//     setGeneratingAnswer(true);
+//     e.preventDefault();
+//     setAnswer("Loading your answer... \n It might take up to 10 seconds");
+//     try {
+//       const response = await axios({
+//         url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${
+//           import.meta.env.VITE_API_GENERATIVE_LANGUAGE_CLIENT
+//         }`,
+//         method: "post",
+//         data: {
+//           contents: [{ parts: [{ text: finalInput }] }],
+//         },
+//       });
+
+//       const responseData = response.data.candidates[0].content.parts[0].text;
+
+//       setAnswer(responseData);
+//       console.log(responseData);
+
+//       // Process the response to extract truthValue, accuracy, and link
+//       const { truthValue, accuracy, link } = processResponseData(responseData);
+
+//       // Send data to parent
+//       onDataReceived(truthValue, accuracy, link);
+//     } catch (error) {
+//       console.log(error);
+//       setAnswer("Sorry - Something went wrong. Please try again!");
+//     }
+
+//     setGeneratingAnswer(false);
+//   }
+
+//   // Function to process the response data
+//   const processResponseData = (data) => {
+//     const trimmedData = data.trim();
+
+//     let truthValue = "";
+//     let accuracy = "";
+//     let link = "";
+
+    
+//     // Regex to match the accuracy percentage and URL
+//     const accuracyRegex = /Accuracy:\s*(\d+)%/;
+//     const urlRegex = /(https?:\/\/[^\s]+)/g;
+
+//     if (trimmedData.startsWith("True")) {
+//       truthValue = "true";
+//       const accuracyMatch = trimmedData.match(accuracyRegex);
+//       const urlMatch = trimmedData.match(urlRegex);
+
+//       accuracy = accuracyMatch ? accuracyMatch[1] : "Unknown";
+//       link = urlMatch ? urlMatch[0] : "";
+//     } else if (trimmedData.startsWith("False")) {
+//       truthValue = "false";
+//       accuracy = "0"; // Assuming false has 0% accuracy
+//       link = "";
+//     } else {
+//       console.log("Unexpected format:", trimmedData);
+//     }
+
+//     console.log("truthvalue:" + truthValue)
+//     console.log("accuracy:" + accuracy)
+//     console.log("link:" + link)
+
+//     return { truthValue, accuracy, link };
+
+//   };
+
+//   return (
+//     <>
+//       <form
+//         className="SearchInputContainer"
+//         action="#"
+//         onSubmit={generateAnswer}
+//       >
+//         <input
+//           type="text"
+//           id="SearchInputContainerFormInput"
+//           placeholder={searchPlaceholder}
+//           required
+//           value={question}
+//           onChange={(e) => setQuestion(e.target.value)}
+//         />
+//         <TopBtn
+//           className={`bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600 transition-all duration-300 ${
+//             generatingAnswer ? "opacity-50 cursor-not-allowed" : ""
+//           }`}
+//           disabled={generatingAnswer}
+//           type="submit"
+//           title={
+//             generatingAnswer ? (
+//               <div
+//                 className="spinner-border animate-spin inline-block w-4 h-4 border-2 rounded-full"
+//                 role="status"
+//               >
+//                 <span className="visually-hidden">Loading...</span>
+//               </div>
+//             ) : (
+//               "Search"
+//             )
+//           }
+//         />
+//       </form>
+//       {/* Display the answer if available */}
+//       {answer && (
+//         <div className="answer-section">
+//           <h3>Answer:</h3>
+//           <p>{answer}</p>
+//         </div>
+//       )}
+//     </>
+//   );
+// };
+
+// export default SearchInput;
+
+// backup
 
 import React from "react";
 import { useState } from "react";

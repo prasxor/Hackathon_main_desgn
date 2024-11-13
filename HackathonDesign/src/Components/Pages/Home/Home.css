@@ -1,17 +1,13 @@
-body{
+body {
   padding: 10px;
-  /* border: 1px solid red; */
   background-color: #0D0D0D !important;
-  /* border: 1px solid blue; */
 }
 
-#NavbarComponent{
-display: flex;
-align-items: center;
-justify-content: center;
-width: 100%;
-height: auto;
-/* position: relative; */
+#NavbarComponent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .MainHomeComp {
@@ -19,109 +15,79 @@ height: auto;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* border: 1px solid red; */
   width: 100%;
   height: 1028px;
   background-image: url(../../../assets/heroSectionGird.png);
   background-repeat: no-repeat;
   background-position: center 3px;
-  background-size: cover; 
-  /* position: relative; */
-  bottom: 100px;
+  background-size: cover;
+  position: relative;
+  top: -100px;
 }
 
-
-.SecondHomeComp{
+.SecondHomeComp {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 80%;
   position: relative;
-  top: -200px;
+  top: -200px; /* Keeps the desired position */
+  margin-top: 0; /* Ensure no margin-top to avoid extra space */
+  margin-bottom: 0; /* Ensure no bottom margin to avoid gaps */
 }
 
-.ThirdHomeComp{
+.ThirdHomeComp {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 80%;
   position: relative;
-  top: -250px;
-
-  /* border: 1px solid red; */
+  top: -30px; /* Adjusted top to reduce gap between SecondHomeComp and ThirdHomeComp */
+  margin-top: 0; /* Remove margin-top to avoid extra space */
+  margin-bottom: 0; /* Remove margin-bottom to avoid extra space */
 }
 
-.FourthHomeMain{
-  position: relative;
-  top: -250px;
-}
-
-#HomeMainContainer{
+#HomeMainContainer {
   margin-top: 4%;
-  height: auto;
-  gap: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
-.NavbarComponent{
-  margin-top: 10px;
-}
-
-#FifthHomeMain{
+#FifthHomeMain {
+  margin-top: 2%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 2%;
   width: 80%;
-  position: relative;
-  top: -250px;
-  /* border: 1px solid green; */
 }
 
-#FooterSection{
+#FooterSection {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 500px;
   width: 85%;
-  position: relative;
-  top: -250px;
+  margin-top: 20px; /* Added margin to reduce space above the footer */
 }
 
-#sixthSectionMain{
-  /* border: 1px solid red; */
+#sixthSectionMain {
   width: 100%;
   height: 1000px;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 1000px;
-  max-height: 1000px;
-  overflow: hidden;
   position: relative;
-  top: -250px;
+  margin-top: 20px;
 }
 
-
-#lastContainer{
-  border: 1px solid red;
+#lastContainer {
   width: 100%;
-  height: 100vh;
-  position: relative;
-  top: -250px;
-}
-
-#HomeMainContainer {
-  margin-top: 1%;
-  height: auto;
-  gap: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: auto; /* Changed from fixed 100vh to auto height */
+  margin-top: 20px; /* Added margin to control space */
 }
 
 .backgroundContainer {
@@ -130,6 +96,4 @@ height: auto;
   flex-direction: column;
   background-position: center;
   background-repeat: no-repeat;
-  /* position: relative;
-  top: -250px; */
 }

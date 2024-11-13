@@ -1,15 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
-// import Logo from "../../../assets/output-onlinegiftools.gif";
 import Logo from "../../../assets/NavbarLogo.png";
-
-import ToggleBtn from "../Atoms/ToggleBtn/ToggleBtn";
 import "./Navbar.css";
-import DropDown from "../Atoms/DropDown/DropDown";
 
 const Navbar = () => {
   const ArrEle = ["Home", "About", "FAQ", "Contact"];
-  const ArrLink = ["/", "/about", "#", "/contact"];
+  const ArrLink = ["#top", "/about", "#sixthSectionMain", "/contact"]; // Link to top for "Home" and section for "FAQ"
   const ArrEle2 = ["News"];
   const ArrLink2 = ["/News"];
 
@@ -21,16 +17,19 @@ const Navbar = () => {
       <ul className="NavbarList">
         {ArrEle.map((item, index) => (
           <li key={index} className="NavbarItems">
-            <Link to={ArrLink[index]}>{item}</Link>{" "}
-            {/* Use Link for navigation */}
+            {item === "Home" || item === "FAQ" ? (
+              // Use <a> tag for smooth scrolling
+              <a href={ArrLink[index]}>{item}</a>
+            ) : (
+              <Link to={ArrLink[index]}>{item}</Link>
+            )}
           </li>
         ))}
       </ul>
       <ul className="NavbarList NavbarList2">
         {ArrEle2.map((item, index) => (
           <li key={index} className="NavbarItems NavbarItems2">
-            <Link to={ArrLink2[index]}>{item}</Link>{" "}
-            {/* Use Link for navigation */}
+            <Link to={ArrLink2[index]}>{item}</Link>
           </li>
         ))}
       </ul>

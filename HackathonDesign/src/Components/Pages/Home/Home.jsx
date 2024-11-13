@@ -27,7 +27,7 @@ const Home = () => {
           {/* <Popup truthValue={truthValue} link={link} /> */}
         </div>
       </div>
-      <div className="SecondHomeComp">
+      <div id="Home" className="SecondHomeComp">
         <SecondHome />
       </div>
       <div className="ThirdHomeComp">
