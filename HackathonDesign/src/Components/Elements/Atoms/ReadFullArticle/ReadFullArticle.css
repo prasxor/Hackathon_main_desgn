@@ -1,12 +1,12 @@
 #ReadFullArticleContainer {
   height: 53px;
-  width: 240px;
+  width: 230px;
   border-radius: 46px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background-color: #202128;
+  background-color: #0D0D0D;
   border: 1px solid #313131;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;

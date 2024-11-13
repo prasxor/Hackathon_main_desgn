@@ -1,0 +1,29 @@
+.FeedBackBtnMainContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  flex-direction: row;
+  height: 22px;
+  width: max-content;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.FeedBackBtnMainContainer img{
+  width: 40%;
+}
+
+.FeedBackBtnMainContainer p{
+  font-family: 'inter', roboto;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+
+
+.FeedBackBtnMainContainer:hover img {
+  fill: white;
+  color: white;
+}

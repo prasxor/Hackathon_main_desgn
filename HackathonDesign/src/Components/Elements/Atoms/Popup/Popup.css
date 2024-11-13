@@ -1,131 +1,8 @@
 #PopupContainer {
   border: 1px solid #313131;
-  background-color: #101010;
-  border-radius: 47px;
-  padding: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  /* background-image: url(../../../../assets/backgroundGreen.png); */
-  background-repeat: no-repeat;
-  background-size: 70%;
-  scale: 1.1;
-  /* border: 1px solid red; */
-  /* position: fixed;
-  top: 0; 
-  right: 0; 
-  bottom: 0; 
-  left: 0; 
-  background-color: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(4px);
-  z-index: 1000; */
-}
-
-#closebtn {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  width: 100%;
-  /* border: 1px solid green; */
-  height: 10%;
-  cursor: pointer;
-}
-
-
-#closebtn img{
-  width: 3%;
-}
-
-#trueOrFalse {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* border: 1px solid red; */
-  height: 20%;
-  width: 100%;
-  scale: 0.8;
-}
-
-#trueOrFalse p {
-  font-family: "Inter", Roboto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0px !important;
-  font-size: 1.3rem;
-  width: 161px;
-  height: 65px;
-  border: 1px solid #4e4c4c;
-  border-radius: 31px;
-}
-
-#progressBarPopup {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  /* border: 1px solid blue; */
-  height: 40%;
-  width: 100%;
-  gap: 20%;
-  scale: 0.8;
-}
-
-#ArticlePopup {
-  height: 20%;
-  /* border: 1px solid red; */
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  opacity: 0.9;
-  scale: 0.7;
-}
-
-#ProgressBarBottom {
-  width: 631px;
-  height: 32px;
-  border: 1px solid #313131;
-  background-color: #202128;
-  border-radius: 46px;
-  scale: 0.8;
-}
-
-#ProgressBarTop p {
-  font-size: 20px;
-  font-family: "Inter", Roboto;
-}
-
-.MistakeContainer {
-  display: flex;
-  align-items: last baseline;
-  justify-content: center;
-  height: 10%;
-  width: 100%;
-  /* border: 1px solid blue; */
-  scale: 0.8;
-}
-
-.MistakeContainer p {
-  font-size: 18px;
-  font-family: "Inter", Roboto;
-}
-
-.progressBarBottomIndicator {
-  height: 100%;
-  /* background-color: #0acf83; */
-  /* width: 70%; */
-  /* border: 1px solid green; */
-  border-radius: 46px;
-  /* scale: 0.8;  */
-}
-
-#PopupContainer {
-  border: 1px solid #313131;
-  background-color: #101010;
-  border-radius: 47px;
-  padding: 50px;
+  background-color: #131313 !important;
+  border-radius: 22px;
+  padding: 50px 50px 10px 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,8 +12,9 @@
   scale: 1.1;
   height: 700px;
   width: 100%;
-  max-width: 900px; /* Adjust to control max size */
-  transition: background-image 0.3s ease; /* Smooth transition for background */
+  position: relative;
+  max-width: 900px;
+  transition: background-image 0.3s ease;
 }
 
 #closebtn {
@@ -146,10 +24,11 @@
   width: 100%;
   height: 10%;
   cursor: pointer;
+  position: relative;
 }
 
 #closebtn img {
-  width: 3%;
+  width: 4%;
 }
 
 #trueOrFalse {
@@ -166,16 +45,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0px !important;
+  margin-bottom: 0;
   font-size: 1.3rem;
   width: 161px;
   height: 65px;
   border: 1px solid #4e4c4c;
   border-radius: 31px;
-  background-color: #202128;
   background-color: rgba(32, 33, 40, 0.2);
   color: #ffffff;
-
 }
 
 #progressBarPopup {
@@ -187,6 +64,8 @@
   width: 100%;
   gap: 20%;
   scale: 0.8;
+  position: relative;
+  bottom: -12px;
 }
 
 #ProgressBarBottom {
@@ -194,21 +73,44 @@
   max-width: 631px;
   height: 32px;
   border: 1px solid #313131;
-  background-color: #202128;
+  background-color: #0d0d0d !important;
   border-radius: 46px;
-  overflow: hidden; /* Ensure no overflow */
+  overflow: visible;
 }
 
-#ProgressBarTop p {
-  font-size: 20px;
+#ProgressBarTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 114px;
+  height: 80px;
+}
+
+#ProgressBarTop #ProgressBarTopData {
+  font-size: 60px;
+  color: #e0e0e2;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+  position: relative;
+  top: 10px;
+}
+
+#ProgressBarBottomData {
+  color: #e0e0e2;
+  font-weight: normal;
+  font-size: 12px;
   font-family: "Inter", Roboto;
-  color: #ffffff;
+  opacity: 85%;
+  position: relative;
+  bottom: 10px;
 }
 
 .progressBarBottomIndicator {
   height: 100%;
   border-radius: 46px;
-  transition: width 1s ease-in-out; /* Smooth animation for progress */
+  transition: width 1s ease-in-out;
 }
 
 #ArticlePopup {
@@ -228,10 +130,61 @@
   height: 10%;
   width: 100%;
   scale: 0.8;
+  position: relative;
+  bottom: -10px;
+  cursor: pointer;
 }
 
 .MistakeContainer p {
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Inter", Roboto;
   color: #f1f1f1;
+  text-decoration: underline;
+}
+
+.glowing-background {
+  background-color: #e0e0e2;
+  box-shadow: 
+    0 0 3px #e0e0e2, 
+    0 0 1px #e0e0e2, 
+    0 0 3px #e0e0e2, 
+    0 0 5px #e0e0e2, 
+    2px 2px 1px #e0e0e2, 
+    -2px -2px 1px #e0e0e2, 
+    0 0 15px rgba(224, 224, 226, 1);
+  overflow: visible;
+  border-radius: 22px;
+  transition: width 1s ease-in-out;
+}
+
+.feedbackSection {
+  height: 90px;
+  width: 226px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  position: relative;
+  top: 25px;
+}
+
+.feedbackSection p:nth-child(1) {
+  font-size: 1rem;
+  font-family: "Inter", Roboto;
+  color: #f1f1f1;
+  height: 30%;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.feedbackSectionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  height: 70%;
 }
