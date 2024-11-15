@@ -7,6 +7,7 @@ import FeedbackBtn from "../Button/FeedbackBtn/FeedbackBtn";
 import thumbsup from "../../../../assets/thumsup.png";
 import thumbsdown from "../../../../assets/thumsdown.png";
 import BackgroundPopupLines from "../../../../assets/popupBackground.png";
+import SearchImg from "../../../../assets/Searchicon.png"
 
 const Popup = ({ truthValue, link, onClose }) => {
   const [progress, setProgress] = useState(0);
@@ -107,7 +108,7 @@ const Popup = ({ truthValue, link, onClose }) => {
       </div>
 
       <div id="ArticlePopup">
-        <SearchAgain onClose={onClose} />
+        <SearchAgain onClose={onClose} image={SearchImg} text={"Search Again"}/>
         <ReadFullArticle link={link} truthValue={truthValue} />
       </div>
 

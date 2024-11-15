@@ -1,0 +1,29 @@
+.PopupDislikeMiniCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  border: 1.5px solid #313131;
+  width: max-content;
+  padding: 3px 15px;
+  border-radius: 13px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.PopupDislikeMiniCards p {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  justify-content: center;
+  font-family: "inter", roboto;
+  font-weight: 600;
+  font-size: 18px;
+  height: 100%;
+  margin-bottom: 0;
+  color: #e0e0e2;
+}
+
+.PopupDislikeMiniCards.active {
+  background-color: #313131;
+}

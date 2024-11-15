@@ -1,18 +1,29 @@
+
 .NewsContainerMain{
   display: flex;
   align-items: center;
   justify-content: center;
   /* border: 1px solid red; */
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 90vh;
+  /* flex-direction: column; */
 }
 
 .MiniNavbarContainerMain{
   display: flex;
-  /* border: 1px solid green; */
+  border: 1px solid green;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   width: 100%;
   height: 100%;
+}
+
+.newsErrorContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  height: 100%;
+  width: 100%;
 }

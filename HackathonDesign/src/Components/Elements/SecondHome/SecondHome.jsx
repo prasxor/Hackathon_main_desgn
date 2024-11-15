@@ -47,21 +47,6 @@ const SecondHome = () => {
       <p className="SecondHomePara">What Sets Us Apart</p>
       <div className="HightlightCardsMain">
       <Cursor />
-        {/* <HightlightCards
-          logo={cardsData.card1.logo}
-          title={cardsData.card1.title}
-          desc={cardsData.card1.description}
-        />
-        <HightlightCards
-          logo={cardsData.card2.logo}
-          title={cardsData.card2.title}
-          desc={cardsData.card2.description}
-        />
-        <HightlightCards
-          logo={cardsData.card3.logo}
-          title={cardsData.card3.title}
-          desc={cardsData.card3.description}
-        /> */}
         <div className="HightlightCardsMainSubContainer HightlightCardsMainSubContainerleft">
           <div className="HightlightCardsMainSubContainerrowtop">
             <img src={Logo1} alt="" />

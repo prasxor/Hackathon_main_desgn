@@ -2,15 +2,14 @@ import React from "react";
 import "./News.css";
 import MiniNavbar from "../../Elements/Atoms/MiniNavbar/MiniNavbar";
 import NewsError from "../../Elements/Atoms/NewsError/NewsError";
+import PopupDislike from "../../Elements/Atoms/PopupDislike/PopupDislike";
 
 const News = () => {
   return (
     <div className="NewsContainerMain">
-      {/* <div className="MiniNavbarContainerMain">
-        <MiniNavbar />
-      </div> */}
       <div className="newsErrorContainer">
-        <NewsError/>
+        {/* <NewsError/> */}
+        <PopupDislike/>
       </div>
     </div>
   );

@@ -1,18 +1,13 @@
 import React from "react";
 import "./SearchAgain.css";
-import SearchImg from "./../../../assets/Searchicon.png"; // Adjust the path as necessary
+// import SearchImg from "./../../../assets/Searchicon.png"; // Adjust the path as necessary
 
-const SearchAgain = ({ onClose }) => {
+const SearchAgain = ({ onClose, text,image }) => {
   return (
-    // <div id="SearchAgainContainer" onClick={onClose}>
-    //   <img src={SearchImg} alt="Read Full Article" />
-    //   <button>Search Again</button>
-    // </div>
-
     <div id='ReadFullArticleContainer' style={{width: '210px'}}  onClick={onClose}>
       <a href='#' style={{ textDecoration: 'none' }}>
-        <img src={SearchImg} alt="Search again" style={{width: '11%'}}/>
-        <button>Search Again</button>
+        <img src={image} alt="" style={{width: '11%'}}/>
+        <button>{text}</button>
       </a>
     </div>
 
