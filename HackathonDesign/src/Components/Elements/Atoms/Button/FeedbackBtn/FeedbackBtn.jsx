@@ -1,15 +1,16 @@
+
+
 import React from "react";
 import "./FeedbackBtn.css";
-// import Image1 from '../../../../../assets/thumsup.png'
 
-const FeedbackBtn = ({ Image, text }) => {
+const FeedbackBtn = ({ Image, text, onClick }) => {
   return (
-    <div className="FeedBackBtnMainContainer">
-      <img src={Image} alt="image" />
+    <div className="FeedBackBtnMainContainer" onClick={onClick}>
+      <img src={Image} alt={text} />
       <p>{text}</p>
     </div>
   );
 };
-import "./FeedbackBtn.css";
 
 export default FeedbackBtn;
+
