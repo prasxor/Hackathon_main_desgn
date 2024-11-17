@@ -39,23 +39,22 @@
 
 .FaqItemsContainerSub img {
   transition: transform 0.8s ease-in-out, opacity 0.3s ease-in-out;
-  transform: rotate(360deg);
+  transform: rotate(90deg); /* Start rotated by 90 degrees */
   opacity: 1;
   width: 29px;
   filter: brightness(100);
 }
 
 .FaqItemsContainerSub img.close {
-  transform: rotate(270deg); 
+  transform: rotate(270deg);
 }
 
 .FaqItemsContainerSub img.open {
   transform: rotate(90deg); 
-  transform: rotate(45deg); 
 }
 
 .FaqItemsContainerSub img.open {
-  transform: rotate(-180deg); 
+  transform: rotate(90deg);
 }
 
 .Accordiananswer {
