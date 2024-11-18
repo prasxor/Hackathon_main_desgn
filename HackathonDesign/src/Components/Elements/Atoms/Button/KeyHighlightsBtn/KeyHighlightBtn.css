@@ -29,7 +29,7 @@
   height: 24px;
 }
 
-.KeyHighlightBtnMain button a{
+.KeyHighlightBtnMain button span{
   text-decoration: none;
   color: #929292;
   font-family: "Roboto", sans-serif;
@@ -72,7 +72,7 @@
   transition: transform 1s ease-in-out; /* Smooth transition for rotation */
 }
 
-.KeyHighlightBtnMain button a {
+.KeyHighlightBtnMain button span {
   text-decoration: none;
   color: #929292;
   font-family: "Roboto", sans-serif;

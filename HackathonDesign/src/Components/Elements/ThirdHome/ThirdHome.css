@@ -34,7 +34,7 @@
   justify-content: center;
   width: 100%;
   height: 600px;
-  /* border: 1px solid rgb(54, 9, 255); */
+  border: 1px solid rgb(54, 9, 255);
   overflow: hidden;
   flex-direction: row;
   position: relative; /* This is important for positioning arrows */
@@ -83,6 +83,7 @@
   justify-content: center;
   width: 100%; /* Takes full available width */
   height: 502px;
+  /* border: 1px solid red; */
 }
 
 .FakeNewsCardsMainContainerLeft,
