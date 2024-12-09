@@ -4,13 +4,9 @@ import "./SearchAgain.css";
 
 const SearchAgain = ({ onClose, text,image }) => {
   return (
-    <div id='ReadFullArticleContainer' style={{width: '210px'}}  onClick={onClose}>
-      <a href='#' style={{ textDecoration: 'none' }}>
-        <img src={image} alt="" style={{width: '11%'}}/>
-        <button>{text}</button>
-      </a>
+    <div>
+      
     </div>
-
   );
 };
 

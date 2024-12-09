@@ -3,11 +3,18 @@
   align-items: center;
   justify-content: center;
   /* border: 1px solid red; */
-  width: 85%;
-  height: 100%;
+  width: 70%;
+  /* height: 100%; */
   margin-top: 2%;
   border-top: 1px solid #E0E0E2;
   border-bottom: 1px solid #E0E0E2;
+  /* background-color: transparent; */
+}
+
+.MiniNavbarMain{
+  background-color: transparent !important;
+  /* border: 1px solid red; */
+  border-radius: 0px !important;
 }
 
 .NavbarItemss{

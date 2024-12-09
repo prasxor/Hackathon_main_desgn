@@ -16,7 +16,7 @@ const MiniNavbar = () => {
   const NavbarListLink = ["#", "#", "#", "#", "#", "#", "#", "#"];
 
   return (
-    <div className="NavbarListMain">
+    <div className="NavbarListMain MiniNavbarMain">
       <ul className="NavbarList MiniNavbarList">
         {NavbarList.map((item, index) => (
           <li key={index} className="NavbarItemss">

@@ -1,13 +1,30 @@
+
+
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Logo from "../../../assets/NavbarLogo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const ArrEle = ["Home", "About", "FAQ", "Contact"];
-  const ArrLink = ["#top", "/about", "#sixthSectionMain", "/contact"]; // Link to top for "Home" and section for "FAQ"
+  const ArrEle = ["Home", "About", "Fake News", "Contact"];
+  const ArrLink = ["/", "/about", "/NotFoundPage", "/contact"];
   const ArrEle2 = ["News"];
   const ArrLink2 = ["/News"];
+  const location = useLocation(); // Get the current location
+  const navigate = useNavigate(); // Programmatic navigation
+
+  const handleHomeClick = (e) => {
+    if (location.pathname === "/") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      navigate("/");
+    }
+  };
+
+  const isActive = (path) => {
+    return location.pathname === path ? "hover" : ""; // Apply hover class for active links
+  };
 
   return (
     <div className="NavbarMain">
@@ -16,9 +33,15 @@ const Navbar = () => {
       </div>
       <ul className="NavbarList">
         {ArrEle.map((item, index) => (
-          <li key={index} className="NavbarItems">
-            {item === "Home" || item === "FAQ" ? (
-              // Use <a> tag for smooth scrolling
+          <li
+            key={index}
+            className={`NavbarItems ${isActive(ArrLink[index])}`}
+          >
+            {item === "Home" ? (
+              <Link to="/" onClick={handleHomeClick}>
+                {item}
+              </Link>
+            ) : item === "FAQ" ? (
               <a href={ArrLink[index]}>{item}</a>
             ) : (
               <Link to={ArrLink[index]}>{item}</Link>
@@ -28,7 +51,10 @@ const Navbar = () => {
       </ul>
       <ul className="NavbarList NavbarList2">
         {ArrEle2.map((item, index) => (
-          <li key={index} className="NavbarItems NavbarItems2">
+          <li
+            key={index}
+            className={`NavbarItems NavbarItems2 ${isActive(ArrLink2[index])}`}
+          >
             <Link to={ArrLink2[index]}>{item}</Link>
           </li>
         ))}

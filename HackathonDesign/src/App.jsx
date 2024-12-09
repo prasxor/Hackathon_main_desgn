@@ -6,6 +6,7 @@ import ContactUs from "./Components/Pages/ContactUs/ContactUs";
 import Footer from "./Components/Elements/Footer/Footer";
 import News from "./Components/Pages/News/News";
 import "./App.css";
+import NotFoundPage from "./Components/Pages/NotFoundPage/NotFoundPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/news" element={<News />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/NotFoundPage" element={<NotFoundPage />} />
         </Routes>
         <Footer />
       </Router>
