@@ -61,7 +61,7 @@ const Cursor = () => {
         position: "fixed",
         transform: "translate(-50%, -50%)",
         pointerEvents: "none",
-        opacity: 1, // Start hidden until mouse enters
+        opacity: 0, // Start hidden until mouse enters
         zIndex: 1000,
         cursor: "none",
         mixBlendMode: "difference",

@@ -103,14 +103,14 @@
   align-items: center;
   justify-content: center;
   border-radius: 14px;
-  padding: 18px;
+  padding: 16px;
   color: #e0e0e2;
   background-color: #17181f;
   border: 1.5px solid #2a2a2d; 
   /* border: 1.5px solid red;  */
   resize: none;
   font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
 }
 

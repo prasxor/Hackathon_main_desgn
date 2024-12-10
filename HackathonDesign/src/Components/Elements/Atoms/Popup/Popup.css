@@ -261,3 +261,9 @@
   background-color: white;
   color: black;
 }
+
+
+.popupDislikeWrapper {
+  position: relative;
+  z-index: 10;
+}
