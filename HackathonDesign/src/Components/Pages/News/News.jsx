@@ -5,7 +5,8 @@ import NewsError from "../../Elements/Atoms/NewsError/NewsError";
 import PopupDislike from "../../Elements/Atoms/PopupDislike/PopupDislike"
 import NewsSearch from "../../Elements/NewsSearch/NewsSearch";
 import SearchBtn from "../../../assets/NewsSearchBtn.png"
-// import MiniNavbar from "../../Elements/Atoms/MiniNavbar/MiniNavbar";
+import NewsPageMainBanner from "../../Elements/NewsPageCompoent/NewsPageMainBanner/NewsPageMainBanner";
+import NewsPageCards from "../../Elements/Atoms/Cards/NewsPageCards/NewsPageCards";
 
 const News = () => {
   return (
@@ -15,7 +16,12 @@ const News = () => {
       <NewsSearch searchPlaceholder={"Search News"} btnTitle={"Search"}/>
       </div>
       <div className="NewsContainerMainSection">
-      helloq
+      <div className="NewsMainBanner">
+        <NewsPageMainBanner/>
+      </div>
+      <div className="LatestNewsSection">
+              <NewsPageCards/>  
+      </div>
       </div>
 
     </div>

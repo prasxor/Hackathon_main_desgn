@@ -42,7 +42,29 @@
 }
 
 .NewsContainerMainSection{
-  height: 100vh;
+  height: auto;
   width: 80%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.NewsMainBanner{
+  border: 1px solid green;
+  height: auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  overflow: hidden;
+  background: linear-gradient(to bottom, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.LatestNewsSection{
+  height: 1000px;
+  width: 90%;
   border: 1px solid red;
 }

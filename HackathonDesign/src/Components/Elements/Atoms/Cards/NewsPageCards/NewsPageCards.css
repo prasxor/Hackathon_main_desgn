@@ -1,0 +1,35 @@
+.NewsPageCardsSubContainer {
+  flex: 1 1 calc(33.333% - 1rem); /* Responsive width, adjust for gap */
+  max-width: 300px; /* Optional max width */
+  background-color: #fff;
+  /* padding: 1rem; */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 340px;
+}
+
+.NewsPageSubContainerTop {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+}
+.NewsPageSubContainerTop img {
+  width: 100%;
+}
+
+
+.NewsPageSubContainerBottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  height: 40%;
+  width: 100%;
+}
