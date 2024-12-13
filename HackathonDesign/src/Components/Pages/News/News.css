@@ -1,5 +1,4 @@
-
-.NewsContainerMain{
+.NewsContainerMain {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,50 +8,51 @@
   flex-direction: column;
 }
 
-.MiniNavbarContainerMain{
+.MiniNavbarContainerMain {
   display: flex;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   align-items: center;
   justify-content: center;
   flex-direction: row;
   width: 100%;
   height: 100%;
-  
 }
 
-.newsErrorContainer{
+.newsErrorContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: 100%;
   width: 100%;
 }
 
-.NewsContainerTopSection{
+.NewsContainerTopSection {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 30%;
   width: 80%;
   flex-direction: column;
-  border: 1px solid green;
-  margin-top: 90px;
+  /* border: 1px solid green; */
+  /* margin-top: 90px; */
   position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.NewsContainerMainSection{
+.NewsContainerMainSection {
   height: auto;
   width: 80%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.NewsMainBanner{
-  border: 1px solid green;
+.NewsMainBanner {
+  /* border: 1px solid green; */
   height: auto;
   width: 70%;
   display: flex;
@@ -60,11 +60,76 @@
   justify-content: center;
   border-radius: 22px;
   overflow: hidden;
-  background: linear-gradient(to bottom, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  margin-top: 5%;
 }
 
-.LatestNewsSection{
+.LatestNewsSection {
   height: 1000px;
-  width: 90%;
-  border: 1px solid red;
+  width: 80%;
+  /* border: 1px solid red; */
+  flex-direction: column;
+  margin-top: 10%;
+
+}
+
+.LatestNewsSectionTitle {
+  width: 100%;
+  /* border: 1px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  margin-bottom: 5%;
+  
+}
+
+.LatestNewsSectionTitle h2 {
+  font-weight: 600;
+  font-family: "inter", sans-serif;
+  font-size: 2.3rem;
+}
+
+.LatestNewsSectionMainCards{
+  gap: 3rem;
+  padding: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+}
+
+.SectionsContainer{
+  /* border: 1px solid blue; */
+  margin-top: 5%;
+  height:auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.NewsSectionBottom{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+
+.mini-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10; /* Ensure it stays above other content */
+  background-color: white; /* Add a background to ensure it's visible */
+  box-shadow: 0 4px 2px -2px gray; /* Optional: add a shadow for separation */
+}
+
+.NewsContainerTopSection {
+  margin-bottom: 20px; /* Adds space below the sticky navbar and search bar */
 }

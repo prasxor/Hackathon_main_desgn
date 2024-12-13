@@ -1,18 +1,22 @@
-import React from 'react'
-import "./NewsPageCards.css"
-import Image from '../../../../../assets/banner-sizes.jpg'
+import React from "react";
+import "./NewsPageCards.css";
+import Image from "../../../../../assets/banner-sizes.jpg";
 
 const NewsPageCards = () => {
   return (
-      <div className="NewsPageCardsSubContainer">
-        <div className="NewsPageSubContainerTop">
-          <img src={Image} alt="" />
-        </div>
-        <div className="NewsPageSubContainerBottom">
-          <h3>Hellow there was an new news from the outsider</h3>
-        </div>
+    <div className="NewsPageCardsSubContainer">
+      <div className="NewsPageSubContainerTop">
+        <img src={Image} alt="" />
       </div>
-  )
-}
+      <div className="NewsPageSubContainerBottom">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+          dolor sit amet consectetur, adipisicing elit.
+          sdlkfajsdl;kfjdfsdfsdfsdfsdfsd
+        </p>
+      </div>
+    </div>
+  );
+};
 
-export default NewsPageCards
+export default NewsPageCards;
