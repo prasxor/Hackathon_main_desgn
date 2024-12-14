@@ -1,18 +1,17 @@
 import React from "react";
 import "./NewsPageCards.css";
-import Image from "../../../../../assets/banner-sizes.jpg";
+import NoImage from "../../../../../assets/Cards_noImage.png"
+// import Image from "../../../../../assets/banner-sizes.jpg";
 
-const NewsPageCards = () => {
+const NewsPageCards = ({news}) => {
   return (
     <div className="NewsPageCardsSubContainer">
       <div className="NewsPageSubContainerTop">
-        <img src={Image} alt="" />
+        <img src={news.urlToImage || `${NoImage}` } alt={news.title} />
       </div>
       <div className="NewsPageSubContainerBottom">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
-          dolor sit amet consectetur, adipisicing elit.
-          sdlkfajsdl;kfjdfsdfsdfsdfsdfsd
+          {news.title}
         </p>
       </div>
     </div>

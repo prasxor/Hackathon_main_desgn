@@ -11,7 +11,8 @@
   flex-direction: column;
   height: 340px;
   cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  /* border: 1px solid rgba(255, 255, 255, 0.4); */
+  border: 1px solid #313131;
 }
 
 .NewsPageSubContainerTop {

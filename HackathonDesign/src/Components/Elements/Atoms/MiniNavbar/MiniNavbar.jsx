@@ -4,7 +4,6 @@ import "./MiniNavbar.css";
 const MiniNavbar = () => {
   const NavbarList = [
     "Sports",
-    "Politics",
     "Business",
     "Entertainment",
     "Health",

@@ -1,17 +1,15 @@
-
-
 import React from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import Logo from "../../../assets/NavbarLogo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const ArrEle = ["Home", "About", "Fake News", "Contact"];
-  const ArrLink = ["/", "/about", "/NotFoundPage", "/contact"];
+  const ArrEle = ["Home", "About", "Contact"];
+  const ArrLink = ["/", "/about", "/contact"];
   const ArrEle2 = ["News"];
   const ArrLink2 = ["/News"];
-  const location = useLocation(); // Get the current location
-  const navigate = useNavigate(); // Programmatic navigation
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const handleHomeClick = (e) => {
     if (location.pathname === "/") {
@@ -33,10 +31,7 @@ const Navbar = () => {
       </div>
       <ul className="NavbarList">
         {ArrEle.map((item, index) => (
-          <li
-            key={index}
-            className={`NavbarItems ${isActive(ArrLink[index])}`}
-          >
+          <li key={index} className={`NavbarItems ${isActive(ArrLink[index])}`}>
             {item === "Home" ? (
               <Link to="/" onClick={handleHomeClick}>
                 {item}
