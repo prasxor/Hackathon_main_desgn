@@ -2,11 +2,11 @@ import React from 'react'
 import "./CategoriesPage.css"
 import SubCategoriesPageComponent from '../SubCategoriesPageComponent/SubCategoriesPageComponent'
 
-const CategoriesPage = () => {
+const CategoriesPage = ({titleContent}) => {
   return (
     <div className='CategoriesMainContainer'>
       <div className='CategoriesSubContainerTop'>
-        <h2>Top Technology News</h2>
+        <h2>{titleContent}</h2>
       </div>
       <div className='CategoriesSubContainerBottom'>
         <SubCategoriesPageComponent/>

@@ -1,39 +1,46 @@
-.NavbarListMain{
+
+.NavbarItemsa{
+  color: #e0e0e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 70%;
+  padding: 0 1%;
+}
+
+.NavbarItemsa a{
+  color: #e0e0e2;
+  text-decoration: none;
+  /* border: 1px solid yellow; */
+  width: 70%;
+  height:70%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 95%;
-  margin-top: 1%;
-  border: 1px solid #313131;
-  border-radius: 77px;
 }
 
-.MiniNavbarMain{
-  background-color: transparent !important;
-  border-radius: 77px;
-  width: 80% !important;
+.NavbarItemsa:hover{
+  width: 60%;
+  color: white !important;
+  background-color: #313131;
+  height: 70%;
+  border-radius: 30px;
+  border: 1px solid white;
+  transition: 0.3s ease-in-out; 
 }
 
-.NavbarItemss{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  color: #E0E0E2;
-  text-decoration: none;
-  
+.newsSecondNavbar{
+  /* border: 1px solid blue; */
+  padding: 0 50px;
+  position:relative;
 }
 
-.NavbarItemss a{
-  color: #E0E0E2;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-}
-
-.MiniNavbarList{
-  height: 84px;
-  width: 100% !important; 
-  border: none;
-  margin: 0 !important;
+.newsSecondNavbarSub{
+  position:absolute;
+  padding: 0 50px;
+  /* border: 1px solid red; */
+  width: 80%;
+  top: 20%;
 }

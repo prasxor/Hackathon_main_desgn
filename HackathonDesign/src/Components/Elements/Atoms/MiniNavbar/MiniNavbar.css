@@ -2,22 +2,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid red; */
-  width: 95%;
-  /* height: 100%; */
+  width: 100%;
   margin-top: 1%;
-  /* border-top: 1px solid #E0E0E2; */
-  /* border-bottom: 1px solid #E0E0E2; */
-  border: 1px solid #313131;
-  /* background-color: transparent; */
+  /* border: 1px solid #313131; */
   border-radius: 77px;
+  margin: 0 30px;
+  padding: 0 20px;
+  color: #E0E0E2;
 }
 
 .MiniNavbarMain{
   background-color: transparent !important;
-  /* border: 1px solid red; */
-  /* border-radius: 0px !important; */
   border-radius: 77px;
+  color: #E0E0E2;
 }
 
 .NavbarItemss{
@@ -27,7 +24,7 @@
   flex-direction: row;
   color: #E0E0E2;
   text-decoration: none;
-  
+  cursor: pointer;
 }
 
 .NavbarItemss a{
@@ -40,17 +37,43 @@
 .MiniNavbarList{
   height: 84px;
   width: 100%;
-  /* background-color: transparent !important; */
-  /* border: 1px solid red; */
-  /* border-radius: 0 !important; */
   border: none;
   margin: 0 !important;
+    border: 1px solid #313131;
+    color: #E0E0E2;
+    cursor: pointer;
 }
 
 .categoriesNavbar{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid yellow;
-  width: 100%;
+  /* border: 1px solid yellow; */
+  width: 80%;
+  color: #E0E0E2;
+}
+
+
+.miniNavbarMain {
+  width: 85% !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 77px;
+  padding: 0 20px;
+  height: 90px;
+  margin: 0 20px;
+  font-family: "Roboto", sans-serif;
+  color: #E0E0E2;
+  /* border: 1px solid red; */
+
+}
+
+.NavbarList{
+  color: #E0E0E2;
+  cursor: pointer;
+}
+
+.NavbarItems{
+  color: #E0E0E2;
 }
