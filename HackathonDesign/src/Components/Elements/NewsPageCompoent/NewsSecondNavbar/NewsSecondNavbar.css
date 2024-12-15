@@ -2,22 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid red; */
   width: 95%;
-  /* height: 100%; */
   margin-top: 1%;
-  /* border-top: 1px solid #E0E0E2; */
-  /* border-bottom: 1px solid #E0E0E2; */
   border: 1px solid #313131;
-  /* background-color: transparent; */
   border-radius: 77px;
 }
 
 .MiniNavbarMain{
   background-color: transparent !important;
-  /* border: 1px solid red; */
-  /* border-radius: 0px !important; */
   border-radius: 77px;
+  width: 80% !important;
 }
 
 .NavbarItemss{
@@ -39,18 +33,7 @@
 
 .MiniNavbarList{
   height: 84px;
-  width: 100%;
-  /* background-color: transparent !important; */
-  /* border: 1px solid red; */
-  /* border-radius: 0 !important; */
+  width: 100% !important; 
   border: none;
   margin: 0 !important;
-}
-
-.categoriesNavbar{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid yellow;
-  width: 100%;
 }

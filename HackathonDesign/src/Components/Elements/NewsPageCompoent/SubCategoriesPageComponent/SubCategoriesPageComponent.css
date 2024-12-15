@@ -1,0 +1,68 @@
+.SubCategoriesPageComponentMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #313131;
+  height: 11.5625rem; /* 249px */
+  width: 80%; /* 1209px */
+  max-height: 11.5625rem;
+  max-width: 80%;
+  border-radius: 22px;
+  background-color: #131313;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.SubCategoriesComponentSubContainerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  width: 75%;
+  height: 100%;
+  flex-direction: column;
+  font-family: "roboto", sans-serif;
+  padding: 10px;
+}
+
+.SubCategoriesComponentSubContainerLeft h3 {
+  font-weight: 450;
+  font-size: 40px;
+  /* border: 1px solid yellow; */
+  width: 90%;
+  height: 30%;
+  margin-bottom: 5px;
+}
+
+.SubCategoriesComponentSubContainerLeft p {
+  width: 90%;
+  color: #929292;
+  font-size: 20px;
+  /* border: 1px solid green; */
+  margin-bottom: 5px; 
+  font-weight: 400;
+}
+
+.SubCategoriesComponentSubContainerLeftLastPara{
+  width: 90%;
+  color: #929292;
+  font-size: 17px !important;
+  font-weight: 450;
+}
+
+.SubCategoriesComponentSubContainerRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  width: 25%;
+  height: 100%;
+  /* padding:10px; */
+}
+
+.SubCategoriesComponentSubContainerRight img {
+  border-radius: 22px;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}

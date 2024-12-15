@@ -54,7 +54,7 @@ const fetchNews = async () => {
     const latestNewsData = await latestNewsResponse.json();
 
     // Fetch news by categories
-    const categories = ['technology', 'business', 'sports'];
+    const categories = ['technology', 'business', 'sports', 'entertainment', 'health', 'general', 'science'];
     const categoryNews = {};
 
     for (const category of categories) {
