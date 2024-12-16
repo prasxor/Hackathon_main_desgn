@@ -5,7 +5,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const ArrEle = ["Home", "About", "Tempo", "Contact"];
-  const ArrLink = ["/", "/about", "#", "/contact"];
+  const ArrLink = ["/", "/about", "/FinalPage", "/contact"];
   const ArrEle2 = ["News"];
   const ArrLink2 = ["/News"];
   const location = useLocation();

@@ -155,6 +155,7 @@ import News from "./Components/Pages/News/News";
 import CategoriesPage from "./Components/Elements/NewsPageCompoent/CategoriesPage/CategoriesPage";
 import NotFoundPage from "./Components/Pages/NotFoundPage/NotFoundPage";
 import "./App.css";
+import FinalNewsPage from "./Components/Elements/NewsPageCompoent/FinalNewsPage/FinalNewsPage"
 
 function App() {
   return (
@@ -200,11 +201,11 @@ function AppContent() {
         <Route path="News/sports" element={<CategoriesPage />} />
         <Route path="News/business" element={<CategoriesPage />} />
         <Route path="News/entertainment" element={<CategoriesPage />} />
-        <Route path="News/health" element={<CategoriesPage />} />
+        <Route path="News/health" element={<CategoriesPage  />} />
         <Route path="News/general" element={<CategoriesPage />} />
         <Route path="News/science" element={<CategoriesPage />} />
         <Route path="News/technology" element={<CategoriesPage />} />
-        <Route path="*" element={<NotFoundPage />} />
+        <Route path="*" element={<FinalNewsPage />} />
       </Routes>
       
       <Footer />

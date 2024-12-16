@@ -2,216 +2,255 @@
   "latestNews": [
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "The Guardian",
-      "title": "Woman alleging sexual assault by Jay-Z and Sean Combs admits inconsistencies in claims - The Guardian",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeDdCRERzZmRCVzBtZ1VfaFFMTEoxUlZlbGVoUFE4cHV3MmlLUW1ydXFIanc5alNIam1ZcllqUC1jX2QySE1STUl6RGFWOXFWZ1JQMm1DX0VwbG83NkNuVkN0ZncxSnUtN1FZS2dyRTBuZGhwVWE1TkJqWWI3WTNvRElMSUEtYm5pSENtNUtJSDU2SXlELVNXNEFid0JiMmNk0gGgAUFVX3lxTE1pRHZmNlZYSjlhNjNIbHRTTEc1R1ZtbTJHbXUzak95TFZNeW1abXpNY05abWVYNVFZeTJ6SG9KbUQ3RTFKTUJUazBKRFRrallaeFoxOEc4X29jQWFGMlB1VUdWMndEX2k3VVlMcGhKb09uSk5tOWRNYlBxb1VEdkQybEJkUzVlanRicE03NVlteFRUN0xheWFveVk1RHJsekY?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2024-12-14T15:16:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "CNN",
-      "title": "Georgia political crisis deepens as lawmakers vote in far-right ex-soccer player as president - CNN",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdWRkaXBjWUpoRmVTZEZBV0dRTF95MWdzLXdfSGxGbDFVY2VRa2doMWdITnJQTDJqZWs5UmxXbVc1Mkx4VmxFR055RVozLXRiZEwwRURtMlNhQmU4NkhuenhpQjViUTktNTFqcUNxNGlOODdxY3hDVkRVTFFSVC1FTlNkLXlHaGNENURJZWxYYUhxTmNkakNFZkU2YV9Cd9IBlAFBVV95cUxQYWpMRGNfR0VUU2NfRUVHUnhqZU1RY2h6QXoxdVBEWDYzaXlzVXNtR0gtUWh5T0JFN1BDVHExd2J4RFJ0V1c3QUtDZHAwVGhGeVEwbWc3X2x0WTdWamFlaWdJSmhZYmlKTy1GSW5tS1NaVHU5d0p0aVo3WGE5Z3Nsbm51OExxcTRkMDR2UzhOeXFWVnpk?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2024-12-14T15:08:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "The Associated Press",
-      "title": "Trump will attend the Army-Navy game alongside key allies, nominees and Daniel Penny - The Associated Press",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMmUxa29IVmwwaGt5NlQxUFhoU1F4Y2dwd3ZlQVFlNWRlYjd4MHYyWGduWXlRMG9IWGJsMEVUZldZVkxSY2VqOXRTUlVpRUJNVDZRVjlzc1huR0dIX084dTA4dExBb3pKMkVDNTl0bW9JWDZEYmpueVdTLU9UWVhObXpQUzdUejdRWkNHZE9PVVRTSDVuSzVpcTdZUXNRZmtscmZSaS1lbGgwNnM?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2024-12-14T14:15:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Financial Times",
-      "title": "Concern grows over mysterious drone sightings along US east coast - Financial Times",
-      "description": null,
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50YW5jck5KaS1JU2RfLVFlNE4wMDNDMU4xRGJWd3dJbnlXT3pIY2F3dGlmX2VzYXVWLVZOTXNWWjExR0tIeGJ5ekhiVEZUVWxJNGFiVGNOQWJwNHlZd2VTOFJpdzZrVkc1MkhaRGhsdnQ?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2024-12-14T13:15:48Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
-      },
-      "author": "Sandra G. Boodman",
-      "title": "Medical Mysteries: Why did this baby’s robust appetite wither? - The Washington Post",
-      "description": "A baby’s alarming deterioration was the result of a disorder that can be overlooked in infants, and that, if left untreated, can cause permanent brain damage.",
-      "url": "https://www.washingtonpost.com/health/2024/12/14/medical-mystery-baby-wont-eat/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/W53CTJFAMNCNPDXU5YMJ2NGXDA_size-normalized.jpg&w=1440",
-      "publishedAt": "2024-12-14T13:02:14Z",
-      "content": "Something was different about Eli. He had had a hearty appetite since birth, so when he refused his first tastes of solid food at 4 months his mother wasnt worried at first.\r\nJessica Dizon thought he… [+10355 chars]"
-    },
-    {
-      "source": {
         "id": null,
-        "name": "CNET"
+        "name": "BBC News"
       },
       "author": null,
-      "title": "Download iOS 18.2 Now for ChatGPT in Siri, New AI Features and More - CNET",
-      "description": "The update also upgrades everyone's Mail and Find My apps.",
-      "url": "https://www.cnet.com/tech/services-and-software/download-ios-18-2-now-for-chatgpt-in-siri-new-ai-features-and-more/",
-      "urlToImage": "https://www.cnet.com/a/img/resize/bbce5e1889aeab1c964901b9a7eb5338131d7a1f/hub/2024/09/17/653f3d1f-933d-4716-93af-f0e8aa794a19/apple-iphone-16-pro-max-apple-intelligence-siri-halo-glow-4676.jpg?auto=webp&fit=crop&height=675&width=1200",
-      "publishedAt": "2024-12-14T12:00:00Z",
-      "content": "The wait is over for some of the most anticipated Apple Intelligence features. Apple released iOS 18.2 on Dec. 11, and the update brings a whole host of AI to your iPhone -- if you have a compatible … [+15396 chars]"
+      "title": "Tracing the privileged family roots of suspected killer Luigi Mangione in Baltimore - BBC.com",
+      "description": "In his home city, the accused shooter's family name has meant wealth, power, prominence and philanthropy for decades.",
+      "url": "https://www.bbc.com/news/articles/crl3jkjxp75o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/535c/live/24b00680-ba3a-11ef-aff0-072ce821b6ab.jpg",
+      "publishedAt": "2024-12-14T17:27:31Z",
+      "content": "This week, the surname Mangione became inextricably linked with the cold-blooded killing of a health-insurance executive in New York City, when 26-year-old Luigi Mangione was charged with his murder.… [+5494 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "BBC.com",
+      "title": "Isak Andic, founder of Mango fashion chain, dies in accident aged 71 - BBC.com",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aOWlwQUZuOHQ0RERCOFhzRl84VXFGbHczNFRodk9vUlBxb2xNeEE1TnR0alRCelBzdE5YREVQbXBNVnhvSEhaSWR6VVVzUEVlYWlwN2o2NTZuUdIBX0FVX3lxTFBOZmsyNnVlalFDZDlZTGFPUjJuUlE1d2Q4eXEtaGU1eUM0Y2pXc2szOTAzUnVxWHU4OXV4SGtXZmRqNHR4TlR1d1lDZmlpYTB6WUVYNXlwVTRwM2N0MlpF?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-12-14T17:27:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "the-hill",
+        "name": "The Hill"
+      },
+      "author": "Filip Timotija",
+      "title": "Obesity rate among US adults fell in 2023 for first time in over a decade: Study - The Hill",
+      "description": "The obesity rate among U.S. adults fell in 2023 for the first time in over a decade, according to a new study released on Friday.  The study published in the journal JAMA Health Forum found that obesity nationwide has dropped from 46 percent in 2022 to 45.6 p…",
+      "url": "https://thehill.com/policy/healthcare/5040586-obesity-rate-dip-study/",
+      "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2024/01/Elsewhere-Scale_121622_AP_Patrick-Sison.jpg?w=1280",
+      "publishedAt": "2024-12-14T17:13:00Z",
+      "content": "Skip to content\r\nThe obesity rate among U.S. adults fell in 2023 for the first time in over a decade, according to a new study released on Friday. \r\nThe study published in the journal JAMA Health For… [+1529 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "CBS News",
+      "title": "1 person killed at U.S. Army base in Georgia in what authorities say appears to be an \"isolated\" incident - CBS News",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PWEFaZVhndzdzb3NiZ2VISms5TXFpdG10Xy1VaGI1RERXeC1NbFRXU3JvTTFFZUh6anlKdFg0NEZQUXNZUnJWSExzMTFOQlVtaHBNd2cwWnBwNGdqMnlYbGJsNVNPM1F6QlJfd2xWRjRDODFBOVNn0gF8QVVfeXFMTm5yYjd1bFdKR2ZHNzh5V3NtY3o5YXZMbTVycTU5M1BTbGRYai1jY3hqZDg5ODVQUXJOYnM0V0dOR2pzc0NqVlg3WFFWS3NYVDR4UUFJeVhieV9WcGk4WmJNWENiSThlUExfZEpBa2ItSzBWSHZ3QkxLQVRMbQ?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-12-14T17:12:27Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Reuters",
+      "title": "Before his ouster, Syria's Assad told Iran that Turkey was aiding rebels to unseat him - Reuters",
+      "description": null,
+      "url": "https://www.reuters.com/world/middle-east/before-his-ouster-syrias-assad-told-iran-that-turkey-was-aiding-rebels-unseat-2024-12-14/",
+      "urlToImage": null,
+      "publishedAt": "2024-12-14T16:48:02Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Ashley Strickland",
+      "title": "An elusive creature of the deep can live for centuries. Scientists think they know why - Yahoo! Voices",
+      "description": "This week, learn why Greenland sharks can live for centuries, discover when Neanderthals and humans met, see the most volcanic world in our solar system, and more.",
+      "url": "https://www.cnn.com/2024/12/14/science/greenland-shark-science-newsletter-wt/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/b8c6j6.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2024-12-14T16:00:42Z",
+      "content": "Editors note: A version of this story appeared in CNNs Wonder Theory science newsletter. To get it in your inbox, sign up for free here.\r\nEven though you want to try to, never grow up, Peter Pan said… [+5330 chars]"
+    },
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": "POLITICO",
+      "title": "Trump’s plan to end birthright citizenship could be decided by the Supreme Court - POLITICO",
+      "description": null,
+      "url": "https://www.politico.com/news/2024/12/14/trump-birthright-citizenship-supreme-court-00194336",
+      "urlToImage": null,
+      "publishedAt": "2024-12-14T16:00:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Variety",
+      "title": "A24’s Babygirls: Drew Starkey and Harris Dickinson on Chemistry, Submission and Acting With A-List Movie Stars - Variety",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdW02Y2dDY0RBcDd5S1pPczJCSHdzV0s2aExLc29aWmw4RmVCcENnUFRaNGRSWGRXQkg4azdnSWhNM0VwM1A3TWpwdGJkWVpQM0JFdW4ycWpnajhIRWRIMUo0MVQxOC14VTV2OXBBR2s5V1o0NmdJbnF5bmVJZGxkMUIyNDJ0RzJoZXQ2TkZhSDFncGpEbzFCZ2VjSWtDUEtrTkpz?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-12-14T16:00:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Christian Edwards, Sophie Tanno",
+      "title": "Georgia political crisis deepens as lawmakers vote in far-right ex-soccer player as president - CNN",
+      "description": "Georgian lawmakers have voted in far-right former soccer star Mikheil Kavelashvili as next president of Georgia, amid mounting popular anger over the government’s halt to EU accession talks.",
+      "url": "https://www.cnn.com/2024/12/14/europe/georgia-president-vote-mikheil-kavelashvili-intl/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/2024-12-14t112536z-40567399-rc2zoba6ppm0-rtrmadp-3-georgia-politics-president.JPG?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2024-12-14T15:08:00Z",
+      "content": "Georgian lawmakers voted in a far-right former soccer star as the countrys next president on Saturday, deepening tensions between the pro-Russian government and pro-Western opposition amid mounting p… [+4374 chars]"
     },
     {
       "source": {
         "id": "associated-press",
         "name": "Associated Press"
       },
-      "author": "HYUNG-JIN KIM, KIM TONG-HYUNG",
-      "title": "South Korea’s parliament votes to impeach President Yoon Suk Yeol over his martial law order - The Associated Press",
-      "description": "South Korea’s parliament has impeached President Yoon Suk Yeol over his martial law decree, a move that ended days of political paralysis but set up an intense debate over Yoon’s fate. Jubilant crowds have roared to celebrate another defiant moment in the cou…",
-      "url": "https://apnews.com/article/south-korea-martial-law-yoon-impeach-6432768aafc8b55be26215667e3c19d0",
-      "urlToImage": "https://dims.apnews.com/dims4/default/68abb2b/2147483647/strip/true/crop/6520x3668+0+340/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc1%2Ff3%2F008379eaa2889d9b36fe9a923d7e%2F130fbc178f03497d8d45e30feee10412",
-      "publishedAt": "2024-12-14T11:43:00Z",
-      "content": "SEOUL, South Korea (AP) South Koreas parliament on Saturday impeached President Yoon Suk Yeol over his stunning and short-lived martial law decree, a move that ended days of political paralysis but s… [+9447 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Syria: Stories from people freed from Saydnaya torture prison - BBC.com",
-      "description": "The BBC speaks to men released from Saydnaya prison - a place known as the \"human slaughterhouse\".",
-      "url": "https://www.bbc.com/news/articles/cy4784vn4jdo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/72db/live/a2fed7d0-b974-11ef-a2ca-e99d0c9a24e3.png",
-      "publishedAt": "2024-12-14T11:18:22Z",
-      "content": "It was a defining moment of the fall of the Syrian regime - rebels freeing inmates from the country's most notorious prison. A week on, four men speak to the BBC about the elation of their release, a… [+12260 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "NBCSports.com"
-      },
-      "author": "Patricia Duffy",
-      "title": "What college football bowl games are on today? Full schedule for start of bowl season - NBC Sports",
-      "description": "The magic of bowl season is upon us, meaning interesting matchups almost every day for over a month.",
-      "url": "https://www.nbcsports.com/college-football/news/what-college-football-bowl-games-are-on-today-full-schedule-for-start-of-bowl-season",
-      "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/f662abf/2147483647/strip/true/crop/3087x1736+0+161/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F46%2Fe9%2F49b05a0842a89a50b0f8aa508688%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2186837344",
-      "publishedAt": "2024-12-14T11:00:20Z",
-      "content": "The college football postseason is here, and while that means the season is drawing to a close, it also means another month of football thanks to bowl games happening nearly every day for the next fe… [+2206 chars]"
-    },
-    {
-      "source": {
-        "id": "abc-news",
-        "name": "ABC News"
-      },
-      "author": "ABC News",
-      "title": "UnitedHealthcare CEO killing latest: Mangione hires 'veteran' New York lawyer - ABC News",
-      "description": null,
-      "url": "https://abcnews.go.com/US/unitedhealthcare-ceo-killing-latest-mangiones-veteran-new-york/story?id\\\\u003d116787673",
-      "urlToImage": null,
-      "publishedAt": "2024-12-14T10:43:48Z",
-      "content": null
+      "author": "TARA COPP, AAMER MADHANI",
+      "title": "Trump will attend the Army-Navy game alongside key allies, nominees and Daniel Penny - The Associated Press",
+      "description": "Donald Trump will huddle with allies and a Republican cause célèbre at the Army-Navy football game. It's a chance to take in one of the most storied rivalries in college sports while spotlighting his emerging national security team. On Saturday afternoon, Tru…",
+      "url": "https://apnews.com/article/trump-army-navy-football-penny-hegseth-desantis-85da138b3ac130b211afc414bf43514a",
+      "urlToImage": "https://dims.apnews.com/dims4/default/307345f/2147483647/strip/true/crop/4667x2625+0+245/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb8%2Fa5%2F743e9439088e77a146ab7d64db33%2Fdd0cea137fce4696b98884a0da6c0ce8",
+      "publishedAt": "2024-12-14T14:15:00Z",
+      "content": "WASHINGTON (AP) President-elect Donald Trump will huddle with allies and a Republican cause célèbre at Saturdays Army-Navy football game, a chance to take in one of most storied rivalries in college … [+4397 chars]"
     }
   ],
   "categories": {
     "Technology": [
       {
         "source": {
-          "id": "google-news",
-          "name": "Google News"
-        },
-        "author": "Forbes",
-        "title": "‘Elden Ring Nightreign’ Director Does Not Care About Concord, Suicide Squad Failures - Forbes",
-        "description": null,
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeXF1Q19LNWZhdkR3Tkl5aHlvd2pNU18tMmhaa20zWkZBMDZBbmJsQkVSLTV0aFRmRWJUNERyNk1yQlpoVExkVnRtU2NqQldDOFhlVFdOelRWRV96LTVSN2hZWGpDQXRoZkMxYXk5QjJhQzVNYnJBYUJBeDNkSFk0SnJ5ODFtV2w0SURuUTBYa0FJWEdHNTBBeFE4N05aWHdmMzNnQU9GMjdvUFlRaGxjbGlESTVLNmY2bzJFa0VwWDVmWUNWRENzb2ZnT2E?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2024-12-14T14:25:11Z",
-        "content": null
-      },
-      {
-        "source": {
-          "id": "google-news",
-          "name": "Google News"
-        },
-        "author": "Android Central",
-        "title": "News Weekly: Android XR announced with a Samsung headset, Gemini 2.0 drops, and the Galaxy S25 may get Qi2... sort of - Android Central",
-        "description": null,
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVFFmSm9fUXVVWUdDZEV5WHQtTnFIX0FIOEVIMnlJakZwYXdhRkJUZ2ItbGx6ZjdPdlJvUUo0TmxjbXJGcXpKdVJSOWw2V0ZJOVhfN0NPc0hRc0dSX1h0WTUxeGpLczVSNzdjZlV4cElIUXE2cDJuUm54RzR6SFNEeGRrSmNudWN5Znc?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2024-12-14T13:00:00Z",
-        "content": null
-      },
-      {
-        "source": {
           "id": null,
-          "name": "CNET"
+          "name": "Videocardz.com"
         },
         "author": null,
-        "title": "Download iOS 18.2 Now for ChatGPT in Siri, New AI Features and More - CNET",
-        "description": "The update also upgrades everyone's Mail and Find My apps.",
-        "url": "https://www.cnet.com/tech/services-and-software/download-ios-18-2-now-for-chatgpt-in-siri-new-ai-features-and-more/",
-        "urlToImage": "https://www.cnet.com/a/img/resize/bbce5e1889aeab1c964901b9a7eb5338131d7a1f/hub/2024/09/17/653f3d1f-933d-4716-93af-f0e8aa794a19/apple-iphone-16-pro-max-apple-intelligence-siri-halo-glow-4676.jpg?auto=webp&fit=crop&height=675&width=1200",
-        "publishedAt": "2024-12-14T12:00:00Z",
-        "content": "The wait is over for some of the most anticipated Apple Intelligence features. Apple released iOS 18.2 on Dec. 11, and the update brings a whole host of AI to your iPhone -- if you have a compatible … [+15396 chars]"
+        "title": "GeForce RTX 5070 Ti reportedly features 16GB GDDR7 memory and GB203-300 GPU - VideoCardz.com",
+        "description": "GeForce RTX 5070 Ti to feature 16GB memory New rumor on NVIDIA’s next-gen Ti model.  After two weeks of silence, new information regarding the GeForce RTX 50 series is now reaching the media. It is no secret that NVIDIA has already provided early data and sam…",
+        "url": "https://videocardz.com/newz/geforce-rtx-5070-ti-reportedly-features-16gb-gddr7-memory-and-gb203-300-gpu",
+        "urlToImage": "https://cdn.videocardz.com/1/2024/12/RTX5070TI-HERO.jpg",
+        "publishedAt": "2024-12-14T17:51:00Z",
+        "content": "Please note that this post is tagged as a rumor\r\n.\r\nNew rumor on NVIDIA’s next-gen Ti model. \r\nAfter two weeks of silence, new information regarding the GeForce RTX 50 series is now reaching the medi… [+3758 chars]"
       },
       {
         "source": {
           "id": "google-news",
           "name": "Google News"
         },
-        "author": "Forbes",
-        "title": "Gmail Account Deletion Warning—Act Now To Save Your Email In 2025 - Forbes",
+        "author": "LADbible",
+        "title": "People horrified at what airport security were able to see when passengers walked through X-Ray machine - LADbible",
         "description": null,
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOVc4MzNQZ1kxZzdUclFSUmdCbUhZUHpSeVRCdF9CWklhWFN0MUhLd3hwS0QxUE1mYmlvLXlMMmFCSUlRaTF5enVOU1lPUjFNcVNsVXRBeGxTSHg4R1pTdTBpVldoRWVpQzhBOU9CcEc3YkR4WGIwQUdia285b3dqMWZnZGdnNjZoMUdDOENJa0pBa1dTR1dQZGU4S1lhQzJGRUhycjA3WGVIU0VmYU0wcjBMZ29INktzS1E?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUkRLelNQNFZYVHdqNk9Wdmd3LWVTUnlYNFkwMFRCcTRyZzdlbGg3NmRkb2laaENCQVVzS0RHSHQwNXZJeFc4ZENUcXpza3VKNFJzN2s2bnQwOFVTSjU5OUlBRlI5c1ZpSDh5eDBKSjB1anNmR2dBR3YzemczQnhlaTJTdk9IUmNFbHNlVGJuRm54R29DRFE?oc=5",
         "urlToImage": null,
-        "publishedAt": "2024-12-14T11:43:59Z",
+        "publishedAt": "2024-12-14T16:25:42Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Yahoo Life",
+        "title": "The only Amazon deals worth shopping this weekend: Get an Apple iPad for a record low - Yahoo Life",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcFZzYU5fVTVVV1B4MG5QSlFfWGtiMjFoM1MwaUtDMnUzYkpPRE92akQxYnl6SlVBd01qTGthd2RnaXlxcU5ocFFZenZUMjlRZmtBTzV5c010NFRicTdoTlRkRDhLMGxsa19TcFpKbDlWbndVdEIzREU0OW1xYVVjNFQ1NEx2aW9BbmFuam5WZFNCa3BwVzN3TEZvT1hya0VRa2RyT0NnYmxNNVBUYlR2al9Vc01SWmNzNVNFZmZiOV9kMUtHX2U5NmFUM2NBZEVXWGQ2Tm93?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2024-12-14T15:28:38Z",
         "content": null
       },
       {
         "source": {
           "id": null,
-          "name": "HuffPost"
+          "name": "Forbes"
         },
-        "author": "Tessa Flores",
-        "title": "The Most-Wanted Tech Gifts That You Still Have Time To Order - HuffPost",
-        "description": "I'm excited to share last minute winners from helpful home electronics to game-changing kitchen appliances.",
-        "url": "https://www.huffpost.com/entry/best-tech-gifts-holidays-2024-ud4_l_6759f819e4b0518821f20cf7",
-        "urlToImage": "https://img.huffingtonpost.com/asset/675a220614000014003d6c00.png?cache=CD7AVmldjc&ops=1200_630",
-        "publishedAt": "2024-12-14T10:45:02Z",
-        "content": "In the 21st century, tech items are typically a safe bet when it comes to gift giving. As a shopping reporter whose job is literally to research the most innovative, sought-after and effective produc… [+10743 chars]"
+        "author": "Paul Tassi",
+        "title": "‘Elden Ring Nightreign’ Director Does Not Care About Concord, Suicide Squad Failures - Forbes",
+        "description": "Elden Ring Nightreign was one of the most interesting and surprising debuts at The Game Awards, a co-op multiplayer survival game",
+        "url": "https://www.forbes.com/sites/paultassi/2024/12/14/elden-ring-nightreign-director-does-not-care-about-concord-suicide-squad-failures/",
+        "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/675d94a70f1252bef8376023/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+        "publishedAt": "2024-12-14T14:25:11Z",
+        "content": "Elden Ring Nightreign\r\nFromSoft\r\nElden Ring Nightreign was one of the most interesting and surprising debuts at The Game Awards, a co-op multiplayer survival game that is unlike anything weve seen fr… [+2592 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Android Police"
+        },
+        "author": "Dallas Thomas",
+        "title": "Android goes virtual and Google gives Pixels a practical new power in this week's news - Android Police",
+        "description": "And does Gemini's rise mean the demise of 'OK Google'?",
+        "url": "https://www.androidpolice.com/weekly-android-news-roundup-december-13-2024/",
+        "urlToImage": "https://static1.anpoimages.com/wordpress/wp-content/uploads/wm/2024/12/twim-wireless-charging-hero-pixel-stand.jpg",
+        "publishedAt": "2024-12-14T13:30:00Z",
+        "content": "Just when we were thinking there was a version of Android for everything touchscreen devices, cars, TVs, you name it Google went and shook up the consumer electronics industry again. Even after the A… [+5714 chars]"
       }
     ],
     "Business": [
       {
         "source": {
-          "id": null,
-          "name": "HuffPost"
+          "id": "google-news",
+          "name": "Google News"
         },
-        "author": "AP",
-        "title": "Donald Trump Hosts Apple CEO Tim Cook At Mar-A-Lago - HuffPost",
-        "description": "Cook is the latest in a string of big tech leaders — including Sam Altman, Mark Zuckerberg and Jeff Bezos — who have sought to improve their standing with Trump.",
-        "url": "https://www.huffpost.com/entry/donald-trump-hosts-apple-ceo-tim-cook-at-mar-a-lago_n_675d88a4e4b01d779ad1f5cf",
-        "urlToImage": "https://img.huffingtonpost.com/asset/675d91f01800001a00a0f69d.jpeg?cache=BBxv1HDfwc&ops=1200_630",
-        "publishedAt": "2024-12-14T13:51:04Z",
-        "content": "WEST PALM BEACH, Fla. (AP) Donald Trump hosted Apple CEO Tim Cook for a Friday evening dinner at the president-elects Mar-a-Lago resort, according to a person familiar with the matter who was not aut… [+3716 chars]"
+        "author": "BBC.com",
+        "title": "Isak Andic, founder of Mango fashion chain, dies in accident aged 71 - BBC.com",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aOWlwQUZuOHQ0RERCOFhzRl84VXFGbHczNFRodk9vUlBxb2xNeEE1TnR0alRCelBzdE5YREVQbXBNVnhvSEhaSWR6VVVzUEVlYWlwN2o2NTZuUdIBX0FVX3lxTFBOZmsyNnVlalFDZDlZTGFPUjJuUlE1d2Q4eXEtaGU1eUM0Y2pXc2szOTAzUnVxWHU4OXV4SGtXZmRqNHR4TlR1d1lDZmlpYTB6WUVYNXlwVTRwM2N0MlpF?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2024-12-14T17:27:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "KTLA Los Angeles",
+        "title": "Mega Millions jackpot grows to $740 million, $350K ticket sold in Southern California - KTLA Los Angeles",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNExMeVVVOENlMkFLVFVFcFlTckNVMXB0amE5dUhGRGI0QUhuT2N5LXE2ZjZRNjQwSTVfeldUZ1VJNWNpR0VYWEVyQ3g0b0owVzV1b0d1d3hjOVdNdjhyTnlPbl9PTTBRVmZQNXctMmRuLTZDVEtuWEdtdmV1WjM1WHhMTjMzNDQ0ODZCMEhiRldZSi00MV9QRFV2U2FRX0s5TUtXVUJPV1QwV1Nyc1NyTHpFME1LZEE?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2024-12-14T16:45:25Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Daily Mail",
+        "title": "Mystery as Open AI whistleblower Suchir Balaji is found dead in San Francisco home - Daily Mail",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcjVBdzFzb0NQLURYRHpfR3pXX3QwMldEb0ktSmZYZFJKZm5Vci1ZZnZLSEdJX1M1cklsYlcwUFE4WTRCZy0yRWdwbXBoM2NaVG9jdTdGR21tYUtEUmxLMzNLTmk4bnVXbW5vQ1A5TFlQZDBGTXNXZ2dFZmRHeUR5a0J6TGdMQ2o4MUU2dVlBaFVKWjA2Q2RjbkJvOFFfWHVWSGtwUk5vUERZV21lWUZ2LXIxY9IBuAFBVV95cUxOUm0wLTExeEs2TGV1UC02NTVLVXBSQ2dDTHE2bEV6dWd3MnFFMlZXU2Jjb2l1SFU5R2RyRi1VUmx2azJSTWxDT0dkQVBzeGp5NlV4aWdZSXJBTF8xbEprUUwxbGtnWEJ2RlRuR2x3T001RDlEMUJyeUV0TS1aX0JLM3c0eFZsaTF3c1E5ZVdRNk5meWYzUmZZNEF6cm80Rnd5YVpVaFp0bWhHUVFWaWdPWGxnTzVpTHhy?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2024-12-14T15:40:03Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Axios",
+        "title": "CEOs court Trump at Mar-a-Lago - Axios",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ETC1jSHB6ZHlnQ1htX0NwLVNOZnctUnd2dUt4MDBfc0t6Z01NcHdDUkVENFVGQmpzNXVFTlN6eXJ1ZXVQYlFSYU5JUWVvYmpOS3hGUm0yZlNpOUMxYXNIclNoUUVxMXlwZWY0MEdmNzF2QUhpd3daUGtXWQ?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2024-12-14T15:26:19Z",
+        "content": null
       },
       {
         "source": {
@@ -225,48 +264,35 @@
         "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/673ebf0b7db7a827666a7939/0x0.jpg?format=jpg&crop=1878,1215,x218,y199,safe&height=900&width=1600&fit=bounds",
         "publishedAt": "2024-12-14T12:15:09Z",
         "content": "Donald Trump has firmly embraced bitcoin and crypto this year as a leak reveals Russia could be about to start a bitcoin cold war.\r\nUnlock over $3,000 in NFT, web3 and crypto perks Apply now!\r\nThe bi… [+3000 chars]"
-      },
+      }
+    ],
+    "Sports": [
       {
         "source": {
-          "id": "the-wall-street-journal",
-          "name": "The Wall Street Journal"
+          "id": null,
+          "name": "Prideofdetroit.com"
         },
-        "author": "The Wall Street Journal",
-        "title": "Americans Are Stockpiling to Get Ahead of Tariffs - The Wall Street Journal",
-        "description": null,
-        "url": "https://www.wsj.com/economy/tariff-price-fear-stockpile-bd418b8a",
-        "urlToImage": null,
-        "publishedAt": "2024-12-14T10:30:00Z",
-        "content": null
-      },
-      {
-        "source": {
-          "id": "business-insider",
-          "name": "Business Insider"
-        },
-        "author": "Alcynna Lloyd",
-        "title": "Zillow listings reveal what homebuyers are obsessed with right now - Business Insider",
-        "description": "Zillow analyzed millions of listings to figure out what homebuyers want in 2025. In-demand properties are cozy, disaster-resistant, and high-tech.",
-        "url": "https://www.businessinsider.com/home-trends-buyers-obsessed-with-in-2025-from-zillow-listings-2024-12",
-        "urlToImage": "https://i.insider.com/675cb0b152dd0818d1a73c96?width=1200&format=jpeg",
-        "publishedAt": "2024-12-14T10:07:00Z",
-        "content": "The American home is having an identity crisis.\r\nMany newly constructed homes are smaller, with fewer hallways and shrinking backyards yet they are significantly more expensive than just a decade ago… [+979 chars]"
+        "author": "Hamza Baccouche",
+        "title": "Lions vs. Bills, Week 15 bold prediction: Offenses slip into low-scoring slugfest - Pride Of Detroit",
+        "description": "Most are expecting a shootout between the Lions and Bills on Sunday, but are we in for a surprise? Check out this week’s bold prediction.",
+        "url": "https://www.prideofdetroit.com/2024/12/14/24321047/bills-lions-bold-prediction-lions-bills-low-scoring-game",
+        "urlToImage": "https://cdn.vox-cdn.com/thumbor/ttZ56c-B1j_ivaXpdyKR8l0oQyA=/0x540:6809x4105/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25789810/2188456179.jpg",
+        "publishedAt": "2024-12-14T17:05:49Z",
+        "content": "Everyone and their mother is expecting a shootout between the Detroit Lions and the Buffalo Bills on Sunday. After all, both teams feature offenses that are arguably and statistically the best in the… [+3087 chars]"
       },
       {
         "source": {
           "id": "google-news",
           "name": "Google News"
         },
-        "author": "The New York Times",
-        "title": "Tech Industry and CEOs Curry Favor With Trump Ahead of His Inauguration - The New York Times",
+        "author": "New York Post ",
+        "title": "De’Vondre Campbell’s ‘reputation is done’ as quitting on 49ers is career-wrecker: Shawne Merriman - New York Post ",
         "description": null,
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRlczcUpQejNDRVVuSFVobThVaXBZczZ5RWRzMFhvdHNFeTdxSkh1bG5NTUVhNzU5bms2b3hnTUFaaENVV1dLTlp5aXVEMU5ZQlNmcGgxZWowU2VoN2U3U2FGUF9BNDBKOHRhY0hzaFQ1UTIyMU9xaWoxTDNvS3hSODl1cGpmRTA?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYl9RTUNvUW1JNm1KbjhoNkhqV1VTZnc5WVpaNDdQNXNDX3A1U2NiWkJjNGhvZDNMOW5lZXZtZzlLXzhPLU9rbkJEOExIY0doZHdJRGJpTXJOSmlEel9taWtWWjVMTUZDRi1fdjM3WGwxa1VoOXhLLUk0Wk1GRF9MdV9mMTk0ZFdwY3oyN2l3d2lxRk5wTlAxNGpVMEtLZmphbDRrSDFHSWdqMXRYdFJXN25aV3Y3Zw?oc=5",
         "urlToImage": null,
-        "publishedAt": "2024-12-14T10:02:56Z",
+        "publishedAt": "2024-12-14T16:16:00Z",
         "content": null
-      }
-    ],
-    "Sports": [
+      },
       {
         "source": {
           "id": "nhl-news",
@@ -282,69 +308,69 @@
       },
       {
         "source": {
-          "id": "google-news",
-          "name": "Google News"
-        },
-        "author": "New York Post ",
-        "title": "Rich Eisen goes off on Juan Soto for one particular Mets-Yankees remark - New York Post ",
-        "description": null,
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdG1oc3NnLU8wdmRKeHJRN3JYN3NSQ2U2M1VqVkd1SUxEV0h0TjVEZVVSeWxFbERYSGxGdHpXeHhsQXFPWnpsZXkyQVpmal9ycEEwc2FDa0ExZUZjdVdQUXgyLVFPc1lOb0l2eEIzUlkzNEJ1Rm5tRWxpTHpqQ1NsUndwQTVsRmc2UXZVZ1FkVmxuWXpvajJDQlZlNXBhbEpnRmxz?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2024-12-14T15:42:00Z",
-        "content": null
-      },
-      {
-        "source": {
-          "id": "google-news",
-          "name": "Google News"
-        },
-        "author": "The Athletic",
-        "title": "Russini’s what I’m hearing: The biggest Belichick twist; about those Kyle Shanahan rumors - The Athletic - The Athletic",
-        "description": null,
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQlNfNmtReVdLNTBXcTY1ZUJlNndGa0Y3QXluWTlISVlQeDBON2k2STltYmYzU1VZQVYxUnRsYURyb1JNZXhZTF9ZVUNHR1ZEOXhPRV9qaW5ERV9SYksyUXVxUFpOTk5sMF9ZVHRLRmlvMm4tdWhITnplU0xRbmNfWWVicnQ3eWQ2dXhJMmRYNklYZWpwcVNld2V2cEI?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2024-12-14T15:02:55Z",
-        "content": null
-      },
-      {
-        "source": {
           "id": null,
-          "name": "247Sports"
+          "name": "NBCSports.com"
         },
-        "author": "Chris Hummer and Matt Zenitz",
-        "title": "Transfer portal intel: Latest on the No. 1 player in the portal, other top transfers - 247Sports",
-        "description": "What you need to know about some of the top transfers as the portal cycle continues to be in full swing",
-        "url": "https://247sports.com/article/transfer-portal-intel-latest-on-the-no-1-player-in-the-portal-other-top-transfers--242083677/",
-        "urlToImage": "https://s3media.247sports.com/Uploads/Assets/880/616/12616880.jpg?width=1200&height=628&crop=1.91:1&fit=cover",
-        "publishedAt": "2024-12-14T14:23:04Z",
-        "content": "The latest 247Sports' Matt Zenitz and Chris Hummer are hearing from sources on some notable transfer portal entrants as visits continue across the country:\r\nEric Singleton, WR, Georgia Tech247Sports … [+205 chars]"
+        "author": "Michael David Smith",
+        "title": "Harrison Butker to return for Chiefs on Sunday, Matthew Wright will be waived - NBC Sports",
+        "description": "The Chiefs will get their kicker back on Sunday against the Browns.",
+        "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/harrison-butker-to-return-for-chiefs-on-sunday-matthew-wright-will-be-waived",
+        "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/c0942d4/2147483647/strip/true/crop/6000x3375+0+312/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fc8%2F7f%2Fd6807a01471e95283d6d5037065a%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2185296746",
+        "publishedAt": "2024-12-14T16:03:13Z",
+        "content": "The Chiefs will get their kicker back on Sunday against the Browns.\r\nHarrison Butker will be activated from injured reserve today so that he can play tomorrow, according to Adam Schefter of ESPN.\r\nTh… [+477 chars]"
       },
       {
         "source": {
           "id": "google-news",
           "name": "Google News"
         },
-        "author": "Packers Wire",
-        "title": "Packers vs. Seahawks: 5 things to watch and a prediction for Week 15 - Packers Wire",
+        "author": "Inside the Hall",
+        "title": "Five takeaways from Indiana’s loss at Nebraska - Inside the Hall",
         "description": null,
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQazNsVlJKa3g3TUVDVzZWUEFQakNmaDdYcWNoM2NxX0FZTkFWdV90eFNBc3R6WkE0LWt4X2RHZnB5WS02bGJodjJTM2o0NERRXzBqRGp3OHRoN0JNN09USGJWY3p3bF93TnNrVzFlek5xdjVOUXZLUV8xQlNhYWJrTF94SDZURXRKbHRTdDctN25McDVQaC1QdV8xUlp5WU9yUW5JVXgzWnItLV9aZHlfYw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQW5JdkR1aEV2dXZCVmZMTnpxLV9saTYxUVhlMGVHNG94TUVqS0lObWJ4b0dDN2p0ZXZhZnFRQ04tTFBhX1U3cDFDWFVMZE9ESy13SjUwVDZKYUJHMUd6YWoxNGVCMTNOVjZVOWszbFZ2TlN4Vk1qYmZzV2tnaE9USUp2d0Y5YnNUcVlxdnh0VGNXbWs?oc=5",
         "urlToImage": null,
-        "publishedAt": "2024-12-14T14:14:00Z",
+        "publishedAt": "2024-12-14T15:29:19Z",
         "content": null
       }
     ],
     "Entertainment": [
       {
         "source": {
+          "id": null,
+          "name": "Variety"
+        },
+        "author": "J. Kim Murphy",
+        "title": "Box Office: 'Kraven the Hunter' Fizzles With Meager Opening Day - Variety",
+        "description": "Sony's Marvel spinoff 'Kraven the Hunter' is crawling to third place in its box office opening.",
+        "url": "https://variety.com/2024/film/box-office/kraven-hunter-opening-day-lord-of-the-rings-war-rohirrim-1236248922/",
+        "urlToImage": "https://variety.com/wp-content/uploads/2024/12/kraven-hunter.jpg?w=1000&h=563&crop=1",
+        "publishedAt": "2024-12-14T16:36:00Z",
+        "content": "After several delays down the Sony release calendar, the studio’s Marvel spinoff “Kraven the Hunter” is being met by indifference in its arrival to theaters. The antihero actioner earned a feeble $4.… [+4335 chars]"
+      },
+      {
+        "source": {
+          "id": "fox-news",
+          "name": "Fox News"
+        },
+        "author": "Christina Dugan Ramirez",
+        "title": "Sydney Sweeney slams online body-shamers as she transforms herself for role as professional boxer - Fox News",
+        "description": "Sydney Sweeney slammed online haters who took aim at her appearance in the comment section of a Daily Mail article that featured photos of Sweeney sunbathing at her Florida home.",
+        "url": "https://www.foxnews.com/entertainment/sydney-sweeney-slams-online-body-shamers-she-transforms-herself-role-professional-boxer",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/12/sydney-sweeney-2.jpg",
+        "publishedAt": "2024-12-14T16:25:00Z",
+        "content": "Sydney Sweeney is holding zero space for any negativity.\r\nOn Friday, the \"Madame Web\r\n\" actress, 27, slammed body-shamers on social media after online trolls took aim at her appearance. \r\n\"Nothing to… [+2163 chars]"
+      },
+      {
+        "source": {
           "id": "google-news",
           "name": "Google News"
         },
-        "author": "Fox News",
-        "title": "Sydney Sweeney slams online body-shamers as she transforms herself for role as professional boxer - Fox News",
+        "author": "Variety",
+        "title": "A24’s Babygirls: Drew Starkey and Harris Dickinson on Chemistry, Submission and Acting With A-List Movie Stars - Variety",
         "description": null,
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMUhaQmhuLUk1al9QX1hnQmJmVDFYTEVabklNa21oRDJaWDFDRll3UTQ3YTQtZkNBQms4SkpXaVZaakJPU21UWFI2bFRZMGQ0bkR3cVVZRzFOZmNOdEthdUtfOUpEOEZVclo3ZTh0eTh1SkUwWXM5M0d1WklEQjhqR0tCdHZkU09zNWl0eTBxZTg4SHhHNGdTeTVlMkFtOVI2OFhaWVVhdlFpNzd5UW5NTFVGU244a0dOTklKd3hVTy1xSDjSAcgBQVVfeXFMTm5odTVRcGJ5YmhmLXJJR1V3OXczVW9DQW5xcWRiY0ZBVUdWTmxuQmVfaFdnQXZCRXlHc2RpZ3Awc0dNbVd2bEpBR1RtOXRDTDJHYlVUNm1CRTBWNEd0VXZBX0FWelliV214Szh0R2VfWDdmQUtsakNNQlh1a0NoX0J3TWphbGMxVjFkalZuX0l0NUs0OHc1Zzd4endfVnJ0WVcyOV9ueE10V2JKdkpXS0VlN1BndEJCVy1lWFE4YWFnQVF6SWxkNXU?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdW02Y2dDY0RBcDd5S1pPczJCSHdzV0s2aExLc29aWmw4RmVCcENnUFRaNGRSWGRXQkg4azdnSWhNM0VwM1A3TWpwdGJkWVpQM0JFdW4ycWpnajhIRWRIMUo0MVQxOC14VTV2OXBBR2s5V1o0NmdJbnF5bmVJZGxkMUIyNDJ0RzJoZXQ2TkZhSDFncGpEbzFCZ2VjSWtDUEtrTkpz?oc=5",
         "urlToImage": null,
-        "publishedAt": "2024-12-14T16:25:00Z",
+        "publishedAt": "2024-12-14T16:00:00Z",
         "content": null
       },
       {
@@ -352,55 +378,55 @@
           "id": "google-news",
           "name": "Google News"
         },
-        "author": "The Guardian",
-        "title": "Woman alleging sexual assault by Jay-Z and Sean Combs admits inconsistencies in claims - The Guardian",
+        "author": "The Daily Beast",
+        "title": "Netflix ‘Exhausted’ by Meghan Markle After Polo Doc Bombs - The Daily Beast",
         "description": null,
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeDdCRERzZmRCVzBtZ1VfaFFMTEoxUlZlbGVoUFE4cHV3MmlLUW1ydXFIanc5alNIam1ZcllqUC1jX2QySE1STUl6RGFWOXFWZ1JQMm1DX0VwbG83NkNuVkN0ZncxSnUtN1FZS2dyRTBuZGhwVWE1TkJqWWI3WTNvRElMSUEtYm5pSENtNUtJSDU2SXlELVNXNEFid0JiMmNk0gGgAUFVX3lxTE1pRHZmNlZYSjlhNjNIbHRTTEc1R1ZtbTJHbXUzak95TFZNeW1abXpNY05abWVYNVFZeTJ6SG9KbUQ3RTFKTUJUazBKRFRrallaeFoxOEc4X29jQWFGMlB1VUdWMndEX2k3VVlMcGhKb09uSk5tOWRNYlBxb1VEdkQybEJkUzVlanRicE03NVlteFRUN0xheWFveVk1RHJsekY?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZHJtOHFIMllIcmJ2RHNWSGRvcV85TnlaQ2w0YkRNa3MyZFRmV1RySnNkREZHSUhScFRJY2h2N0h1UUxCSW8yeDBnWnNZRkEtM1M1VmtJOUk5OE81TFFkSzdNQUtnczI5a2t0REVyeFYwRjhPYVJZVUF3TVUtSVBnWUt5dmZDYnFpdGlVdnQ2aUMtbWRSclUzc0t4aDJFaDNpSUJR?oc=5",
         "urlToImage": null,
-        "publishedAt": "2024-12-14T15:16:00Z",
+        "publishedAt": "2024-12-14T15:45:00Z",
         "content": null
       },
       {
         "source": {
           "id": null,
-          "name": "Athlon Sports"
+          "name": "[Removed]"
         },
-        "author": "Athlon Sports",
-        "title": "New Photo of Travis Kelce at Chiefs Christmas Party Turning Heads - Athlon Sports",
-        "description": null,
-        "url": "https://athlonsports.com/nfl/kansas-city-chiefs/new-photo-of-travis-kelce-at-chiefs-christmas-party-turning-heads",
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
         "urlToImage": null,
-        "publishedAt": "2024-12-14T14:07:33Z",
-        "content": null
-      },
-      {
-        "source": {
-          "id": "google-news",
-          "name": "Google News"
-        },
-        "author": "Yahoo Entertainment",
-        "title": "People Have Been Left Too Stunned To Speak After Kylie Kelce Admitted That Her Husband, Jason Kelce, Doesn’t Watch Their Kids - Yahoo Entertainment",
-        "description": null,
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUkFpdm5YV0xLQXN2dmo3cmFzMEZtN1VIb3Z3TUNlRlEwN1FFLXVZLUN4cUVOVkxJUURHUWUybXpFUmZJQldYNUdfbEJnT09FYmR0RjU2UWNqMFVGUEtqWE4xcGJqTHVWLXhqeDZ6b01ocjkxNzZzSXdtaTlwUHAwSW8tVS1wd2s?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2024-12-14T13:00:02Z",
-        "content": null
-      },
-      {
-        "source": {
-          "id": "google-news",
-          "name": "Google News"
-        },
-        "author": "New York Post ",
-        "title": "These are the 30 best books of 2024 - New York Post ",
-        "description": null,
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWkp5TkZDUDZjbnBQOUJDaWdaWnJmRi1nRzVaNHJVVWpxRGdJZzZMRm1fYXUzeGYzWkVtdktJcWJzbEg1U3d6OUVrWk1Dcm5aNkpHNkVJM3o4TDhfb3F4SG9JdFNQdGhSN2pVcnVMdkNmNU8taWNqazQzVEJWYUo5aGtjYllpYjVXckxsbQ?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2024-12-14T12:00:00Z",
-        "content": null
+        "publishedAt": "2024-12-14T15:16:00Z",
+        "content": "[Removed]"
       }
     ],
     "Health": [
+      {
+        "source": {
+          "id": "the-hill",
+          "name": "The Hill"
+        },
+        "author": "Filip Timotija",
+        "title": "Obesity rate among US adults fell in 2023 for first time in over a decade: Study - The Hill",
+        "description": "The obesity rate among U.S. adults fell in 2023 for the first time in over a decade, according to a new study released on Friday.  The study published in the journal JAMA Health Forum found that obesity nationwide has dropped from 46 percent in 2022 to 45.6 p…",
+        "url": "https://thehill.com/policy/healthcare/5040586-obesity-rate-dip-study/",
+        "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2024/01/Elsewhere-Scale_121622_AP_Patrick-Sison.jpg?w=1280",
+        "publishedAt": "2024-12-14T17:13:00Z",
+        "content": "Skip to content\r\nThe obesity rate among U.S. adults fell in 2023 for the first time in over a decade, according to a new study released on Friday. \r\nThe study published in the journal JAMA Health For… [+1529 chars]"
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Daily Mail",
+        "title": "Dementia doctor reveals the four subtle signs of Alzheimer's that strike decades prior - Daily Mail",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSl84RkQ1MVRyUnNfSTV1VU5COGN6Q1NBNmYzM0czaFNnVDRuWTdZZ3lScmdVWFhCS0MzR08temw5ZThNcUZrLW1iSVctM3p3dkpTc0JRUEpHYzVaUGUxenBkMUxELW9xb2I1RGl5eTJnOHJpMDVyNEtjdDFxS2NLSThRUGFIS3lQb01kUzZXRFAwbkFHVVpOM3FCUFNCT2FyLUpobVpTYnRJZ3RGOEHSAbMBQVVfeXFMUFRNM0lKMGd2TElIR3RJMW1xOS1vdFVUTVpVa2Y0Yy1MNk9BSlZrSGZkQmpTUURFZHZ6UHlhVTUweGRaMUdWRHVxeDhYck1MWjhFbDIxSUxUOXYwQnJqY2dFWG9yT3JDXzJjZGwtbVVjS0hydVh3YkZBXzkzOVYzTWRabzNPdlZqTE5LWkxhVlV3R1VIYk5yQUNFM0FvUVdMYW5SdXRPLW9PNWhBTFFxQTgwRlU?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2024-12-14T16:25:13Z",
+        "content": null
+      },
       {
         "source": {
           "id": null,
@@ -439,127 +465,101 @@
         "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/W53CTJFAMNCNPDXU5YMJ2NGXDA_size-normalized.jpg&w=1440",
         "publishedAt": "2024-12-14T13:02:14Z",
         "content": "Something was different about Eli. He had had a hearty appetite since birth, so when he refused his first tastes of solid food at 4 months his mother wasnt worried at first.\r\nJessica Dizon thought he… [+10355 chars]"
-      },
-      {
-        "source": {
-          "id": "google-news",
-          "name": "Google News"
-        },
-        "author": "Gizmodo",
-        "title": "Major Shift in Cervical Cancer Screening: What the Proposed Guidelines Mean for Women - Gizmodo",
-        "description": null,
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUXN1Y3M0Q1dQQjZ5OEYyLUlkVF9PV0JxTmpmSzlldU1DWDNMRlU1Y2ZHcGFaZzkzRldUQ1dubXpYRkxtd2tXaDZYMjNYYmRFT0x1cVZfY2E0T3k1ZXlLSUtWTDBpa1ZxWkVlcl9QRl8yejB4LTlwZ0VfSlpMT3YtWnRkN2lsVWVpOUoxQUtLZUZjVC1POHR6dUphaUdoMjFpS1VyeE9tc0JwTmU0OFVuTmVUQTBIZw?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2024-12-14T13:00:57Z",
-        "content": null
-      },
-      {
-        "source": {
-          "id": "the-wall-street-journal",
-          "name": "The Wall Street Journal"
-        },
-        "author": "The Wall Street Journal",
-        "title": "As Fertility Rates Fall, Some Scientists Say Everyday Chemicals Are a Factor - The Wall Street Journal",
-        "description": null,
-        "url": "https://www.wsj.com/health/fertility-chemicals-science-bc0964a1",
-        "urlToImage": null,
-        "publishedAt": "2024-12-14T12:00:00Z",
-        "content": null
       }
     ],
     "General": [
       {
         "source": {
-          "id": "google-news",
-          "name": "Google News"
+          "id": null,
+          "name": "BBC News"
         },
-        "author": "The Guardian",
-        "title": "Woman alleging sexual assault by Jay-Z and Sean Combs admits inconsistencies in claims - The Guardian",
-        "description": null,
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeDdCRERzZmRCVzBtZ1VfaFFMTEoxUlZlbGVoUFE4cHV3MmlLUW1ydXFIanc5alNIam1ZcllqUC1jX2QySE1STUl6RGFWOXFWZ1JQMm1DX0VwbG83NkNuVkN0ZncxSnUtN1FZS2dyRTBuZGhwVWE1TkJqWWI3WTNvRElMSUEtYm5pSENtNUtJSDU2SXlELVNXNEFid0JiMmNk0gGgAUFVX3lxTE1pRHZmNlZYSjlhNjNIbHRTTEc1R1ZtbTJHbXUzak95TFZNeW1abXpNY05abWVYNVFZeTJ6SG9KbUQ3RTFKTUJUazBKRFRrallaeFoxOEc4X29jQWFGMlB1VUdWMndEX2k3VVlMcGhKb09uSk5tOWRNYlBxb1VEdkQybEJkUzVlanRicE03NVlteFRUN0xheWFveVk1RHJsekY?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2024-12-14T15:16:00Z",
-        "content": null
+        "author": null,
+        "title": "Tracing the privileged family roots of suspected killer Luigi Mangione in Baltimore - BBC.com",
+        "description": "In his home city, the accused shooter's family name has meant wealth, power, prominence and philanthropy for decades.",
+        "url": "https://www.bbc.com/news/articles/crl3jkjxp75o",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/535c/live/24b00680-ba3a-11ef-aff0-072ce821b6ab.jpg",
+        "publishedAt": "2024-12-14T17:27:31Z",
+        "content": "This week, the surname Mangione became inextricably linked with the cold-blooded killing of a health-insurance executive in New York City, when 26-year-old Luigi Mangione was charged with his murder.… [+5494 chars]"
       },
       {
         "source": {
           "id": "google-news",
           "name": "Google News"
         },
-        "author": "CNN",
-        "title": "Georgia political crisis deepens as lawmakers vote in far-right ex-soccer player as president - CNN",
+        "author": "BBC.com",
+        "title": "Isak Andic, founder of Mango fashion chain, dies in accident aged 71 - BBC.com",
         "description": null,
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdWRkaXBjWUpoRmVTZEZBV0dRTF95MWdzLXdfSGxGbDFVY2VRa2doMWdITnJQTDJqZWs5UmxXbVc1Mkx4VmxFR055RVozLXRiZEwwRURtMlNhQmU4NkhuenhpQjViUTktNTFqcUNxNGlOODdxY3hDVkRVTFFSVC1FTlNkLXlHaGNENURJZWxYYUhxTmNkakNFZkU2YV9Cd9IBlAFBVV95cUxQYWpMRGNfR0VUU2NfRUVHUnhqZU1RY2h6QXoxdVBEWDYzaXlzVXNtR0gtUWh5T0JFN1BDVHExd2J4RFJ0V1c3QUtDZHAwVGhGeVEwbWc3X2x0WTdWamFlaWdJSmhZYmlKTy1GSW5tS1NaVHU5d0p0aVo3WGE5Z3Nsbm51OExxcTRkMDR2UzhOeXFWVnpk?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aOWlwQUZuOHQ0RERCOFhzRl84VXFGbHczNFRodk9vUlBxb2xNeEE1TnR0alRCelBzdE5YREVQbXBNVnhvSEhaSWR6VVVzUEVlYWlwN2o2NTZuUdIBX0FVX3lxTFBOZmsyNnVlalFDZDlZTGFPUjJuUlE1d2Q4eXEtaGU1eUM0Y2pXc2szOTAzUnVxWHU4OXV4SGtXZmRqNHR4TlR1d1lDZmlpYTB6WUVYNXlwVTRwM2N0MlpF?oc=5",
         "urlToImage": null,
-        "publishedAt": "2024-12-14T15:08:00Z",
+        "publishedAt": "2024-12-14T17:27:00Z",
         "content": null
+      },
+      {
+        "source": {
+          "id": "the-hill",
+          "name": "The Hill"
+        },
+        "author": "Filip Timotija",
+        "title": "Obesity rate among US adults fell in 2023 for first time in over a decade: Study - The Hill",
+        "description": "The obesity rate among U.S. adults fell in 2023 for the first time in over a decade, according to a new study released on Friday.  The study published in the journal JAMA Health Forum found that obesity nationwide has dropped from 46 percent in 2022 to 45.6 p…",
+        "url": "https://thehill.com/policy/healthcare/5040586-obesity-rate-dip-study/",
+        "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2024/01/Elsewhere-Scale_121622_AP_Patrick-Sison.jpg?w=1280",
+        "publishedAt": "2024-12-14T17:13:00Z",
+        "content": "Skip to content\r\nThe obesity rate among U.S. adults fell in 2023 for the first time in over a decade, according to a new study released on Friday. \r\nThe study published in the journal JAMA Health For… [+1529 chars]"
       },
       {
         "source": {
           "id": "google-news",
           "name": "Google News"
         },
-        "author": "The Associated Press",
-        "title": "Trump will attend the Army-Navy game alongside key allies, nominees and Daniel Penny - The Associated Press",
+        "author": "CBS News",
+        "title": "1 person killed at U.S. Army base in Georgia in what authorities say appears to be an \"isolated\" incident - CBS News",
         "description": null,
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMmUxa29IVmwwaGt5NlQxUFhoU1F4Y2dwd3ZlQVFlNWRlYjd4MHYyWGduWXlRMG9IWGJsMEVUZldZVkxSY2VqOXRTUlVpRUJNVDZRVjlzc1huR0dIX084dTA4dExBb3pKMkVDNTl0bW9JWDZEYmpueVdTLU9UWVhObXpQUzdUejdRWkNHZE9PVVRTSDVuSzVpcTdZUXNRZmtscmZSaS1lbGgwNnM?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PWEFaZVhndzdzb3NiZ2VISms5TXFpdG10Xy1VaGI1RERXeC1NbFRXU3JvTTFFZUh6anlKdFg0NEZQUXNZUnJWSExzMTFOQlVtaHBNd2cwWnBwNGdqMnlYbGJsNVNPM1F6QlJfd2xWRjRDODFBOVNn0gF8QVVfeXFMTm5yYjd1bFdKR2ZHNzh5V3NtY3o5YXZMbTVycTU5M1BTbGRYai1jY3hqZDg5ODVQUXJOYnM0V0dOR2pzc0NqVlg3WFFWS3NYVDR4UUFJeVhieV9WcGk4WmJNWENiSThlUExfZEpBa2ItSzBWSHZ3QkxLQVRMbQ?oc=5",
         "urlToImage": null,
-        "publishedAt": "2024-12-14T14:15:00Z",
+        "publishedAt": "2024-12-14T17:12:27Z",
         "content": null
       },
       {
         "source": {
-          "id": "google-news",
-          "name": "Google News"
+          "id": "reuters",
+          "name": "Reuters"
         },
-        "author": "Financial Times",
-        "title": "Concern grows over mysterious drone sightings along US east coast - Financial Times",
+        "author": "Reuters",
+        "title": "Before his ouster, Syria's Assad told Iran that Turkey was aiding rebels to unseat him - Reuters",
         "description": null,
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50YW5jck5KaS1JU2RfLVFlNE4wMDNDMU4xRGJWd3dJbnlXT3pIY2F3dGlmX2VzYXVWLVZOTXNWWjExR0tIeGJ5ekhiVEZUVWxJNGFiVGNOQWJwNHlZd2VTOFJpdzZrVkc1MkhaRGhsdnQ?oc=5",
+        "url": "https://www.reuters.com/world/middle-east/before-his-ouster-syrias-assad-told-iran-that-turkey-was-aiding-rebels-unseat-2024-12-14/",
         "urlToImage": null,
-        "publishedAt": "2024-12-14T13:15:48Z",
+        "publishedAt": "2024-12-14T16:48:02Z",
         "content": null
-      },
-      {
-        "source": {
-          "id": "the-washington-post",
-          "name": "The Washington Post"
-        },
-        "author": "Sandra G. Boodman",
-        "title": "Medical Mysteries: Why did this baby’s robust appetite wither? - The Washington Post",
-        "description": "A baby’s alarming deterioration was the result of a disorder that can be overlooked in infants, and that, if left untreated, can cause permanent brain damage.",
-        "url": "https://www.washingtonpost.com/health/2024/12/14/medical-mystery-baby-wont-eat/",
-        "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/W53CTJFAMNCNPDXU5YMJ2NGXDA_size-normalized.jpg&w=1440",
-        "publishedAt": "2024-12-14T13:02:14Z",
-        "content": "Something was different about Eli. He had had a hearty appetite since birth, so when he refused his first tastes of solid food at 4 months his mother wasnt worried at first.\r\nJessica Dizon thought he… [+10355 chars]"
       }
     ],
     "Science": [
       {
         "source": {
-          "id": "google-news",
-          "name": "Google News"
+          "id": "cnn",
+          "name": "CNN"
         },
-        "author": "The Daily Galaxy --Great Discoveries Channel",
-        "title": "Is Earth Prepared for a Solar Superflare? Scientists Warn of More Frequent and Devastating Solar Events - The Daily Galaxy --Great Discoveries Channel",
-        "description": null,
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PTmNUYUI5S255aWQzRXo3VURTVlRqZlpRcHVtOGQ3VlU2YUtMOGdZYjZYU1owdHNWVTk3MDVYSHRraEdNckZ2QkFYX1llQjZ6QzJqTmdTakhCcERyMWlEcU5yY1ZodDZYU3NSQjBNLTFpVzdUektjQlBTZw?oc=5",
-        "urlToImage": null,
-        "publishedAt": "2024-12-14T15:45:17Z",
-        "content": null
+        "author": "Ashley Strickland",
+        "title": "An elusive creature of the deep can live for centuries. Scientists think they know why - Yahoo! Voices",
+        "description": "This week, learn why Greenland sharks can live for centuries, discover when Neanderthals and humans met, see the most volcanic world in our solar system, and more.",
+        "url": "https://www.cnn.com/2024/12/14/science/greenland-shark-science-newsletter-wt/index.html",
+        "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/b8c6j6.jpg?c=16x9&q=w_800,c_fill",
+        "publishedAt": "2024-12-14T16:00:42Z",
+        "content": "Editors note: A version of this story appeared in CNNs Wonder Theory science newsletter. To get it in your inbox, sign up for free here.\r\nEven though you want to try to, never grow up, Peter Pan said… [+5330 chars]"
       },
       {
         "source": {
-          "id": "google-news",
-          "name": "Google News"
+          "id": null,
+          "name": "Slate Magazine"
         },
-        "author": "Slate",
+        "author": "Delia Cai",
         "title": "Help! I Just Ran Into the Man Who Broke Into My House … at Kindergarten Pickup. - Slate",
-        "description": null,
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iNUdnTlN5QnBkU0FRb2xlQTZDV1A3bExHLVA4d3lzbW1OR1FyTjFtb1RGRHhRSzVxeGZCVFVEYkFDcGFTcXBXRURCYlhhUkVPSWRXdnVoZWVGazQtYjRPREEyWUV5bXNZVkxPdEE3TENKVUpZMncyMGpDRmc?oc=5",
-        "urlToImage": null,
+        "description": "Do I have to see this man for the next 13 years?",
+        "url": "https://slate.com/advice/2024/12/dear-prudence-burglar-kindergarten.html",
+        "urlToImage": "https://compote.slate.com/images/816842f3-e108-4b77-8613-b2ac693cb1c2.jpeg?crop=1560%2C1040%2Cx0%2Cy0&width=1560",
         "publishedAt": "2024-12-14T13:00:00Z",
-        "content": null
+        "content": "Dear Prudence is Slates advice column. Delia Cai is filling in as Prudie for Jenée Desmond-Harris while shes on parental leave. Submit questions here.\r\nDear Prudence,\r\n15 years ago, an intoxicated ma… [+10819 chars]"
       },
       {
         "source": {

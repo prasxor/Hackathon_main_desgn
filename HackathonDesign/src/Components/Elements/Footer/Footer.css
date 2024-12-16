@@ -2,14 +2,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  /* border: 1px solid red; */
-  border-top: 1px solid #313131;
-  height: 100px;
-  flex-direction: row;
-  /* margin: 5% 2%; */
+  flex-direction: row; /* Ensures items are in a row */
+  width: 100%; /* Full width */
+  border-top: 1px solid #313131; /* Top border */
+  height: 100px; /* Fixed height */
+  margin-top: 5%;
+  
 }
+
+.FooterSubContainer{
+  /* padding: 0 60px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 90%;
+  /* border: 1px solid red; */
+  height: 100%;
+}
+
 
 .FooterContainerSubLeft{
   width: 15%;
@@ -21,7 +32,7 @@
 }
 
 .FooterContainerSubLeft img{
-  width: 120px;
+  width: 100px;
 }
 
 .FooterContainerSubMiddle{
@@ -39,7 +50,7 @@
 
 .FooterContainerSubRight{
   height: 100%;
-  width: 15%;
+  width: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
