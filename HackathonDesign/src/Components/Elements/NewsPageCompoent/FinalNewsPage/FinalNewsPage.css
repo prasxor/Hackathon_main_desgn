@@ -37,6 +37,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .FinalNewsPageContainerMainContent {
@@ -90,6 +91,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  /* text-decoration: underline; */
 }
 
 .FinalNewsPageMainContentRight p {

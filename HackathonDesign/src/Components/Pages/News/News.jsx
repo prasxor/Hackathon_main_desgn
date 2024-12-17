@@ -26,9 +26,9 @@ const News = () => {
       if (newsData) {
         setLatestNews(newsData.latestNews.slice(0, 6)); // Limit to 6 articles
         setSections({
-          Technology: newsData.categories.Technology.slice(0, 3), // Limit to 3 articles
-          Business: newsData.categories.Business.slice(0, 3), // Limit to 3 articles
-          Sports: newsData.categories.Sports.slice(0, 3), // Limit to 3 articles
+          Technology: newsData.technology.slice(0, 3), // Limit to 3 articles
+          Business: newsData.business.slice(0, 3), // Limit to 3 articles
+          Sports: newsData.sports.slice(0, 3), // Limit to 3 articles
         });
       }
     } catch (err) {
