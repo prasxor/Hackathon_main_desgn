@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import "./FinalNewsPage.css";
 import image from "../../../../assets/FakeNewsImg3.jpg";
 import AiLogo from "../../../../assets/AiLogo.png";
+import MiniNavbar from "../../Atoms/MiniNavbar/MiniNavbar";
 
 const FinalNewsPage = () => {
   const location = useLocation();
@@ -15,6 +16,9 @@ const FinalNewsPage = () => {
 
   return (
     <div className="FinalNewsPageContainer">
+      <div className="NewsContainerTopSection FinalNewsPageMiniNavbar">
+        <MiniNavbar />
+      </div>
       <div className="FinalNewsPageContainerSub">
         <div className="FinalNewsPageContainerHeading">
           <h2>{news.title}</h2>

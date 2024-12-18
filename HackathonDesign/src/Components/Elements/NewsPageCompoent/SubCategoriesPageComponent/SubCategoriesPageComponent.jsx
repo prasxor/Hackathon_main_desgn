@@ -1,10 +1,13 @@
+
+
 // import React from "react";
+// import { useNavigate } from "react-router-dom";
 // import "./SubCategoriesPageComponent.css";
 // import Image from "../../../../assets/FakeNewsImg3.jpg";
 
 // const truncateText = (text, limit = 40) => {
-//   if (typeof text !== 'string') {
-//     return ''; // Return an empty string if the text is not a valid string
+//   if (typeof text !== "string") {
+//     return "";
 //   }
 
 //   if (text.length > limit) {
@@ -14,8 +17,8 @@
 // };
 
 // const truncateText1 = (text, limit = 60) => {
-//   if (typeof text !== 'string') {
-//     return ''; // Return an empty string if the text is not a valid string
+//   if (typeof text !== "string") {
+//     return "";
 //   }
 
 //   if (text.length > limit) {
@@ -25,12 +28,19 @@
 // };
 
 // const SubCategoriesPageComponent = ({ news }) => {
+//   const navigate = useNavigate();
 //   const domain = new URL(news.url).hostname;
 
+//   const handleClick = () => {
+//     navigate("/final-news", { state: { news } });
+//   };
+
 //   return (
-//     <div className="SubCategoriesPageComponentMainContainer">
+//     <div
+//       className="SubCategoriesPageComponentMainContainer"
+//       onClick={handleClick}
+//     >
 //       <div className="SubCategoriesComponentSubContainerLeft">
-//         {/* Truncate title and description */}
 //         <h3>{truncateText(news.title)}</h3>
 //         <p>{truncateText1(news.description)}</p>
 //         <p className="SubCategoriesComponentSubContainerLeftLastPara">
@@ -47,6 +57,7 @@
 // };
 
 // export default SubCategoriesPageComponent;
+
 
 import React from "react";
 import { useNavigate } from "react-router-dom";
@@ -78,6 +89,10 @@ const truncateText1 = (text, limit = 60) => {
 const SubCategoriesPageComponent = ({ news }) => {
   const navigate = useNavigate();
   const domain = new URL(news.url).hostname;
+
+  if (news.title === "[Removed]") {
+    return null; 
+  }
 
   const handleClick = () => {
     navigate("/final-news", { state: { news } });

@@ -1,18 +1,21 @@
 import React from "react";
 import "./NewsPageCards.css";
-import NoImage from "../../../../../assets/Cards_noImage.png"
+import { useNavigate } from "react-router-dom";
+import NoImage from "../../../../../assets/Cards_noImage.png";
 // import Image from "../../../../../assets/banner-sizes.jpg";
 
-const NewsPageCards = ({news}) => {
+const NewsPageCards = ({ news }) => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/final-news", { state: { news } });
+  };
   return (
-    <div className="NewsPageCardsSubContainer">
+    <div className="NewsPageCardsSubContainer" onClick={handleClick}>
       <div className="NewsPageSubContainerTop">
-        <img src={news.urlToImage || `${NoImage}` } alt={news.title} />
+        <img src={news.urlToImage || `${NoImage}`} alt={news.title} />
       </div>
       <div className="NewsPageSubContainerBottom">
-        <p>
-          {news.title}
-        </p>
+        <p>{news.title}</p>
       </div>
     </div>
   );

@@ -8,9 +8,13 @@
     rgba(217, 217, 217, 0) 0%,
     rgba(0, 0, 0, 1) 100%
   );
+  cursor: pointer;
 }
 .carousel-item{
   border: none !important;
+  height: 604.8px !important;
+  width:1081.58px !important;
+  overflow: hidden;
 }
 
 .carousel-item img {
@@ -22,6 +26,7 @@
     rgba(0, 0, 0, 1) 100%
   );
   height: 100%;
+  object-fit: cover;
 }
 
 .carousel-caption h5,

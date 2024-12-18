@@ -1,60 +1,83 @@
-// import React from 'react'
-// import { useLocation } from "react-router-dom";
-// import "./CategoriesPage.css"
-// import SubCategoriesPageComponent from '../SubCategoriesPageComponent/SubCategoriesPageComponent'
+
+
+
+// import React, { useState, useEffect } from 'react';
+// import { useParams } from "react-router-dom"; // Import useParams for dynamic routing
+// import "./CategoriesPage.css";
+// import SubCategoriesPageComponent from '../SubCategoriesPageComponent/SubCategoriesPageComponent';
+// import newsData from '../../../Data/newsData.json'; 
+// import MiniNavbar from '../../Atoms/MiniNavbar/MiniNavbar';
 
 // const CategoriesPage = () => {
-//   const location = useLocation();
-//   const queryParams = new URLSearchParams(location.search);
-//   const title = queryParams.get("title");
+//   const { category } = useParams(); // Retrieve the dynamic category parameter
+//   const [categoryNews, setCategoryNews] = useState([]);
+
+//   useEffect(() => {
+//     if (category && newsData[category.toLowerCase()]) {
+//       setCategoryNews(newsData[category.toLowerCase()]);
+//     } else {
+//       setCategoryNews([]);
+//     }
+//   }, [category]);
+
+//   // const FirstLetterCapital = category;
+
 //   return (
 //     <div className='CategoriesMainContainer'>
+//       <div className="NewsContainerTopSection FinalNewsPageMiniNavbar">
+//         <MiniNavbar />
+//       </div>
 //       <div className='CategoriesSubContainerTop'>
-//         <h2>{title}</h2>
+//         {/* <h2>{category} News</h2> */}
+//         <h2>{category.charAt(0).toUpperCase() + category.slice(1)} News</h2>
+//         {/* <h2>{FirstLetterCapital.charAt(0).toUpperCase() + category.slice(1)} News</h2> */}
 //       </div>
 //       <div className='CategoriesSubContainerBottom'>
-//         <SubCategoriesPageComponent/>
-//         <SubCategoriesPageComponent/>
-//         <SubCategoriesPageComponent/>
-//         <SubCategoriesPageComponent/>
-//         <SubCategoriesPageComponent/>
-//         <SubCategoriesPageComponent/>
-//         <SubCategoriesPageComponent/>
-//         <SubCategoriesPageComponent/>
+//         {categoryNews.length > 0 ? (
+//           categoryNews.map((newsItem, index) => (
+//             <SubCategoriesPageComponent key={index} news={newsItem} />
+//           ))
+//         ) : (
+//           <p>No news available for this category</p>
+//         )}
 //       </div>
 //     </div>
-//   )
-// }
+//   );
+// };
 
-// export default CategoriesPage
+// export default CategoriesPage;
 
 
-import React, { useState, useEffect } from 'react';
-import { useLocation } from "react-router-dom";
+
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom"; // Import useParams for dynamic routing
 import "./CategoriesPage.css";
 import SubCategoriesPageComponent from '../SubCategoriesPageComponent/SubCategoriesPageComponent';
-import newsData from '../../../Data/newsData.json'; 
-const CategoriesPage = () => {
-  const location = useLocation();
-  const queryParams = new URLSearchParams(location.search);
-  const title = queryParams.get("title");
+import newsData from "../../../Data/newsData.json"; 
+import MiniNavbar from "../../Atoms/MiniNavbar/MiniNavbar";
 
+const CategoriesPage = () => {
+  const { category } = useParams(); // Retrieve the dynamic category parameter (e.g., "headlines")
   const [categoryNews, setCategoryNews] = useState([]);
 
   useEffect(() => {
-    if (title && newsData[title.toLowerCase()]) {
-      setCategoryNews(newsData[title.toLowerCase()]);
+    // Fetch the data from newsData based on the category, assuming the data is organized in categories
+    if (category && newsData[category.toLowerCase()]) {
+      setCategoryNews(newsData[category.toLowerCase()]);
     } else {
       setCategoryNews([]);
     }
-  }, [title]);
+  }, [category]);
 
   return (
-    <div className='CategoriesMainContainer'>
-      <div className='CategoriesSubContainerTop'>
-        <h2>{title} News</h2>
+    <div className="CategoriesMainContainer">
+      <div className="NewsContainerTopSection FinalNewsPageMiniNavbar">
+        <MiniNavbar />
       </div>
-      <div className='CategoriesSubContainerBottom'>
+      <div className="CategoriesSubContainerTop">
+        <h2>{category.charAt(0).toUpperCase() + category.slice(1)} News</h2>
+      </div>
+      <div className="CategoriesSubContainerBottom">
         {categoryNews.length > 0 ? (
           categoryNews.map((newsItem, index) => (
             <SubCategoriesPageComponent key={index} news={newsItem} />
@@ -65,6 +88,6 @@ const CategoriesPage = () => {
       </div>
     </div>
   );
-}
+};
 
 export default CategoriesPage;

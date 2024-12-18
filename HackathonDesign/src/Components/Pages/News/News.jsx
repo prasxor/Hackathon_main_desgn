@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react";
 import "./News.css";
 import MiniNavbar from "../../Elements/Atoms/MiniNavbar/MiniNavbar";
-import NewsSearch from "../../Elements/NewsSearch/NewsSearch";
 import NewsPageMainBanner from "../../Elements/NewsPageCompoent/NewsPageMainBanner/NewsPageMainBanner";
 import NewsPageCards from "../../Elements/Atoms/Cards/NewsPageCards/NewsPageCards";
 import NewsVerticalCardsCollection from "../../Elements/NewsPageCompoent/NewVerticalCardsCollection/NewsVerticalCardsCollection";

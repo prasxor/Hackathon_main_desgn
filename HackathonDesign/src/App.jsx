@@ -83,6 +83,7 @@ import CategoriesPage from "./Components/Elements/NewsPageCompoent/CategoriesPag
 import NotFoundPage from "./Components/Pages/NotFoundPage/NotFoundPage";
 import FinalNewsPage from "./Components/Elements/NewsPageCompoent/FinalNewsPage/FinalNewsPage";
 import "./App.css";
+import NewsHeadlines from "./Components/Elements/NewsPageCompoent/Newsheadlines/NewsHeadlines";
 
 function App() {
   return (
@@ -97,8 +98,14 @@ function AppContent() {
 
   // Array of paths for "news-related" routes
   const newsPages = [
-    "/news",
-    "/news/top-stories",
+    "/News",
+    "/News/sports",
+    "/News/business",
+    "/News/entertainment",
+    "/News/health",
+    "/News/general",
+    "/News/science",
+    "/News/technology",
     "/news/sports",
     "/news/business",
     "/news/entertainment",
@@ -106,6 +113,8 @@ function AppContent() {
     "/news/general",
     "/news/science",
     "/news/technology",
+    "/final-news",
+    "/news/headlines"
   ];
 
   // Check if the current route is part of newsPages
@@ -122,14 +131,10 @@ function AppContent() {
         <Route path="/news" element={<News />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<ContactUs />} />
-
-        {/* News Categories Route */}
         <Route path="/news/:category" element={<CategoriesPage />} />
-
-        {/* Dynamic route for FinalNewsPage */}
+        {/* <Route path="/news/*" element={<CategoriesPage />} /> */}
+        <Route path="/news/headlines" element={<NewsHeadlines />} />
         <Route path="/final-news" element={<FinalNewsPage />} />
-
-        {/* Catch-all for 404 Not Found */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
 
