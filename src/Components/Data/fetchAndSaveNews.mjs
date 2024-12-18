@@ -58,7 +58,7 @@ import cron from "node-cron";
 
 const API_KEY = "6cd7f944a31643dfb09807fcb927c73f";
 const baseUrl = "https://newsapi.org/v2/top-headlines";
-const filePath = "./newsData.json"; // Path to save JSON file
+const filePath = "./newsData.json";
 
 /**
  * Fetch latest news headlines
